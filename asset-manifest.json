@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pipevariabler/static/css/main.62912a05.css",
+    "main.js": "/pipevariabler/static/js/main.ae294252.js",
+    "static/js/453.96453769.chunk.js": "/pipevariabler/static/js/453.96453769.chunk.js",
+    "index.html": "/pipevariabler/index.html",
+    "main.62912a05.css.map": "/pipevariabler/static/css/main.62912a05.css.map",
+    "main.ae294252.js.map": "/pipevariabler/static/js/main.ae294252.js.map",
+    "453.96453769.chunk.js.map": "/pipevariabler/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62912a05.css",
+    "static/js/main.ae294252.js"
+  ]
+}
