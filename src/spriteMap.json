@@ -444,8 +444,8 @@
     "height": 64
   },
   "grass.png": {
-    "x": 960,
-    "y": 2240,
+    "x": 2304,
+    "y": 640,
     "width": 48,
     "height": 48
   },
@@ -2694,8 +2694,8 @@
     "height": 64
   },
   "scute.png": {
-    "x": 1008,
-    "y": 2240,
+    "x": 2304,
+    "y": 688,
     "width": 48,
     "height": 48
   },
@@ -5292,8 +5292,8 @@
     "height": 64
   },
   "broken_elytra.png": {
-    "x": 1056,
-    "y": 2240,
+    "x": 2352,
+    "y": 640,
     "width": 16,
     "height": 16
   },
@@ -7667,8 +7667,194 @@
     "width": 64,
     "height": 64
   },
+  "sulfur.png": {
+    "x": 960,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_stairs.png": {
+    "x": 1024,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_slab.png": {
+    "x": 1088,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_wall.png": {
+    "x": 1152,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "polished_sulfur.png": {
+    "x": 1216,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "polished_sulfur_stairs.png": {
+    "x": 1280,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "polished_sulfur_slab.png": {
+    "x": 1344,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "polished_sulfur_wall.png": {
+    "x": 1408,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_bricks.png": {
+    "x": 1472,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_brick_stairs.png": {
+    "x": 1536,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_brick_slab.png": {
+    "x": 1600,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_brick_wall.png": {
+    "x": 1664,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "chiseled_sulfur.png": {
+    "x": 1728,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "cinnabar.png": {
+    "x": 1792,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "cinnabar_stairs.png": {
+    "x": 1856,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "cinnabar_slab.png": {
+    "x": 1920,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "cinnabar_wall.png": {
+    "x": 1984,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "polished_cinnabar.png": {
+    "x": 2048,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "polished_cinnabar_stairs.png": {
+    "x": 2112,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "polished_cinnabar_slab.png": {
+    "x": 2176,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "polished_cinnabar_wall.png": {
+    "x": 2240,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "cinnabar_bricks.png": {
+    "x": 2304,
+    "y": 0,
+    "width": 64,
+    "height": 64
+  },
+  "cinnabar_brick_stairs.png": {
+    "x": 2304,
+    "y": 64,
+    "width": 64,
+    "height": 64
+  },
+  "cinnabar_brick_slab.png": {
+    "x": 2304,
+    "y": 128,
+    "width": 64,
+    "height": 64
+  },
+  "cinnabar_brick_wall.png": {
+    "x": 2304,
+    "y": 192,
+    "width": 64,
+    "height": 64
+  },
+  "chiseled_cinnabar.png": {
+    "x": 2304,
+    "y": 256,
+    "width": 64,
+    "height": 64
+  },
+  "potent_sulfur.png": {
+    "x": 2304,
+    "y": 320,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_spike.png": {
+    "x": 2304,
+    "y": 384,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_cube_bucket.png": {
+    "x": 2304,
+    "y": 448,
+    "width": 64,
+    "height": 64
+  },
+  "music_disc_bounce.png": {
+    "x": 2304,
+    "y": 512,
+    "width": 64,
+    "height": 64
+  },
+  "sulfur_cube_spawn_egg.png": {
+    "x": 2304,
+    "y": 576,
+    "width": 64,
+    "height": 64
+  },
   "_meta": {
-    "width": 2304,
+    "width": 2368,
     "height": 2304,
     "image": "/pipevariabler/assets/images/spritesheet.png"
   }
