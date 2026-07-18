@@ -6489,6 +6489,161 @@
             "item": "pale_oak_boat",
             "variable": "%v1156%",
             "image": "pale_oak_boat.png"
+        },
+        {
+            "item": "sulfur",
+            "variable": "%v2273%",
+            "image": "sulfur.png"
+        },
+        {
+            "item": "sulfur_stairs",
+            "variable": "%v2274%",
+            "image": "sulfur_stairs.png"
+        },
+        {
+            "item": "sulfur_slab",
+            "variable": "%v2275%",
+            "image": "sulfur_slab.png"
+        },
+        {
+            "item": "sulfur_wall",
+            "variable": "%v2276%",
+            "image": "sulfur_wall.png"
+        },
+        {
+            "item": "polished_sulfur",
+            "variable": "%v2277%",
+            "image": "polished_sulfur.png"
+        },
+        {
+            "item": "polished_sulfur_stairs",
+            "variable": "%v2278%",
+            "image": "polished_sulfur_stairs.png"
+        },
+        {
+            "item": "polished_sulfur_slab",
+            "variable": "%v2279%",
+            "image": "polished_sulfur_slab.png"
+        },
+        {
+            "item": "polished_sulfur_wall",
+            "variable": "%v2280%",
+            "image": "polished_sulfur_wall.png"
+        },
+        {
+            "item": "sulfur_bricks",
+            "variable": "%v2281%",
+            "image": "sulfur_bricks.png"
+        },
+        {
+            "item": "sulfur_brick_stairs",
+            "variable": "%v2282%",
+            "image": "sulfur_brick_stairs.png"
+        },
+        {
+            "item": "sulfur_brick_slab",
+            "variable": "%v2283%",
+            "image": "sulfur_brick_slab.png"
+        },
+        {
+            "item": "sulfur_brick_wall",
+            "variable": "%v2284%",
+            "image": "sulfur_brick_wall.png"
+        },
+        {
+            "item": "chiseled_sulfur",
+            "variable": "%v2285%",
+            "image": "chiseled_sulfur.png"
+        },
+        {
+            "item": "cinnabar",
+            "variable": "%v2286%",
+            "image": "cinnabar.png"
+        },
+        {
+            "item": "cinnabar_stairs",
+            "variable": "%v2287%",
+            "image": "cinnabar_stairs.png"
+        },
+        {
+            "item": "cinnabar_slab",
+            "variable": "%v2288%",
+            "image": "cinnabar_slab.png"
+        },
+        {
+            "item": "cinnabar_wall",
+            "variable": "%v2289%",
+            "image": "cinnabar_wall.png"
+        },
+        {
+            "item": "polished_cinnabar",
+            "variable": "%v2290%",
+            "image": "polished_cinnabar.png"
+        },
+        {
+            "item": "polished_cinnabar_stairs",
+            "variable": "%v2291%",
+            "image": "polished_cinnabar_stairs.png"
+        },
+        {
+            "item": "polished_cinnabar_slab",
+            "variable": "%v2292%",
+            "image": "polished_cinnabar_slab.png"
+        },
+        {
+            "item": "polished_cinnabar_wall",
+            "variable": "%v2293%",
+            "image": "polished_cinnabar_wall.png"
+        },
+        {
+            "item": "cinnabar_bricks",
+            "variable": "%v2294%",
+            "image": "cinnabar_bricks.png"
+        },
+        {
+            "item": "cinnabar_brick_stairs",
+            "variable": "%v2295%",
+            "image": "cinnabar_brick_stairs.png"
+        },
+        {
+            "item": "cinnabar_brick_slab",
+            "variable": "%v2296%",
+            "image": "cinnabar_brick_slab.png"
+        },
+        {
+            "item": "cinnabar_brick_wall",
+            "variable": "%v2297%",
+            "image": "cinnabar_brick_wall.png"
+        },
+        {
+            "item": "chiseled_cinnabar",
+            "variable": "%v2298%",
+            "image": "chiseled_cinnabar.png"
+        },
+        {
+            "item": "potent_sulfur",
+            "variable": "%v2299%",
+            "image": "potent_sulfur.png"
+        },
+        {
+            "item": "sulfur_spike",
+            "variable": "%v2300%",
+            "image": "sulfur_spike.png"
+        },
+        {
+            "item": "sulfur_cube_bucket",
+            "variable": "%v2301%",
+            "image": "sulfur_cube_bucket.png"
+        },
+        {
+            "item": "music_disc_bounce",
+            "variable": "%v2302%",
+            "image": "music_disc_bounce.png"
+        },
+        {
+            "item": "sulfur_cube_spawn_egg",
+            "variable": "%v2303%",
+            "image": "sulfur_cube_spawn_egg.png"
         }
     ]
 }
