@@ -1,0 +1,4982 @@
+{
+    "tabs": [
+        {
+            "chests": [
+                {
+                    "label": "Coal",
+                    "items": [
+                        {
+                            "item": "coal"
+                        },
+                        {
+                            "item": "charcoal"
+                        },
+                        {
+                            "item": "coal_block"
+                        },
+                        {
+                            "item": "coal_ore"
+                        },
+                        {
+                            "item": "deepslate_coal_ore"
+                        }
+                    ],
+                    "icon": "coal",
+                    "checked": false
+                },
+                {
+                    "label": "Iron",
+                    "items": [
+                        {
+                            "item": "iron_ingot"
+                        },
+                        {
+                            "item": "iron_nugget"
+                        },
+                        {
+                            "item": "raw_iron"
+                        },
+                        {
+                            "item": "iron_block"
+                        },
+                        {
+                            "item": "raw_iron_block"
+                        },
+                        {
+                            "item": "iron_ore"
+                        },
+                        {
+                            "item": "deepslate_iron_ore"
+                        },
+                        {
+                            "item": "iron_bars"
+                        },
+                        {
+                            "item": "iron_door"
+                        },
+                        {
+                            "item": "iron_trapdoor"
+                        },
+                        {
+                            "item": "chain"
+                        },
+                        {
+                            "item": "heavy_weighted_pressure_plate"
+                        }
+                    ],
+                    "icon": "iron_ingot",
+                    "checked": false
+                },
+                {
+                    "label": "Copper",
+                    "items": [
+                        {
+                            "item": "copper_ingot"
+                        },
+                        {
+                            "item": "raw_copper"
+                        },
+                        {
+                            "item": "copper_block"
+                        },
+                        {
+                            "item": "raw_copper_block"
+                        },
+                        {
+                            "item": "copper_ore"
+                        },
+                        {
+                            "item": "deepslate_copper_ore"
+                        }
+                    ],
+                    "icon": "copper_ingot",
+                    "checked": false
+                },
+                {
+                    "label": "Gold",
+                    "items": [
+                        {
+                            "item": "gold_ingot"
+                        },
+                        {
+                            "item": "gold_nugget"
+                        },
+                        {
+                            "item": "raw_gold"
+                        },
+                        {
+                            "item": "gold_block"
+                        },
+                        {
+                            "item": "raw_gold_block"
+                        },
+                        {
+                            "item": "gold_ore"
+                        },
+                        {
+                            "item": "deepslate_gold_ore"
+                        },
+                        {
+                            "item": "nether_gold_ore"
+                        },
+                        {
+                            "item": "light_weighted_pressure_plate"
+                        }
+                    ],
+                    "icon": "gold_ingot",
+                    "checked": false
+                },
+                {
+                    "label": "Redstone",
+                    "items": [
+                        {
+                            "item": "redstone"
+                        },
+                        {
+                            "item": "redstone_block"
+                        },
+                        {
+                            "item": "redstone_ore"
+                        },
+                        {
+                            "item": "deepslate_redstone_ore"
+                        }
+                    ],
+                    "icon": "redstone",
+                    "checked": false
+                },
+                {
+                    "label": "Emerald",
+                    "items": [
+                        {
+                            "item": "emerald"
+                        },
+                        {
+                            "item": "emerald_block"
+                        },
+                        {
+                            "item": "emerald_ore"
+                        },
+                        {
+                            "item": "deepslate_emerald_ore"
+                        }
+                    ],
+                    "icon": "emerald",
+                    "checked": false
+                },
+                {
+                    "label": "Lapis",
+                    "items": [
+                        {
+                            "item": "lapis_lazuli"
+                        },
+                        {
+                            "item": "lapis_block"
+                        },
+                        {
+                            "item": "lapis_ore"
+                        },
+                        {
+                            "item": "deepslate_lapis_ore"
+                        }
+                    ],
+                    "icon": "lapis_lazuli",
+                    "checked": false
+                },
+                {
+                    "label": "Diamond",
+                    "items": [
+                        {
+                            "item": "diamond"
+                        },
+                        {
+                            "item": "diamond_block"
+                        },
+                        {
+                            "item": "diamond_ore"
+                        },
+                        {
+                            "item": "deepslate_diamond_ore"
+                        }
+                    ],
+                    "icon": "diamond",
+                    "checked": false
+                },
+                {
+                    "label": "Netherite",
+                    "items": [
+                        {
+                            "item": "netherite_ingot"
+                        },
+                        {
+                            "item": "netherite_scrap"
+                        },
+                        {
+                            "item": "netherite_block"
+                        },
+                        {
+                            "item": "ancient_debris"
+                        },
+                        {
+                            "item": "netherite_upgrade_smithing_template"
+                        }
+                    ],
+                    "icon": "netherite_ingot",
+                    "checked": false
+                },
+                {
+                    "label": "Obsidian",
+                    "items": [
+                        {
+                            "item": "obsidian"
+                        },
+                        {
+                            "item": "crying_obsidian"
+                        }
+                    ],
+                    "icon": "obsidian",
+                    "checked": false
+                },
+                {
+                    "label": "Quartz",
+                    "items": [
+                        {
+                            "item": "quartz"
+                        },
+                        {
+                            "item": "quartz_block"
+                        },
+                        {
+                            "item": "quartz_bricks"
+                        },
+                        {
+                            "item": "quartz_pillar"
+                        },
+                        {
+                            "item": "quartz_slab"
+                        },
+                        {
+                            "item": "quartz_stairs"
+                        },
+                        {
+                            "item": "smooth_quartz"
+                        },
+                        {
+                            "item": "smooth_quartz_slab"
+                        },
+                        {
+                            "item": "smooth_quartz_stairs"
+                        },
+                        {
+                            "item": "chiseled_quartz_block"
+                        },
+                        {
+                            "item": "nether_quartz_ore"
+                        }
+                    ],
+                    "icon": "quartz",
+                    "checked": false
+                },
+                {
+                    "label": "Amethyst",
+                    "items": [
+                        {
+                            "item": "amethyst_shard"
+                        },
+                        {
+                            "item": "amethyst_block"
+                        },
+                        {
+                            "item": "amethyst_cluster"
+                        },
+                        {
+                            "item": "large_amethyst_bud"
+                        },
+                        {
+                            "item": "medium_amethyst_bud"
+                        },
+                        {
+                            "item": "small_amethyst_bud"
+                        }
+                    ],
+                    "icon": "amethyst_shard",
+                    "checked": false
+                }
+            ],
+            "name": "Minerals"
+        },
+        {
+            "chests": [
+                {
+                    "label": "Skeleton",
+                    "items": [
+                        {
+                            "item": "bone"
+                        },
+                        {
+                            "item": "bone_block"
+                        },
+                        {
+                            "item": "bone_meal"
+                        },
+                        {
+                            "item": "arrow"
+                        },
+                        {
+                            "item": "spectral_arrow"
+                        },
+                        {
+                            "item": "tipped_arrow"
+                        },
+                        {
+                            "item": "skeleton_skull"
+                        }
+                    ],
+                    "icon": "bone",
+                    "checked": false
+                },
+                {
+                    "label": "Zombie",
+                    "items": [
+                        {
+                            "item": "rotten_flesh"
+                        },
+                        {
+                            "item": "nautilus_shell"
+                        },
+                        {
+                            "item": "zombie_head"
+                        }
+                    ],
+                    "icon": "rotten_flesh",
+                    "checked": false
+                },
+                {
+                    "label": "Creeper",
+                    "items": [
+                        {
+                            "item": "gunpowder"
+                        },
+                        {
+                            "item": "creeper_head"
+                        },
+                        {
+                            "item": "player_head"
+                        }
+                    ],
+                    "icon": "gunpowder",
+                    "checked": false
+                },
+                {
+                    "label": "Enderman",
+                    "items": [
+                        {
+                            "item": "ender_pearl"
+                        },
+                        {
+                            "item": "ender_eye"
+                        },
+                        {
+                            "item": "dragon_egg"
+                        },
+                        {
+                            "item": "dragon_head"
+                        },
+                        {
+                            "item": "dragon_breath"
+                        }
+                    ],
+                    "icon": "ender_pearl",
+                    "checked": false
+                },
+                {
+                    "label": "Spider",
+                    "items": [
+                        {
+                            "item": "cobweb"
+                        },
+                        {
+                            "item": "fermented_spider_eye"
+                        },
+                        {
+                            "item": "spider_eye"
+                        },
+                        {
+                            "item": "string"
+                        }
+                    ],
+                    "icon": "cobweb",
+                    "checked": false
+                },
+                {
+                    "label": "Slime",
+                    "items": [
+                        {
+                            "item": "slime_ball"
+                        },
+                        {
+                            "item": "slime_block"
+                        },
+                        {
+                            "item": "lead"
+                        }
+                    ],
+                    "icon": "slime_ball",
+                    "checked": false
+                },
+                {
+                    "label": "Wither skeleton",
+                    "items": [
+                        {
+                            "item": "wither_rose"
+                        },
+                        {
+                            "item": "wither_skeleton_skull"
+                        },
+                        {
+                            "item": "nether_star"
+                        }
+                    ],
+                    "icon": "wither_rose",
+                    "checked": false
+                },
+                {
+                    "label": "Ghast",
+                    "items": [
+                        {
+                            "item": "ghast_tear"
+                        },
+                        {
+                            "item": "fire_charge"
+                        },
+                        {
+                            "item": "piglin_head"
+                        },
+                        {
+                            "item": "dried_ghast"
+                        }
+                    ],
+                    "icon": "ghast_tear",
+                    "checked": false
+                },
+                {
+                    "label": "Magma",
+                    "items": [
+                        {
+                            "item": "magma_cream"
+                        }
+                    ],
+                    "icon": "magma_cream",
+                    "checked": false
+                },
+                {
+                    "label": "Blaze",
+                    "items": [
+                        {
+                            "item": "blaze_powder"
+                        },
+                        {
+                            "item": "blaze_rod"
+                        }
+                    ],
+                    "icon": "blaze_powder",
+                    "checked": false
+                },
+                {
+                    "label": "Phantom",
+                    "items": [
+                        {
+                            "item": "phantom_membrane"
+                        }
+                    ],
+                    "icon": "phantom_membrane",
+                    "checked": false
+                },
+                {
+                    "label": "Breeze",
+                    "items": [
+                        {
+                            "item": "breeze_rod"
+                        },
+                        {
+                            "item": "wind_charge"
+                        },
+                        {
+                            "item": "trial_key"
+                        },
+                        {
+                            "item": "ominous_trial_key"
+                        },
+                        {
+                            "item": "heavy_core"
+                        }
+                    ],
+                    "icon": "breeze_rod",
+                    "checked": false
+                }
+            ],
+            "name": "Hostile Mobs"
+        },
+        {
+            "chests": [
+                {
+                    "label": "Chicken",
+                    "items": [
+                        {
+                            "item": "feather"
+                        },
+                        {
+                            "item": "chicken"
+                        },
+                        {
+                            "item": "egg"
+                        },
+                        {
+                            "item": "brown_egg"
+                        },
+                        {
+                            "item": "blue_egg"
+                        }
+                    ],
+                    "icon": "feather",
+                    "checked": false
+                },
+                {
+                    "label": "Cow",
+                    "items": [
+                        {
+                            "item": "beef"
+                        },
+                        {
+                            "item": "leather"
+                        },
+                        {
+                            "item": "milk_bucket"
+                        },
+                        {
+                            "item": "item_frame"
+                        },
+                        {
+                            "item": "glow_item_frame"
+                        }
+                    ],
+                    "icon": "beef",
+                    "checked": false
+                },
+                {
+                    "label": "Rabbit",
+                    "items": [
+                        {
+                            "item": "rabbit_hide"
+                        },
+                        {
+                            "item": "rabbit_foot"
+                        },
+                        {
+                            "item": "rabbit"
+                        }
+                    ],
+                    "icon": "rabbit_hide",
+                    "checked": false
+                },
+                {
+                    "label": "Pig",
+                    "items": [
+                        {
+                            "item": "porkchop"
+                        },
+                        {
+                            "item": "saddle"
+                        }
+                    ],
+                    "icon": "porkchop",
+                    "checked": false
+                },
+                {
+                    "label": "Turtle",
+                    "items": [
+                        {
+                            "item": "turtle_egg"
+                        },
+                        {
+                            "item": "scute"
+                        }
+                    ],
+                    "icon": "turtle_egg",
+                    "checked": false
+                },
+                {
+                    "label": "Fish",
+                    "items": [
+                        {
+                            "item": "pufferfish"
+                        },
+                        {
+                            "item": "tropical_fish"
+                        },
+                        {
+                            "item": "pufferfish_bucket"
+                        },
+                        {
+                            "item": "tropical_fish_bucket"
+                        },
+                        {
+                            "item": "cod"
+                        },
+                        {
+                            "item": "cod_bucket"
+                        },
+                        {
+                            "item": "salmon"
+                        },
+                        {
+                            "item": "salmon_bucket"
+                        },
+                        {
+                            "item": "axolotl_bucket"
+                        },
+                        {
+                            "item": "tadpole_bucket"
+                        }
+                    ],
+                    "icon": "pufferfish",
+                    "checked": false
+                },
+                {
+                    "label": "Squid",
+                    "items": [
+                        {
+                            "item": "ink_sac"
+                        },
+                        {
+                            "item": "glow_ink_sac"
+                        }
+                    ],
+                    "icon": "ink_sac",
+                    "checked": false
+                },
+                {
+                    "label": "Bee",
+                    "items": [
+                        {
+                            "item": "honey_block"
+                        },
+                        {
+                            "item": "honeycomb"
+                        },
+                        {
+                            "item": "honeycomb_block"
+                        },
+                        {
+                            "item": "honey_bottle"
+                        },
+                        {
+                            "item": "bee_nest"
+                        },
+                        {
+                            "item": "beehive"
+                        }
+                    ],
+                    "icon": "honey_block",
+                    "checked": false
+                },
+                {
+                    "label": "Sheep",
+                    "items": [
+                        {
+                            "item": "mutton"
+                        },
+                        {
+                            "item": "goat_horn"
+                        }
+                    ],
+                    "icon": "mutton",
+                    "checked": false
+                },
+                {
+                    "label": "Horse",
+                    "items": [
+                        {
+                            "item": "iron_horse_armor"
+                        },
+                        {
+                            "item": "leather_horse_armor"
+                        },
+                        {
+                            "item": "golden_horse_armor"
+                        },
+                        {
+                            "item": "diamond_horse_armor"
+                        }
+                    ],
+                    "icon": "iron_horse_armor",
+                    "checked": false
+                }
+            ],
+            "name": "Passive Mobs"
+        },
+        {
+            "chests": [
+                {
+                    "label": "White",
+                    "items": [
+                        {
+                            "item": "white_banner"
+                        },
+                        {
+                            "item": "white_bed"
+                        },
+                        {
+                            "item": "white_candle"
+                        },
+                        {
+                            "item": "candle"
+                        },
+                        {
+                            "item": "white_carpet"
+                        },
+                        {
+                            "item": "white_concrete"
+                        },
+                        {
+                            "item": "white_concrete_powder"
+                        },
+                        {
+                            "item": "white_dye"
+                        },
+                        {
+                            "item": "white_glazed_terracotta"
+                        },
+                        {
+                            "item": "white_stained_glass"
+                        },
+                        {
+                            "item": "white_stained_glass_pane"
+                        },
+                        {
+                            "item": "white_terracotta"
+                        },
+                        {
+                            "item": "terracotta"
+                        },
+                        {
+                            "item": "white_wool"
+                        },
+                        {
+                            "item": "glass"
+                        },
+                        {
+                            "item": "glass_pane"
+                        }
+                    ],
+                    "icon": "white_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Light gray",
+                    "items": [
+                        {
+                            "item": "light_gray_banner"
+                        },
+                        {
+                            "item": "light_gray_bed"
+                        },
+                        {
+                            "item": "light_gray_candle"
+                        },
+                        {
+                            "item": "light_gray_carpet"
+                        },
+                        {
+                            "item": "light_gray_concrete"
+                        },
+                        {
+                            "item": "light_gray_concrete_powder"
+                        },
+                        {
+                            "item": "light_gray_dye"
+                        },
+                        {
+                            "item": "light_gray_glazed_terracotta"
+                        },
+                        {
+                            "item": "light_gray_stained_glass"
+                        },
+                        {
+                            "item": "light_gray_stained_glass_pane"
+                        },
+                        {
+                            "item": "light_gray_terracotta"
+                        },
+                        {
+                            "item": "light_gray_wool"
+                        }
+                    ],
+                    "icon": "light_gray_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Gray",
+                    "items": [
+                        {
+                            "item": "gray_banner"
+                        },
+                        {
+                            "item": "gray_bed"
+                        },
+                        {
+                            "item": "gray_candle"
+                        },
+                        {
+                            "item": "gray_carpet"
+                        },
+                        {
+                            "item": "gray_concrete"
+                        },
+                        {
+                            "item": "gray_concrete_powder"
+                        },
+                        {
+                            "item": "gray_dye"
+                        },
+                        {
+                            "item": "gray_glazed_terracotta"
+                        },
+                        {
+                            "item": "gray_stained_glass"
+                        },
+                        {
+                            "item": "gray_stained_glass_pane"
+                        },
+                        {
+                            "item": "gray_terracotta"
+                        },
+                        {
+                            "item": "gray_wool"
+                        }
+                    ],
+                    "icon": "gray_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Black",
+                    "items": [
+                        {
+                            "item": "black_banner"
+                        },
+                        {
+                            "item": "black_bed"
+                        },
+                        {
+                            "item": "black_candle"
+                        },
+                        {
+                            "item": "black_carpet"
+                        },
+                        {
+                            "item": "black_concrete"
+                        },
+                        {
+                            "item": "black_concrete_powder"
+                        },
+                        {
+                            "item": "black_dye"
+                        },
+                        {
+                            "item": "black_glazed_terracotta"
+                        },
+                        {
+                            "item": "black_stained_glass"
+                        },
+                        {
+                            "item": "black_stained_glass_pane"
+                        },
+                        {
+                            "item": "black_terracotta"
+                        },
+                        {
+                            "item": "black_wool"
+                        },
+                        {
+                            "item": "tinted_glass"
+                        }
+                    ],
+                    "icon": "black_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Brown",
+                    "items": [
+                        {
+                            "item": "brown_banner"
+                        },
+                        {
+                            "item": "brown_bed"
+                        },
+                        {
+                            "item": "brown_candle"
+                        },
+                        {
+                            "item": "brown_carpet"
+                        },
+                        {
+                            "item": "brown_concrete"
+                        },
+                        {
+                            "item": "brown_concrete_powder"
+                        },
+                        {
+                            "item": "brown_dye"
+                        },
+                        {
+                            "item": "brown_glazed_terracotta"
+                        },
+                        {
+                            "item": "brown_stained_glass"
+                        },
+                        {
+                            "item": "brown_stained_glass_pane"
+                        },
+                        {
+                            "item": "brown_terracotta"
+                        },
+                        {
+                            "item": "brown_wool"
+                        }
+                    ],
+                    "icon": "brown_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Red",
+                    "items": [
+                        {
+                            "item": "red_banner"
+                        },
+                        {
+                            "item": "red_bed"
+                        },
+                        {
+                            "item": "red_candle"
+                        },
+                        {
+                            "item": "red_carpet"
+                        },
+                        {
+                            "item": "red_concrete"
+                        },
+                        {
+                            "item": "red_concrete_powder"
+                        },
+                        {
+                            "item": "red_dye"
+                        },
+                        {
+                            "item": "red_glazed_terracotta"
+                        },
+                        {
+                            "item": "red_stained_glass"
+                        },
+                        {
+                            "item": "red_stained_glass_pane"
+                        },
+                        {
+                            "item": "red_terracotta"
+                        },
+                        {
+                            "item": "red_wool"
+                        }
+                    ],
+                    "icon": "red_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Orange",
+                    "items": [
+                        {
+                            "item": "orange_banner"
+                        },
+                        {
+                            "item": "orange_bed"
+                        },
+                        {
+                            "item": "orange_candle"
+                        },
+                        {
+                            "item": "orange_carpet"
+                        },
+                        {
+                            "item": "orange_concrete"
+                        },
+                        {
+                            "item": "orange_concrete_powder"
+                        },
+                        {
+                            "item": "orange_dye"
+                        },
+                        {
+                            "item": "orange_glazed_terracotta"
+                        },
+                        {
+                            "item": "orange_stained_glass"
+                        },
+                        {
+                            "item": "orange_stained_glass_pane"
+                        },
+                        {
+                            "item": "orange_terracotta"
+                        },
+                        {
+                            "item": "orange_wool"
+                        }
+                    ],
+                    "icon": "orange_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Yellow",
+                    "items": [
+                        {
+                            "item": "yellow_banner"
+                        },
+                        {
+                            "item": "yellow_bed"
+                        },
+                        {
+                            "item": "yellow_candle"
+                        },
+                        {
+                            "item": "yellow_carpet"
+                        },
+                        {
+                            "item": "yellow_concrete"
+                        },
+                        {
+                            "item": "yellow_concrete_powder"
+                        },
+                        {
+                            "item": "yellow_dye"
+                        },
+                        {
+                            "item": "yellow_glazed_terracotta"
+                        },
+                        {
+                            "item": "yellow_stained_glass"
+                        },
+                        {
+                            "item": "yellow_stained_glass_pane"
+                        },
+                        {
+                            "item": "yellow_terracotta"
+                        },
+                        {
+                            "item": "yellow_wool"
+                        }
+                    ],
+                    "icon": "yellow_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Lime",
+                    "items": [
+                        {
+                            "item": "lime_banner"
+                        },
+                        {
+                            "item": "lime_bed"
+                        },
+                        {
+                            "item": "lime_candle"
+                        },
+                        {
+                            "item": "lime_carpet"
+                        },
+                        {
+                            "item": "lime_concrete"
+                        },
+                        {
+                            "item": "lime_concrete_powder"
+                        },
+                        {
+                            "item": "lime_dye"
+                        },
+                        {
+                            "item": "lime_glazed_terracotta"
+                        },
+                        {
+                            "item": "lime_stained_glass"
+                        },
+                        {
+                            "item": "lime_stained_glass_pane"
+                        },
+                        {
+                            "item": "lime_terracotta"
+                        },
+                        {
+                            "item": "lime_wool"
+                        }
+                    ],
+                    "icon": "lime_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Green",
+                    "items": [
+                        {
+                            "item": "green_banner"
+                        },
+                        {
+                            "item": "green_bed"
+                        },
+                        {
+                            "item": "green_candle"
+                        },
+                        {
+                            "item": "green_carpet"
+                        },
+                        {
+                            "item": "green_concrete"
+                        },
+                        {
+                            "item": "green_concrete_powder"
+                        },
+                        {
+                            "item": "green_dye"
+                        },
+                        {
+                            "item": "green_glazed_terracotta"
+                        },
+                        {
+                            "item": "green_stained_glass"
+                        },
+                        {
+                            "item": "green_stained_glass_pane"
+                        },
+                        {
+                            "item": "green_terracotta"
+                        },
+                        {
+                            "item": "green_wool"
+                        }
+                    ],
+                    "icon": "green_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Cyan",
+                    "items": [
+                        {
+                            "item": "cyan_banner"
+                        },
+                        {
+                            "item": "cyan_bed"
+                        },
+                        {
+                            "item": "cyan_candle"
+                        },
+                        {
+                            "item": "cyan_carpet"
+                        },
+                        {
+                            "item": "cyan_concrete"
+                        },
+                        {
+                            "item": "cyan_concrete_powder"
+                        },
+                        {
+                            "item": "cyan_dye"
+                        },
+                        {
+                            "item": "cyan_glazed_terracotta"
+                        },
+                        {
+                            "item": "cyan_stained_glass"
+                        },
+                        {
+                            "item": "cyan_stained_glass_pane"
+                        },
+                        {
+                            "item": "cyan_terracotta"
+                        },
+                        {
+                            "item": "cyan_wool"
+                        }
+                    ],
+                    "icon": "cyan_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Light blue",
+                    "items": [
+                        {
+                            "item": "light_blue_banner"
+                        },
+                        {
+                            "item": "light_blue_bed"
+                        },
+                        {
+                            "item": "light_blue_candle"
+                        },
+                        {
+                            "item": "light_blue_carpet"
+                        },
+                        {
+                            "item": "light_blue_concrete"
+                        },
+                        {
+                            "item": "light_blue_concrete_powder"
+                        },
+                        {
+                            "item": "light_blue_dye"
+                        },
+                        {
+                            "item": "light_blue_glazed_terracotta"
+                        },
+                        {
+                            "item": "light_blue_stained_glass"
+                        },
+                        {
+                            "item": "light_blue_stained_glass_pane"
+                        },
+                        {
+                            "item": "light_blue_terracotta"
+                        },
+                        {
+                            "item": "light_blue_wool"
+                        }
+                    ],
+                    "icon": "light_blue_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Blue",
+                    "items": [
+                        {
+                            "item": "blue_banner"
+                        },
+                        {
+                            "item": "blue_bed"
+                        },
+                        {
+                            "item": "blue_candle"
+                        },
+                        {
+                            "item": "blue_carpet"
+                        },
+                        {
+                            "item": "blue_concrete"
+                        },
+                        {
+                            "item": "blue_concrete_powder"
+                        },
+                        {
+                            "item": "blue_dye"
+                        },
+                        {
+                            "item": "blue_glazed_terracotta"
+                        },
+                        {
+                            "item": "blue_stained_glass"
+                        },
+                        {
+                            "item": "blue_stained_glass_pane"
+                        },
+                        {
+                            "item": "blue_terracotta"
+                        },
+                        {
+                            "item": "blue_wool"
+                        }
+                    ],
+                    "icon": "blue_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Purple",
+                    "items": [
+                        {
+                            "item": "purple_banner"
+                        },
+                        {
+                            "item": "purple_bed"
+                        },
+                        {
+                            "item": "purple_candle"
+                        },
+                        {
+                            "item": "purple_carpet"
+                        },
+                        {
+                            "item": "purple_concrete"
+                        },
+                        {
+                            "item": "purple_concrete_powder"
+                        },
+                        {
+                            "item": "purple_dye"
+                        },
+                        {
+                            "item": "purple_glazed_terracotta"
+                        },
+                        {
+                            "item": "purple_stained_glass"
+                        },
+                        {
+                            "item": "purple_stained_glass_pane"
+                        },
+                        {
+                            "item": "purple_terracotta"
+                        },
+                        {
+                            "item": "purple_wool"
+                        }
+                    ],
+                    "icon": "purple_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Magenta",
+                    "items": [
+                        {
+                            "item": "magenta_banner"
+                        },
+                        {
+                            "item": "magenta_bed"
+                        },
+                        {
+                            "item": "magenta_candle"
+                        },
+                        {
+                            "item": "magenta_carpet"
+                        },
+                        {
+                            "item": "magenta_concrete"
+                        },
+                        {
+                            "item": "magenta_concrete_powder"
+                        },
+                        {
+                            "item": "magenta_dye"
+                        },
+                        {
+                            "item": "magenta_glazed_terracotta"
+                        },
+                        {
+                            "item": "magenta_stained_glass"
+                        },
+                        {
+                            "item": "magenta_stained_glass_pane"
+                        },
+                        {
+                            "item": "magenta_terracotta"
+                        },
+                        {
+                            "item": "magenta_wool"
+                        }
+                    ],
+                    "icon": "magenta_dye",
+                    "checked": false
+                },
+                {
+                    "label": "Pink",
+                    "items": [
+                        {
+                            "item": "pink_banner"
+                        },
+                        {
+                            "item": "pink_bed"
+                        },
+                        {
+                            "item": "pink_candle"
+                        },
+                        {
+                            "item": "pink_carpet"
+                        },
+                        {
+                            "item": "pink_concrete"
+                        },
+                        {
+                            "item": "pink_concrete_powder"
+                        },
+                        {
+                            "item": "pink_dye"
+                        },
+                        {
+                            "item": "pink_glazed_terracotta"
+                        },
+                        {
+                            "item": "pink_stained_glass"
+                        },
+                        {
+                            "item": "pink_stained_glass_pane"
+                        },
+                        {
+                            "item": "pink_terracotta"
+                        },
+                        {
+                            "item": "pink_wool"
+                        }
+                    ],
+                    "icon": "pink_dye",
+                    "checked": false
+                }
+            ],
+            "name": "Colors"
+        },
+        {
+            "chests": [
+                {
+                    "label": "Oak",
+                    "items": [
+                        {
+                            "item": "oak_log"
+                        },
+                        {
+                            "item": "oak_wood"
+                        },
+                        {
+                            "item": "oak_planks"
+                        },
+                        {
+                            "item": "oak_slab"
+                        },
+                        {
+                            "item": "oak_stairs"
+                        },
+                        {
+                            "item": "stripped_oak_log"
+                        },
+                        {
+                            "item": "stripped_oak_wood"
+                        },
+                        {
+                            "item": "oak_fence"
+                        },
+                        {
+                            "item": "oak_fence_gate"
+                        },
+                        {
+                            "item": "oak_door"
+                        },
+                        {
+                            "item": "oak_trapdoor"
+                        },
+                        {
+                            "item": "oak_button"
+                        },
+                        {
+                            "item": "oak_pressure_plate"
+                        },
+                        {
+                            "item": "oak_sign"
+                        },
+                        {
+                            "item": "oak_hanging_sign"
+                        }
+                    ],
+                    "icon": "oak_log",
+                    "checked": false
+                },
+                {
+                    "label": "Spruce",
+                    "items": [
+                        {
+                            "item": "spruce_log"
+                        },
+                        {
+                            "item": "spruce_wood"
+                        },
+                        {
+                            "item": "spruce_planks"
+                        },
+                        {
+                            "item": "spruce_slab"
+                        },
+                        {
+                            "item": "spruce_stairs"
+                        },
+                        {
+                            "item": "stripped_spruce_log"
+                        },
+                        {
+                            "item": "stripped_spruce_wood"
+                        },
+                        {
+                            "item": "spruce_fence"
+                        },
+                        {
+                            "item": "spruce_fence_gate"
+                        },
+                        {
+                            "item": "spruce_door"
+                        },
+                        {
+                            "item": "spruce_trapdoor"
+                        },
+                        {
+                            "item": "spruce_button"
+                        },
+                        {
+                            "item": "spruce_pressure_plate"
+                        },
+                        {
+                            "item": "spruce_sign"
+                        },
+                        {
+                            "item": "spruce_hanging_sign"
+                        }
+                    ],
+                    "icon": "spruce_log",
+                    "checked": false
+                },
+                {
+                    "label": "Birch",
+                    "items": [
+                        {
+                            "item": "birch_log"
+                        },
+                        {
+                            "item": "birch_wood"
+                        },
+                        {
+                            "item": "birch_planks"
+                        },
+                        {
+                            "item": "birch_slab"
+                        },
+                        {
+                            "item": "birch_stairs"
+                        },
+                        {
+                            "item": "stripped_birch_log"
+                        },
+                        {
+                            "item": "stripped_birch_wood"
+                        },
+                        {
+                            "item": "birch_fence"
+                        },
+                        {
+                            "item": "birch_fence_gate"
+                        },
+                        {
+                            "item": "birch_door"
+                        },
+                        {
+                            "item": "birch_trapdoor"
+                        },
+                        {
+                            "item": "birch_button"
+                        },
+                        {
+                            "item": "birch_pressure_plate"
+                        },
+                        {
+                            "item": "birch_sign"
+                        },
+                        {
+                            "item": "birch_hanging_sign"
+                        }
+                    ],
+                    "icon": "birch_log",
+                    "checked": false
+                },
+                {
+                    "label": "Jungle",
+                    "items": [
+                        {
+                            "item": "jungle_log"
+                        },
+                        {
+                            "item": "jungle_wood"
+                        },
+                        {
+                            "item": "jungle_planks"
+                        },
+                        {
+                            "item": "jungle_slab"
+                        },
+                        {
+                            "item": "jungle_stairs"
+                        },
+                        {
+                            "item": "stripped_jungle_log"
+                        },
+                        {
+                            "item": "stripped_jungle_wood"
+                        },
+                        {
+                            "item": "jungle_fence"
+                        },
+                        {
+                            "item": "jungle_fence_gate"
+                        },
+                        {
+                            "item": "jungle_door"
+                        },
+                        {
+                            "item": "jungle_trapdoor"
+                        },
+                        {
+                            "item": "jungle_button"
+                        },
+                        {
+                            "item": "jungle_pressure_plate"
+                        },
+                        {
+                            "item": "jungle_sign"
+                        },
+                        {
+                            "item": "jungle_hanging_sign"
+                        }
+                    ],
+                    "icon": "jungle_log",
+                    "checked": false
+                },
+                {
+                    "label": "Acacia",
+                    "items": [
+                        {
+                            "item": "acacia_log"
+                        },
+                        {
+                            "item": "acacia_wood"
+                        },
+                        {
+                            "item": "acacia_planks"
+                        },
+                        {
+                            "item": "acacia_slab"
+                        },
+                        {
+                            "item": "acacia_stairs"
+                        },
+                        {
+                            "item": "stripped_acacia_log"
+                        },
+                        {
+                            "item": "stripped_acacia_wood"
+                        },
+                        {
+                            "item": "acacia_fence"
+                        },
+                        {
+                            "item": "acacia_fence_gate"
+                        },
+                        {
+                            "item": "acacia_door"
+                        },
+                        {
+                            "item": "acacia_trapdoor"
+                        },
+                        {
+                            "item": "acacia_button"
+                        },
+                        {
+                            "item": "acacia_pressure_plate"
+                        },
+                        {
+                            "item": "acacia_sign"
+                        },
+                        {
+                            "item": "acacia_hanging_sign"
+                        }
+                    ],
+                    "icon": "acacia_log",
+                    "checked": false
+                },
+                {
+                    "label": "Dark oak",
+                    "items": [
+                        {
+                            "item": "dark_oak_log"
+                        },
+                        {
+                            "item": "dark_oak_wood"
+                        },
+                        {
+                            "item": "dark_oak_planks"
+                        },
+                        {
+                            "item": "dark_oak_slab"
+                        },
+                        {
+                            "item": "dark_oak_stairs"
+                        },
+                        {
+                            "item": "stripped_dark_oak_log"
+                        },
+                        {
+                            "item": "stripped_dark_oak_wood"
+                        },
+                        {
+                            "item": "dark_oak_fence"
+                        },
+                        {
+                            "item": "dark_oak_fence_gate"
+                        },
+                        {
+                            "item": "dark_oak_door"
+                        },
+                        {
+                            "item": "dark_oak_trapdoor"
+                        },
+                        {
+                            "item": "dark_oak_button"
+                        },
+                        {
+                            "item": "dark_oak_pressure_plate"
+                        },
+                        {
+                            "item": "dark_oak_sign"
+                        },
+                        {
+                            "item": "dark_oak_hanging_sign"
+                        }
+                    ],
+                    "icon": "dark_oak_log",
+                    "checked": false
+                },
+                {
+                    "label": "Mangrove",
+                    "items": [
+                        {
+                            "item": "mangrove_log"
+                        },
+                        {
+                            "item": "mangrove_wood"
+                        },
+                        {
+                            "item": "mangrove_planks"
+                        },
+                        {
+                            "item": "mangrove_slab"
+                        },
+                        {
+                            "item": "mangrove_stairs"
+                        },
+                        {
+                            "item": "stripped_mangrove_log"
+                        },
+                        {
+                            "item": "stripped_mangrove_wood"
+                        },
+                        {
+                            "item": "mangrove_fence"
+                        },
+                        {
+                            "item": "mangrove_fence_gate"
+                        },
+                        {
+                            "item": "mangrove_door"
+                        },
+                        {
+                            "item": "mangrove_trapdoor"
+                        },
+                        {
+                            "item": "mangrove_button"
+                        },
+                        {
+                            "item": "mangrove_pressure_plate"
+                        },
+                        {
+                            "item": "mangrove_sign"
+                        },
+                        {
+                            "item": "mangrove_hanging_sign"
+                        }
+                    ],
+                    "icon": "mangrove_log",
+                    "checked": false
+                },
+                {
+                    "label": "Cherry",
+                    "items": [
+                        {
+                            "item": "cherry_log"
+                        },
+                        {
+                            "item": "cherry_wood"
+                        },
+                        {
+                            "item": "cherry_planks"
+                        },
+                        {
+                            "item": "cherry_slab"
+                        },
+                        {
+                            "item": "cherry_stairs"
+                        },
+                        {
+                            "item": "stripped_cherry_log"
+                        },
+                        {
+                            "item": "stripped_cherry_wood"
+                        },
+                        {
+                            "item": "cherry_fence"
+                        },
+                        {
+                            "item": "cherry_fence_gate"
+                        },
+                        {
+                            "item": "cherry_door"
+                        },
+                        {
+                            "item": "cherry_trapdoor"
+                        },
+                        {
+                            "item": "cherry_button"
+                        },
+                        {
+                            "item": "cherry_pressure_plate"
+                        },
+                        {
+                            "item": "cherry_sign"
+                        },
+                        {
+                            "item": "cherry_hanging_sign"
+                        }
+                    ],
+                    "icon": "cherry_log",
+                    "checked": false
+                },
+                {
+                    "label": "Bamboo",
+                    "items": [
+                        {
+                            "item": "bamboo_block"
+                        },
+                        {
+                            "item": "bamboo_planks"
+                        },
+                        {
+                            "item": "bamboo_slab"
+                        },
+                        {
+                            "item": "bamboo_stairs"
+                        },
+                        {
+                            "item": "stripped_bamboo_block"
+                        },
+                        {
+                            "item": "bamboo_fence"
+                        },
+                        {
+                            "item": "bamboo_fence_gate"
+                        },
+                        {
+                            "item": "bamboo_door"
+                        },
+                        {
+                            "item": "bamboo_trapdoor"
+                        },
+                        {
+                            "item": "bamboo_button"
+                        },
+                        {
+                            "item": "bamboo_pressure_plate"
+                        },
+                        {
+                            "item": "bamboo_sign"
+                        },
+                        {
+                            "item": "bamboo_hanging_sign"
+                        },
+                        {
+                            "item": "bamboo_mosaic_stairs"
+                        },
+                        {
+                            "item": "bamboo_mosaic"
+                        },
+                        {
+                            "item": "bamboo_mosaic_slab"
+                        }
+                    ],
+                    "icon": "bamboo_block",
+                    "checked": false
+                },
+                {
+                    "label": "Crimson",
+                    "items": [
+                        {
+                            "item": "crimson_stem"
+                        },
+                        {
+                            "item": "crimson_hyphae"
+                        },
+                        {
+                            "item": "crimson_planks"
+                        },
+                        {
+                            "item": "crimson_slab"
+                        },
+                        {
+                            "item": "crimson_stairs"
+                        },
+                        {
+                            "item": "stripped_crimson_stem"
+                        },
+                        {
+                            "item": "stripped_crimson_hyphae"
+                        },
+                        {
+                            "item": "crimson_fence"
+                        },
+                        {
+                            "item": "crimson_fence_gate"
+                        },
+                        {
+                            "item": "crimson_door"
+                        },
+                        {
+                            "item": "crimson_trapdoor"
+                        },
+                        {
+                            "item": "crimson_button"
+                        },
+                        {
+                            "item": "crimson_pressure_plate"
+                        },
+                        {
+                            "item": "crimson_sign"
+                        },
+                        {
+                            "item": "crimson_hanging_sign"
+                        }
+                    ],
+                    "icon": "crimson_stem",
+                    "checked": false
+                },
+                {
+                    "label": "Warped",
+                    "items": [
+                        {
+                            "item": "warped_stem"
+                        },
+                        {
+                            "item": "warped_hyphae"
+                        },
+                        {
+                            "item": "warped_planks"
+                        },
+                        {
+                            "item": "warped_slab"
+                        },
+                        {
+                            "item": "warped_stairs"
+                        },
+                        {
+                            "item": "stripped_warped_stem"
+                        },
+                        {
+                            "item": "stripped_warped_hyphae"
+                        },
+                        {
+                            "item": "warped_fence"
+                        },
+                        {
+                            "item": "warped_fence_gate"
+                        },
+                        {
+                            "item": "warped_door"
+                        },
+                        {
+                            "item": "warped_trapdoor"
+                        },
+                        {
+                            "item": "warped_button"
+                        },
+                        {
+                            "item": "warped_pressure_plate"
+                        },
+                        {
+                            "item": "warped_sign"
+                        },
+                        {
+                            "item": "warped_hanging_sign"
+                        },
+                        {
+                            "item": "warped_wart_block"
+                        }
+                    ],
+                    "icon": "warped_stem",
+                    "checked": false
+                },
+                {
+                    "label": "Pale oak",
+                    "icon": "pale_oak_log",
+                    "items": [
+                        {
+                            "item": "pale_oak_log"
+                        },
+                        {
+                            "item": "pale_oak_wood"
+                        },
+                        {
+                            "item": "pale_oak_planks"
+                        },
+                        {
+                            "item": "pale_oak_slab"
+                        },
+                        {
+                            "item": "pale_oak_stairs"
+                        },
+                        {
+                            "item": "stripped_pale_oak_log"
+                        },
+                        {
+                            "item": "stripped_pale_oak_wood"
+                        },
+                        {
+                            "item": "pale_oak_fence"
+                        },
+                        {
+                            "item": "pale_oak_fence_gate"
+                        },
+                        {
+                            "item": "pale_oak_door"
+                        },
+                        {
+                            "item": "pale_oak_trapdoor"
+                        },
+                        {
+                            "item": "pale_oak_button"
+                        },
+                        {
+                            "item": "pale_oak_pressure_plate"
+                        },
+                        {
+                            "item": "pale_oak_sign"
+                        },
+                        {
+                            "item": "pale_oak_hanging_sign"
+                        },
+                        {
+                            "item": "pale_oak_leaves"
+                        },
+                        {
+                            "item": "pale_oak_sapling"
+                        }
+                    ],
+                    "checked": false
+                }
+            ],
+            "name": "Woods"
+        },
+        {
+            "chests": [
+                {
+                    "label": "Grass",
+                    "items": [
+                        {
+                            "item": "grass_block"
+                        },
+                        {
+                            "item": "mycelium"
+                        },
+                        {
+                            "item": "podzol"
+                        },
+                        {
+                            "item": "short_dry_grass"
+                        },
+                        {
+                            "item": "bush"
+                        },
+                        {
+                            "item": "leaf_litter"
+                        },
+                        {
+                            "item": "firefly_bush"
+                        },
+                        {
+                            "item": "tall_dry_grass"
+                        }
+                    ],
+                    "icon": "grass_block",
+                    "checked": false
+                },
+                {
+                    "label": "Moss",
+                    "items": [
+                        {
+                            "item": "moss_block"
+                        },
+                        {
+                            "item": "moss_carpet"
+                        }
+                    ],
+                    "icon": "moss_block",
+                    "checked": false
+                },
+                {
+                    "label": "Mushroom",
+                    "items": [
+                        {
+                            "item": "brown_mushroom"
+                        },
+                        {
+                            "item": "mushroom_stem"
+                        },
+                        {
+                            "item": "red_mushroom"
+                        },
+                        {
+                            "item": "red_mushroom_block"
+                        },
+                        {
+                            "item": "brown_mushroom_block"
+                        },
+                        {
+                            "item": "mushroom_stew"
+                        }
+                    ],
+                    "icon": "brown_mushroom",
+                    "checked": false
+                },
+                {
+                    "label": "Kelp",
+                    "items": [
+                        {
+                            "item": "kelp"
+                        },
+                        {
+                            "item": "dried_kelp_block"
+                        },
+                        {
+                            "item": "dried_kelp"
+                        }
+                    ],
+                    "icon": "kelp",
+                    "checked": false
+                },
+                {
+                    "label": "Corals",
+                    "items": [
+                        {
+                            "item": "brain_coral"
+                        },
+                        {
+                            "item": "brain_coral_block"
+                        },
+                        {
+                            "item": "brain_coral_fan"
+                        },
+                        {
+                            "item": "bubble_coral"
+                        },
+                        {
+                            "item": "bubble_coral_block"
+                        },
+                        {
+                            "item": "bubble_coral_fan"
+                        },
+                        {
+                            "item": "dead_brain_coral"
+                        },
+                        {
+                            "item": "dead_brain_coral_block"
+                        },
+                        {
+                            "item": "dead_brain_coral_fan"
+                        },
+                        {
+                            "item": "dead_bubble_coral"
+                        },
+                        {
+                            "item": "dead_bubble_coral_block"
+                        },
+                        {
+                            "item": "dead_bubble_coral_fan"
+                        },
+                        {
+                            "item": "dead_fire_coral"
+                        },
+                        {
+                            "item": "dead_fire_coral_block"
+                        },
+                        {
+                            "item": "dead_fire_coral_fan"
+                        },
+                        {
+                            "item": "dead_horn_coral"
+                        },
+                        {
+                            "item": "dead_horn_coral_block"
+                        },
+                        {
+                            "item": "dead_horn_coral_fan"
+                        },
+                        {
+                            "item": "dead_tube_coral"
+                        },
+                        {
+                            "item": "dead_tube_coral_block"
+                        },
+                        {
+                            "item": "dead_tube_coral_fan"
+                        },
+                        {
+                            "item": "fire_coral"
+                        },
+                        {
+                            "item": "fire_coral_block"
+                        },
+                        {
+                            "item": "fire_coral_fan"
+                        },
+                        {
+                            "item": "horn_coral"
+                        },
+                        {
+                            "item": "horn_coral_block"
+                        },
+                        {
+                            "item": "horn_coral_fan"
+                        },
+                        {
+                            "item": "tube_coral"
+                        },
+                        {
+                            "item": "tube_coral_block"
+                        },
+                        {
+                            "item": "tube_coral_fan"
+                        }
+                    ],
+                    "icon": "brain_coral",
+                    "checked": false
+                },
+                {
+                    "label": "Cactus",
+                    "items": [
+                        {
+                            "item": "cactus"
+                        }
+                    ],
+                    "icon": "cactus",
+                    "checked": false
+                },
+                {
+                    "label": "azalea",
+                    "items": [
+                        {
+                            "item": "spore_blossom"
+                        },
+                        {
+                            "item": "azalea"
+                        },
+                        {
+                            "item": "flowering_azalea"
+                        },
+                        {
+                            "item": "hanging_roots"
+                        }
+                    ],
+                    "icon": "spore_blossom",
+                    "checked": false
+                },
+                {
+                    "label": "bamboo",
+                    "items": [
+                        {
+                            "item": "bamboo"
+                        }
+                    ],
+                    "icon": "bamboo",
+                    "checked": false
+                },
+                {
+                    "label": "Sugarcane",
+                    "items": [
+                        {
+                            "item": "sugar_cane"
+                        },
+                        {
+                            "item": "sugar"
+                        },
+                        {
+                            "item": "paper"
+                        },
+                        {
+                            "item": "book"
+                        }
+                    ],
+                    "icon": "sugar_cane",
+                    "checked": false
+                },
+                {
+                    "label": "store blomster",
+                    "items": [
+                        {
+                            "item": "sunflower"
+                        },
+                        {
+                            "item": "peony"
+                        },
+                        {
+                            "item": "lilac"
+                        },
+                        {
+                            "item": "rose_bush"
+                        },
+                        {
+                            "item": "tall_grass"
+                        },
+                        {
+                            "item": "pitcher_plant"
+                        },
+                        {
+                            "item": "pitcher_pod"
+                        },
+                        {
+                            "item": "large_fern"
+                        }
+                    ],
+                    "icon": "sunflower",
+                    "checked": false
+                },
+                {
+                    "label": "smÃ¥ blomster",
+                    "items": [
+                        {
+                            "item": "cornflower"
+                        },
+                        {
+                            "item": "torchflower"
+                        },
+                        {
+                            "item": "pink_tulip"
+                        },
+                        {
+                            "item": "pink_petals"
+                        },
+                        {
+                            "item": "white_tulip"
+                        },
+                        {
+                            "item": "red_tulip"
+                        },
+                        {
+                            "item": "orange_tulip"
+                        },
+                        {
+                            "item": "grass"
+                        },
+                        {
+                            "item": "seagrass"
+                        },
+                        {
+                            "item": "lily_of_the_valley"
+                        },
+                        {
+                            "item": "azure_bluet"
+                        },
+                        {
+                            "item": "allium"
+                        },
+                        {
+                            "item": "dead_bush"
+                        },
+                        {
+                            "item": "blue_orchid"
+                        },
+                        {
+                            "item": "poppy"
+                        },
+                        {
+                            "item": "oxeye_daisy"
+                        },
+                        {
+                            "item": "fern"
+                        },
+                        {
+                            "item": "lily_pad"
+                        },
+                        {
+                            "item": "vine"
+                        },
+                        {
+                            "item": "torchflower_seeds"
+                        },
+                        {
+                            "item": "glow_lichen"
+                        },
+                        {
+                            "item": "wildflowers"
+                        },
+                        {
+                            "item": "dandelion"
+                        },
+                        {
+                            "item": "cactus_flower"
+                        }
+                    ],
+                    "icon": "cornflower",
+                    "checked": false
+                },
+                {
+                    "label": "sapplings",
+                    "items": [
+                        {
+                            "item": "spruce_sapling"
+                        },
+                        {
+                            "item": "oak_sapling"
+                        },
+                        {
+                            "item": "dark_oak_sapling"
+                        },
+                        {
+                            "item": "jungle_sapling"
+                        },
+                        {
+                            "item": "cherry_sapling"
+                        },
+                        {
+                            "item": "birch_sapling"
+                        },
+                        {
+                            "item": "acacia_sapling"
+                        },
+                        {
+                            "item": "mangrove_propagule"
+                        }
+                    ],
+                    "icon": "spruce_sapling",
+                    "checked": false
+                },
+                {
+                    "label": "leaves",
+                    "items": [
+                        {
+                            "item": "spruce_leaves"
+                        },
+                        {
+                            "item": "oak_leaves"
+                        },
+                        {
+                            "item": "jungle_leaves"
+                        },
+                        {
+                            "item": "mangrove_leaves"
+                        },
+                        {
+                            "item": "flowering_azalea_leaves"
+                        },
+                        {
+                            "item": "dark_oak_leaves"
+                        },
+                        {
+                            "item": "cherry_leaves"
+                        },
+                        {
+                            "item": "birch_leaves"
+                        },
+                        {
+                            "item": "azalea_leaves"
+                        },
+                        {
+                            "item": "acacia_leaves"
+                        }
+                    ],
+                    "icon": "spruce_leaves",
+                    "checked": false
+                },
+                {
+                    "label": "Potato",
+                    "items": [
+                        {
+                            "item": "poisonous_potato"
+                        },
+                        {
+                            "item": "potato"
+                        }
+                    ],
+                    "icon": "poisonous_potato",
+                    "checked": false
+                },
+                {
+                    "label": "carrot",
+                    "items": [
+                        {
+                            "item": "carrot"
+                        }
+                    ],
+                    "icon": "carrot",
+                    "checked": false
+                },
+                {
+                    "label": "Beetroot",
+                    "items": [
+                        {
+                            "item": "beetroot_seeds"
+                        },
+                        {
+                            "item": "beetroot"
+                        }
+                    ],
+                    "icon": "beetroot_seeds",
+                    "checked": false
+                },
+                {
+                    "label": "berries",
+                    "items": [
+                        {
+                            "item": "sweet_berries"
+                        },
+                        {
+                            "item": "glow_berries"
+                        }
+                    ],
+                    "icon": "sweet_berries",
+                    "checked": false
+                },
+                {
+                    "label": "sculk",
+                    "items": [
+                        {
+                            "item": "sculk_vein"
+                        },
+                        {
+                            "item": "sculk"
+                        },
+                        {
+                            "item": "sculk_catalyst"
+                        },
+                        {
+                            "item": "echo_shard"
+                        }
+                    ],
+                    "icon": "sculk_vein",
+                    "checked": false
+                },
+                {
+                    "label": "drip leaf",
+                    "items": [
+                        {
+                            "item": "small_dripleaf"
+                        },
+                        {
+                            "item": "big_dripleaf"
+                        },
+                        {
+                            "item": "sea_pickle"
+                        }
+                    ],
+                    "icon": "small_dripleaf",
+                    "checked": false
+                },
+                {
+                    "label": "nether blomster",
+                    "items": [
+                        {
+                            "item": "weeping_vines"
+                        },
+                        {
+                            "item": "crimson_fungus"
+                        },
+                        {
+                            "item": "crimson_roots"
+                        },
+                        {
+                            "item": "warped_fungus"
+                        },
+                        {
+                            "item": "warped_roots"
+                        },
+                        {
+                            "item": "twisting_vines"
+                        },
+                        {
+                            "item": "nether_wart"
+                        },
+                        {
+                            "item": "nether_sprouts"
+                        }
+                    ],
+                    "icon": "weeping_vines",
+                    "checked": false
+                },
+                {
+                    "label": "wheat",
+                    "items": [
+                        {
+                            "item": "wheat"
+                        },
+                        {
+                            "item": "wheat_seeds"
+                        },
+                        {
+                            "item": "hay_block"
+                        }
+                    ],
+                    "icon": "wheat",
+                    "checked": false
+                },
+                {
+                    "label": "chorus",
+                    "items": [
+                        {
+                            "item": "popped_chorus_fruit"
+                        },
+                        {
+                            "item": "chorus_fruit"
+                        },
+                        {
+                            "item": "chorus_flower"
+                        }
+                    ],
+                    "icon": "popped_chorus_fruit",
+                    "checked": false
+                },
+                {
+                    "label": "Melon",
+                    "items": [
+                        {
+                            "item": "melon_slice"
+                        },
+                        {
+                            "item": "melon_seeds"
+                        },
+                        {
+                            "item": "melon"
+                        }
+                    ],
+                    "icon": "melon_slice",
+                    "checked": false
+                },
+                {
+                    "label": "pumpkin",
+                    "items": [
+                        {
+                            "item": "pumpkin_seeds"
+                        },
+                        {
+                            "item": "pumpkin"
+                        },
+                        {
+                            "item": "carved_pumpkin"
+                        }
+                    ],
+                    "icon": "pumpkin_seeds",
+                    "checked": false
+                },
+                {
+                    "label": "Pale garden",
+                    "icon": "pale_moss_block",
+                    "items": [
+                        {
+                            "item": "pale_moss_block"
+                        },
+                        {
+                            "item": "pale_moss_carpet"
+                        },
+                        {
+                            "item": "pale_hanging_moss"
+                        },
+                        {
+                            "item": "closed_eyeblossom"
+                        },
+                        {
+                            "item": "open_eyeblossom"
+                        },
+                        {
+                            "item": "creaking_heart"
+                        }
+                    ],
+                    "checked": false
+                },
+                {
+                    "label": "Cocoa beans",
+                    "items": [
+                        {
+                            "item": "cocoa_beans"
+                        }
+                    ],
+                    "icon": "cocoa_beans",
+                    "checked": false
+                }
+            ],
+            "name": "Plants"
+        },
+        {
+            "chests": [
+                {
+                    "label": "Dirt",
+                    "items": [
+                        {
+                            "item": "coarse_dirt"
+                        },
+                        {
+                            "item": "dirt"
+                        },
+                        {
+                            "item": "rooted_dirt"
+                        }
+                    ],
+                    "icon": "coarse_dirt",
+                    "checked": false
+                },
+                {
+                    "label": "Mud",
+                    "items": [
+                        {
+                            "item": "mud"
+                        },
+                        {
+                            "item": "muddy_mangrove_roots"
+                        }
+                    ],
+                    "icon": "mud",
+                    "checked": false
+                },
+                {
+                    "label": "Clay",
+                    "items": [
+                        {
+                            "item": "clay_ball"
+                        },
+                        {
+                            "item": "clay"
+                        },
+                        {
+                            "item": "brick"
+                        }
+                    ],
+                    "icon": "clay_ball",
+                    "checked": false
+                },
+                {
+                    "label": "Gravel",
+                    "items": [
+                        {
+                            "item": "gravel"
+                        },
+                        {
+                            "item": "flint"
+                        },
+                        {
+                            "item": "flint_and_steel"
+                        }
+                    ],
+                    "icon": "gravel",
+                    "checked": false
+                },
+                {
+                    "label": "Sand",
+                    "items": [
+                        {
+                            "item": "sand"
+                        }
+                    ],
+                    "icon": "sand",
+                    "checked": false
+                },
+                {
+                    "label": "Red sand",
+                    "items": [
+                        {
+                            "item": "red_sand"
+                        }
+                    ],
+                    "icon": "red_sand",
+                    "checked": false
+                },
+                {
+                    "label": "Snow ",
+                    "items": [
+                        {
+                            "item": "powder_snow_bucket"
+                        },
+                        {
+                            "item": "snow_block"
+                        },
+                        {
+                            "item": "snow"
+                        },
+                        {
+                            "item": "snowball"
+                        }
+                    ],
+                    "icon": "powder_snow_bucket",
+                    "checked": false
+                },
+                {
+                    "label": "Calcite",
+                    "items": [
+                        {
+                            "item": "calcite"
+                        }
+                    ],
+                    "icon": "calcite",
+                    "checked": false
+                },
+                {
+                    "label": "Tuff",
+                    "items": [
+                        {
+                            "item": "chiseled_tuff"
+                        },
+                        {
+                            "item": "chiseled_tuff_bricks"
+                        },
+                        {
+                            "item": "polished_tuff"
+                        },
+                        {
+                            "item": "polished_tuff_slab"
+                        },
+                        {
+                            "item": "tuff"
+                        },
+                        {
+                            "item": "tuff_wall"
+                        },
+                        {
+                            "item": "tuff_stairs"
+                        },
+                        {
+                            "item": "tuff_slab"
+                        },
+                        {
+                            "item": "tuff_bricks"
+                        },
+                        {
+                            "item": "tuff_brick_wall"
+                        },
+                        {
+                            "item": "tuff_brick_stairs"
+                        },
+                        {
+                            "item": "tuff_brick_slab"
+                        },
+                        {
+                            "item": "polished_tuff_wall"
+                        },
+                        {
+                            "item": "polished_tuff_stairs"
+                        }
+                    ],
+                    "icon": "chiseled_tuff",
+                    "checked": false
+                },
+                {
+                    "label": "dripstone",
+                    "items": [
+                        {
+                            "item": "pointed_dripstone"
+                        },
+                        {
+                            "item": "dripstone_block"
+                        }
+                    ],
+                    "icon": "pointed_dripstone",
+                    "checked": false
+                },
+                {
+                    "label": "basalt",
+                    "items": [
+                        {
+                            "item": "smooth_basalt"
+                        },
+                        {
+                            "item": "polished_basalt"
+                        },
+                        {
+                            "item": "basalt"
+                        }
+                    ],
+                    "icon": "smooth_basalt",
+                    "checked": false
+                },
+                {
+                    "label": "blackstone",
+                    "items": [
+                        {
+                            "item": "polished_blackstone_wall"
+                        },
+                        {
+                            "item": "polished_blackstone_stairs"
+                        },
+                        {
+                            "item": "polished_blackstone_slab"
+                        },
+                        {
+                            "item": "polished_blackstone_pressure_plate"
+                        },
+                        {
+                            "item": "polished_blackstone_button"
+                        },
+                        {
+                            "item": "polished_blackstone_bricks"
+                        },
+                        {
+                            "item": "polished_blackstone_brick_wall"
+                        },
+                        {
+                            "item": "polished_blackstone_brick_stairs"
+                        },
+                        {
+                            "item": "polished_blackstone_brick_slab"
+                        },
+                        {
+                            "item": "polished_blackstone"
+                        },
+                        {
+                            "item": "gilded_blackstone"
+                        },
+                        {
+                            "item": "cracked_polished_blackstone_bricks"
+                        },
+                        {
+                            "item": "chiseled_polished_blackstone"
+                        },
+                        {
+                            "item": "blackstone_wall"
+                        },
+                        {
+                            "item": "blackstone_stairs"
+                        },
+                        {
+                            "item": "blackstone_slab"
+                        },
+                        {
+                            "item": "blackstone"
+                        }
+                    ],
+                    "icon": "polished_blackstone_wall",
+                    "checked": false
+                },
+                {
+                    "label": "Deepslate",
+                    "items": [
+                        {
+                            "item": "chiseled_deepslate"
+                        },
+                        {
+                            "item": "cobbled_deepslate"
+                        },
+                        {
+                            "item": "cobbled_deepslate_slab"
+                        },
+                        {
+                            "item": "cobbled_deepslate_stairs"
+                        },
+                        {
+                            "item": "cobbled_deepslate_wall"
+                        },
+                        {
+                            "item": "cracked_deepslate_bricks"
+                        },
+                        {
+                            "item": "cracked_deepslate_tiles"
+                        },
+                        {
+                            "item": "deepslate_brick_slab"
+                        },
+                        {
+                            "item": "deepslate_brick_stairs"
+                        },
+                        {
+                            "item": "polished_deepslate_wall"
+                        },
+                        {
+                            "item": "polished_deepslate_stairs"
+                        },
+                        {
+                            "item": "polished_deepslate_slab"
+                        },
+                        {
+                            "item": "polished_deepslate"
+                        },
+                        {
+                            "item": "deepslate_tiles"
+                        },
+                        {
+                            "item": "deepslate_tile_wall"
+                        },
+                        {
+                            "item": "deepslate_tile_stairs"
+                        },
+                        {
+                            "item": "deepslate_tile_slab"
+                        },
+                        {
+                            "item": "deepslate_bricks"
+                        },
+                        {
+                            "item": "deepslate_brick_wall"
+                        }
+                    ],
+                    "icon": "chiseled_deepslate",
+                    "checked": false
+                },
+                {
+                    "label": "Purpur",
+                    "items": [
+                        {
+                            "item": "purpur_stairs"
+                        },
+                        {
+                            "item": "purpur_slab"
+                        },
+                        {
+                            "item": "purpur_pillar"
+                        },
+                        {
+                            "item": "purpur_block"
+                        }
+                    ],
+                    "icon": "purpur_stairs",
+                    "checked": false
+                },
+                {
+                    "label": "brick",
+                    "items": [
+                        {
+                            "item": "bricks"
+                        },
+                        {
+                            "item": "brick_wall"
+                        },
+                        {
+                            "item": "brick_stairs"
+                        },
+                        {
+                            "item": "brick_slab"
+                        }
+                    ],
+                    "icon": "bricks",
+                    "checked": false
+                },
+                {
+                    "label": "Mudbricks",
+                    "items": [
+                        {
+                            "item": "packed_mud"
+                        },
+                        {
+                            "item": "mud_bricks"
+                        },
+                        {
+                            "item": "mud_brick_wall"
+                        },
+                        {
+                            "item": "mud_brick_stairs"
+                        },
+                        {
+                            "item": "mud_brick_slab"
+                        }
+                    ],
+                    "icon": "packed_mud",
+                    "checked": false
+                },
+                {
+                    "label": "sandstone",
+                    "items": [
+                        {
+                            "item": "chiseled_sandstone"
+                        },
+                        {
+                            "item": "cut_sandstone_slab"
+                        },
+                        {
+                            "item": "cut_sandstone"
+                        },
+                        {
+                            "item": "sandstone"
+                        },
+                        {
+                            "item": "sandstone_slab"
+                        },
+                        {
+                            "item": "sandstone_stairs"
+                        },
+                        {
+                            "item": "sandstone_wall"
+                        },
+                        {
+                            "item": "smooth_sandstone"
+                        },
+                        {
+                            "item": "smooth_sandstone_slab"
+                        },
+                        {
+                            "item": "smooth_sandstone_stairs"
+                        }
+                    ],
+                    "icon": "chiseled_sandstone",
+                    "checked": false
+                },
+                {
+                    "label": "red sandstone",
+                    "items": [
+                        {
+                            "item": "smooth_red_sandstone_stairs"
+                        },
+                        {
+                            "item": "smooth_red_sandstone_slab"
+                        },
+                        {
+                            "item": "smooth_red_sandstone"
+                        },
+                        {
+                            "item": "red_sandstone_wall"
+                        },
+                        {
+                            "item": "red_sandstone_stairs"
+                        },
+                        {
+                            "item": "red_sandstone_slab"
+                        },
+                        {
+                            "item": "red_sandstone"
+                        },
+                        {
+                            "item": "cut_red_sandstone_slab"
+                        },
+                        {
+                            "item": "cut_red_sandstone"
+                        },
+                        {
+                            "item": "chiseled_red_sandstone"
+                        }
+                    ],
+                    "icon": "smooth_red_sandstone_stairs",
+                    "checked": false
+                },
+                {
+                    "label": "prismarine",
+                    "items": [
+                        {
+                            "item": "prismarine_wall"
+                        },
+                        {
+                            "item": "prismarine_stairs"
+                        },
+                        {
+                            "item": "prismarine_slab"
+                        },
+                        {
+                            "item": "prismarine_crystals"
+                        },
+                        {
+                            "item": "prismarine_shard"
+                        },
+                        {
+                            "item": "prismarine_bricks"
+                        },
+                        {
+                            "item": "prismarine_brick_stairs"
+                        },
+                        {
+                            "item": "prismarine_brick_slab"
+                        },
+                        {
+                            "item": "prismarine"
+                        },
+                        {
+                            "item": "dark_prismarine_stairs"
+                        },
+                        {
+                            "item": "dark_prismarine_slab"
+                        },
+                        {
+                            "item": "dark_prismarine"
+                        }
+                    ],
+                    "icon": "prismarine_wall",
+                    "checked": false
+                },
+                {
+                    "label": "End stone",
+                    "items": [
+                        {
+                            "item": "end_stone_bricks"
+                        },
+                        {
+                            "item": "end_stone_brick_wall"
+                        },
+                        {
+                            "item": "end_stone_brick_stairs"
+                        },
+                        {
+                            "item": "end_stone_brick_slab"
+                        },
+                        {
+                            "item": "end_stone"
+                        }
+                    ],
+                    "icon": "end_stone_bricks",
+                    "checked": false
+                },
+                {
+                    "label": "stone",
+                    "items": [
+                        {
+                            "item": "stone_pressure_plate"
+                        },
+                        {
+                            "item": "stone_slab"
+                        },
+                        {
+                            "item": "stone_stairs"
+                        },
+                        {
+                            "item": "stone_button"
+                        },
+                        {
+                            "item": "stone"
+                        },
+                        {
+                            "item": "granite"
+                        },
+                        {
+                            "item": "diorite"
+                        },
+                        {
+                            "item": "andesite"
+                        },
+                        {
+                            "item": "cobblestone"
+                        },
+                        {
+                            "item": "deepslate"
+                        }
+                    ],
+                    "icon": "stone_pressure_plate",
+                    "checked": false
+                },
+                {
+                    "label": "cobblestone",
+                    "items": [
+                        {
+                            "item": "cobblestone_slab"
+                        },
+                        {
+                            "item": "cobblestone_stairs"
+                        },
+                        {
+                            "item": "cobblestone_wall"
+                        }
+                    ],
+                    "icon": "cobblestone_slab",
+                    "checked": false
+                },
+                {
+                    "label": "Mossy",
+                    "items": [
+                        {
+                            "item": "mossy_cobblestone"
+                        },
+                        {
+                            "item": "mossy_cobblestone_slab"
+                        },
+                        {
+                            "item": "mossy_stone_bricks"
+                        },
+                        {
+                            "item": "mossy_stone_brick_wall"
+                        },
+                        {
+                            "item": "mossy_stone_brick_stairs"
+                        },
+                        {
+                            "item": "mossy_stone_brick_slab"
+                        },
+                        {
+                            "item": "mossy_cobblestone_wall"
+                        },
+                        {
+                            "item": "mossy_cobblestone_stairs"
+                        }
+                    ],
+                    "icon": "mossy_cobblestone",
+                    "checked": false
+                },
+                {
+                    "label": "smooth stone",
+                    "items": [
+                        {
+                            "item": "smooth_stone_slab"
+                        },
+                        {
+                            "item": "smooth_stone"
+                        }
+                    ],
+                    "icon": "smooth_stone_slab",
+                    "checked": false
+                },
+                {
+                    "label": "stone bricks",
+                    "items": [
+                        {
+                            "item": "stone_brick_stairs"
+                        },
+                        {
+                            "item": "stone_bricks"
+                        },
+                        {
+                            "item": "stone_brick_wall"
+                        },
+                        {
+                            "item": "stone_brick_slab"
+                        },
+                        {
+                            "item": "chiseled_stone_bricks"
+                        },
+                        {
+                            "item": "cracked_stone_bricks"
+                        }
+                    ],
+                    "icon": "stone_brick_stairs",
+                    "checked": false
+                },
+                {
+                    "label": "granite",
+                    "items": [
+                        {
+                            "item": "polished_granite_stairs"
+                        },
+                        {
+                            "item": "polished_granite_slab"
+                        },
+                        {
+                            "item": "polished_granite"
+                        },
+                        {
+                            "item": "granite_wall"
+                        },
+                        {
+                            "item": "granite_stairs"
+                        },
+                        {
+                            "item": "granite_slab"
+                        }
+                    ],
+                    "icon": "polished_granite_stairs",
+                    "checked": false
+                },
+                {
+                    "label": "diorite",
+                    "items": [
+                        {
+                            "item": "polished_diorite_stairs"
+                        },
+                        {
+                            "item": "polished_diorite_slab"
+                        },
+                        {
+                            "item": "polished_diorite"
+                        },
+                        {
+                            "item": "diorite_wall"
+                        },
+                        {
+                            "item": "diorite_stairs"
+                        },
+                        {
+                            "item": "diorite_slab"
+                        }
+                    ],
+                    "icon": "polished_diorite_stairs",
+                    "checked": false
+                },
+                {
+                    "label": "andesite",
+                    "items": [
+                        {
+                            "item": "polished_andesite_stairs"
+                        },
+                        {
+                            "item": "polished_andesite_slab"
+                        },
+                        {
+                            "item": "polished_andesite"
+                        },
+                        {
+                            "item": "andesite_wall"
+                        },
+                        {
+                            "item": "andesite_stairs"
+                        },
+                        {
+                            "item": "andesite_slab"
+                        }
+                    ],
+                    "icon": "polished_andesite_stairs",
+                    "checked": false
+                },
+                {
+                    "label": "netherbricks",
+                    "items": [
+                        {
+                            "item": "chiseled_nether_bricks"
+                        },
+                        {
+                            "item": "cracked_nether_bricks"
+                        },
+                        {
+                            "item": "nether_brick"
+                        },
+                        {
+                            "item": "nether_brick_fence"
+                        },
+                        {
+                            "item": "nether_brick_slab"
+                        },
+                        {
+                            "item": "nether_brick_stairs"
+                        },
+                        {
+                            "item": "nether_brick_wall"
+                        },
+                        {
+                            "item": "nether_bricks"
+                        },
+                        {
+                            "item": "red_nether_bricks"
+                        },
+                        {
+                            "item": "red_nether_brick_wall"
+                        },
+                        {
+                            "item": "red_nether_brick_stairs"
+                        },
+                        {
+                            "item": "red_nether_brick_slab"
+                        },
+                        {
+                            "item": "nether_wart_block"
+                        }
+                    ],
+                    "icon": "chiseled_nether_bricks",
+                    "checked": false
+                },
+                {
+                    "label": "Resin",
+                    "icon": "resin_bricks",
+                    "items": [
+                        {
+                            "item": "resin_bricks"
+                        },
+                        {
+                            "item": "resin_brick_stairs"
+                        },
+                        {
+                            "item": "resin_brick_slab"
+                        },
+                        {
+                            "item": "resin_brick_wall"
+                        },
+                        {
+                            "item": "chiseled_resin_bricks"
+                        },
+                        {
+                            "item": "resin_clump"
+                        },
+                        {
+                            "item": "resin_brick"
+                        },
+                        {
+                            "item": "resin_block"
+                        }
+                    ],
+                    "checked": false
+                },
+                {
+                    "label": "Nether",
+                    "items": [
+                        {
+                            "item": "netherrack"
+                        },
+                        {
+                            "item": "magma_block"
+                        },
+                        {
+                            "item": "soul_sand"
+                        },
+                        {
+                            "item": "soul_soil"
+                        },
+                        {
+                            "item": "warped_nylium"
+                        },
+                        {
+                            "item": "crimson_nylium"
+                        }
+                    ],
+                    "icon": "netherrack",
+                    "checked": false
+                },
+                {
+                    "label": "Sponge",
+                    "items": [
+                        {
+                            "item": "sponge"
+                        },
+                        {
+                            "item": "wet_sponge"
+                        }
+                    ],
+                    "icon": "sponge",
+                    "checked": false
+                },
+                {
+                    "label": "copper ekstra 1",
+                    "items": [
+                        {
+                            "item": "oxidized_copper_grate"
+                        },
+                        {
+                            "item": "oxidized_copper_trapdoor"
+                        },
+                        {
+                            "item": "oxidized_cut_copper"
+                        },
+                        {
+                            "item": "oxidized_cut_copper_slab"
+                        },
+                        {
+                            "item": "oxidized_cut_copper_stairs"
+                        },
+                        {
+                            "item": "waxed_chiseled_copper"
+                        },
+                        {
+                            "item": "waxed_copper_block"
+                        },
+                        {
+                            "item": "waxed_copper_bulb"
+                        },
+                        {
+                            "item": "waxed_copper_door"
+                        },
+                        {
+                            "item": "waxed_copper_grate"
+                        },
+                        {
+                            "item": "waxed_copper_trapdoor"
+                        },
+                        {
+                            "item": "waxed_cut_copper"
+                        },
+                        {
+                            "item": "waxed_cut_copper_slab"
+                        },
+                        {
+                            "item": "waxed_cut_copper_stairs"
+                        },
+                        {
+                            "item": "waxed_exposed_chiseled_copper"
+                        },
+                        {
+                            "item": "waxed_exposed_copper"
+                        },
+                        {
+                            "item": "waxed_exposed_copper_bulb"
+                        },
+                        {
+                            "item": "waxed_exposed_copper_door"
+                        },
+                        {
+                            "item": "waxed_exposed_copper_grate"
+                        },
+                        {
+                            "item": "waxed_exposed_cut_copper"
+                        },
+                        {
+                            "item": "waxed_exposed_copper_trapdoor"
+                        },
+                        {
+                            "item": "waxed_exposed_cut_copper_slab"
+                        },
+                        {
+                            "item": "waxed_exposed_cut_copper_stairs"
+                        },
+                        {
+                            "item": "waxed_oxidized_chiseled_copper"
+                        },
+                        {
+                            "item": "waxed_oxidized_copper"
+                        },
+                        {
+                            "item": "waxed_oxidized_copper_bulb"
+                        },
+                        {
+                            "item": "waxed_weathered_copper_door"
+                        },
+                        {
+                            "item": "weathered_chiseled_copper"
+                        },
+                        {
+                            "item": "waxed_weathered_cut_copper_slab"
+                        }
+                    ],
+                    "icon": "oxidized_copper_grate",
+                    "checked": false
+                },
+                {
+                    "label": "copper ekstra 2",
+                    "items": [
+                        {
+                            "item": "waxed_oxidized_copper_grate"
+                        },
+                        {
+                            "item": "waxed_oxidized_copper_trapdoor"
+                        },
+                        {
+                            "item": "waxed_oxidized_cut_copper"
+                        },
+                        {
+                            "item": "waxed_oxidized_cut_copper_slab"
+                        },
+                        {
+                            "item": "waxed_oxidized_cut_copper_stairs"
+                        },
+                        {
+                            "item": "waxed_weathered_chiseled_copper"
+                        },
+                        {
+                            "item": "waxed_weathered_copper"
+                        },
+                        {
+                            "item": "waxed_oxidized_copper_door"
+                        },
+                        {
+                            "item": "chiseled_copper"
+                        },
+                        {
+                            "item": "copper_door"
+                        },
+                        {
+                            "item": "copper_grate"
+                        },
+                        {
+                            "item": "copper_trapdoor"
+                        },
+                        {
+                            "item": "cut_copper"
+                        },
+                        {
+                            "item": "cut_copper_slab"
+                        },
+                        {
+                            "item": "cut_copper_stairs"
+                        },
+                        {
+                            "item": "exposed_chiseled_copper"
+                        },
+                        {
+                            "item": "exposed_copper"
+                        },
+                        {
+                            "item": "exposed_copper_bulb"
+                        },
+                        {
+                            "item": "exposed_copper_door"
+                        },
+                        {
+                            "item": "exposed_copper_grate"
+                        },
+                        {
+                            "item": "exposed_copper_trapdoor"
+                        },
+                        {
+                            "item": "exposed_cut_copper"
+                        },
+                        {
+                            "item": "exposed_cut_copper_slab"
+                        },
+                        {
+                            "item": "exposed_cut_copper_stairs"
+                        },
+                        {
+                            "item": "oxidized_chiseled_copper"
+                        },
+                        {
+                            "item": "oxidized_copper"
+                        },
+                        {
+                            "item": "oxidized_copper_bulb"
+                        },
+                        {
+                            "item": "oxidized_copper_door"
+                        }
+                    ],
+                    "icon": "oxidized_copper_grate",
+                    "checked": false
+                },
+                {
+                    "label": "copper ekstra 3",
+                    "items": [
+                        {
+                            "item": "weathered_cut_copper_stairs"
+                        },
+                        {
+                            "item": "weathered_cut_copper_slab"
+                        },
+                        {
+                            "item": "weathered_cut_copper"
+                        },
+                        {
+                            "item": "weathered_copper_trapdoor"
+                        },
+                        {
+                            "item": "weathered_copper_grate"
+                        },
+                        {
+                            "item": "weathered_copper_door"
+                        },
+                        {
+                            "item": "weathered_copper_bulb"
+                        },
+                        {
+                            "item": "waxed_weathered_cut_copper_stairs"
+                        },
+                        {
+                            "item": "weathered_copper"
+                        },
+                        {
+                            "item": "waxed_weathered_cut_copper"
+                        },
+                        {
+                            "item": "waxed_weathered_copper_trapdoor"
+                        },
+                        {
+                            "item": "waxed_weathered_copper_grate"
+                        },
+                        {
+                            "item": "waxed_weathered_copper_bulb"
+                        }
+                    ],
+                    "icon": "weathered_cut_copper_stairs",
+                    "checked": false
+                },
+                {
+                    "label": "Ice",
+                    "items": [
+                        {
+                            "item": "blue_ice"
+                        },
+                        {
+                            "item": "ice"
+                        },
+                        {
+                            "item": "packed_ice"
+                        }
+                    ],
+                    "icon": "blue_ice",
+                    "checked": false
+                }
+            ],
+            "name": "Building Blocks"
+        },
+        {
+            "chests": [
+                {
+                    "label": "helmet",
+                    "items": [
+                        {
+                            "item": "turtle_helmet"
+                        },
+                        {
+                            "item": "netherite_helmet"
+                        },
+                        {
+                            "item": "leather_helmet"
+                        },
+                        {
+                            "item": "iron_helmet"
+                        },
+                        {
+                            "item": "golden_helmet"
+                        },
+                        {
+                            "item": "diamond_helmet"
+                        },
+                        {
+                            "item": "chainmail_helmet"
+                        }
+                    ],
+                    "icon": "turtle_helmet",
+                    "checked": false
+                },
+                {
+                    "label": "Chestplate",
+                    "items": [
+                        {
+                            "item": "iron_chestplate"
+                        },
+                        {
+                            "item": "netherite_chestplate"
+                        },
+                        {
+                            "item": "leather_chestplate"
+                        },
+                        {
+                            "item": "golden_chestplate"
+                        },
+                        {
+                            "item": "diamond_chestplate"
+                        },
+                        {
+                            "item": "chainmail_chestplate"
+                        }
+                    ],
+                    "icon": "iron_chestplate",
+                    "checked": false
+                },
+                {
+                    "label": "Leggings",
+                    "items": [
+                        {
+                            "item": "netherite_leggings"
+                        },
+                        {
+                            "item": "leather_leggings"
+                        },
+                        {
+                            "item": "iron_leggings"
+                        },
+                        {
+                            "item": "golden_leggings"
+                        },
+                        {
+                            "item": "diamond_leggings"
+                        },
+                        {
+                            "item": "chainmail_leggings"
+                        }
+                    ],
+                    "icon": "netherite_leggings",
+                    "checked": false
+                },
+                {
+                    "label": "Boots",
+                    "items": [
+                        {
+                            "item": "netherite_boots"
+                        },
+                        {
+                            "item": "leather_boots"
+                        },
+                        {
+                            "item": "iron_boots"
+                        },
+                        {
+                            "item": "golden_boots"
+                        },
+                        {
+                            "item": "diamond_boots"
+                        },
+                        {
+                            "item": "chainmail_boots"
+                        }
+                    ],
+                    "icon": "netherite_boots",
+                    "checked": false
+                },
+                {
+                    "label": "Pickaxe",
+                    "items": [
+                        {
+                            "item": "wooden_pickaxe"
+                        },
+                        {
+                            "item": "stone_pickaxe"
+                        },
+                        {
+                            "item": "netherite_pickaxe"
+                        },
+                        {
+                            "item": "iron_pickaxe"
+                        },
+                        {
+                            "item": "golden_pickaxe"
+                        },
+                        {
+                            "item": "diamond_pickaxe"
+                        }
+                    ],
+                    "icon": "wooden_pickaxe",
+                    "checked": false
+                },
+                {
+                    "label": "Axe",
+                    "items": [
+                        {
+                            "item": "diamond_axe"
+                        },
+                        {
+                            "item": "wooden_axe"
+                        },
+                        {
+                            "item": "stone_axe"
+                        },
+                        {
+                            "item": "netherite_axe"
+                        },
+                        {
+                            "item": "golden_axe"
+                        },
+                        {
+                            "item": "iron_axe"
+                        }
+                    ],
+                    "icon": "diamond_axe",
+                    "checked": false
+                },
+                {
+                    "label": "Shovel",
+                    "items": [
+                        {
+                            "item": "diamond_shovel"
+                        },
+                        {
+                            "item": "wooden_shovel"
+                        },
+                        {
+                            "item": "stone_shovel"
+                        },
+                        {
+                            "item": "netherite_shovel"
+                        },
+                        {
+                            "item": "golden_shovel"
+                        },
+                        {
+                            "item": "iron_shovel"
+                        }
+                    ],
+                    "icon": "diamond_shovel",
+                    "checked": false
+                },
+                {
+                    "label": "Hoes",
+                    "icon": "stone_hoe",
+                    "items": [
+                        {
+                            "item": "stone_hoe"
+                        },
+                        {
+                            "item": "wooden_hoe"
+                        },
+                        {
+                            "item": "netherite_hoe"
+                        },
+                        {
+                            "item": "iron_hoe"
+                        },
+                        {
+                            "item": "golden_hoe"
+                        },
+                        {
+                            "item": "diamond_hoe"
+                        }
+                    ],
+                    "checked": false
+                },
+                {
+                    "label": "swords",
+                    "items": [
+                        {
+                            "item": "iron_sword"
+                        },
+                        {
+                            "item": "golden_sword"
+                        },
+                        {
+                            "item": "diamond_sword"
+                        },
+                        {
+                            "item": "netherite_sword"
+                        },
+                        {
+                            "item": "stone_sword"
+                        },
+                        {
+                            "item": "wooden_sword"
+                        }
+                    ],
+                    "icon": "iron_sword",
+                    "checked": false
+                },
+                {
+                    "label": "bows",
+                    "items": [
+                        {
+                            "item": "crossbow"
+                        },
+                        {
+                            "item": "bow"
+                        }
+                    ],
+                    "icon": "crossbow",
+                    "checked": false
+                },
+                {
+                    "label": "Misc gear",
+                    "items": [
+                        {
+                            "item": "shears"
+                        },
+                        {
+                            "item": "shield"
+                        },
+                        {
+                            "item": "spyglass"
+                        },
+                        {
+                            "item": "totem_of_undying"
+                        },
+                        {
+                            "item": "warped_fungus_on_a_stick"
+                        },
+                        {
+                            "item": "water_bucket"
+                        },
+                        {
+                            "item": "name_tag"
+                        },
+                        {
+                            "item": "mace"
+                        },
+                        {
+                            "item": "fishing_rod"
+                        },
+                        {
+                            "item": "firework_rocket"
+                        },
+                        {
+                            "item": "firework_star"
+                        },
+                        {
+                            "item": "elytra"
+                        },
+                        {
+                            "item": "carrot_on_a_stick"
+                        },
+                        {
+                            "item": "broken_elytra"
+                        },
+                        {
+                            "item": "clock"
+                        },
+                        {
+                            "item": "compass"
+                        },
+                        {
+                            "item": "brush"
+                        },
+                        {
+                            "item": "bucket"
+                        },
+                        {
+                            "item": "recovery_compass"
+                        },
+                        {
+                            "item": "lava_bucket"
+                        },
+                        {
+                            "item": "writable_book"
+                        },
+                        {
+                            "item": "written_book"
+                        },
+                        {
+                            "item": "filled_map"
+                        },
+                        {
+                            "item": "map"
+                        },
+                        {
+                            "item": "painting"
+                        },
+                        {
+                            "item": "trident"
+                        }
+                    ],
+                    "icon": "shears",
+                    "checked": false
+                },
+                {
+                    "label": "Potions",
+                    "items": [
+                        {
+                            "item": "lingering_potion"
+                        },
+                        {
+                            "item": "splash_potion"
+                        },
+                        {
+                            "item": "potion"
+                        },
+                        {
+                            "item": "ominous_bottle"
+                        },
+                        {
+                            "item": "glass_bottle"
+                        },
+                        {
+                            "item": "experience_bottle"
+                        }
+                    ],
+                    "icon": "lingering_potion",
+                    "checked": false
+                },
+                {
+                    "label": "Functional chest",
+                    "items": [
+                        {
+                            "item": "brewing_stand"
+                        },
+                        {
+                            "item": "smoker"
+                        },
+                        {
+                            "item": "blast_furnace"
+                        },
+                        {
+                            "item": "furnace"
+                        },
+                        {
+                            "item": "crafting_table"
+                        },
+                        {
+                            "item": "scaffolding"
+                        },
+                        {
+                            "item": "stonecutter"
+                        },
+                        {
+                            "item": "cauldron"
+                        },
+                        {
+                            "item": "bell"
+                        },
+                        {
+                            "item": "composter"
+                        },
+                        {
+                            "item": "loom"
+                        },
+                        {
+                            "item": "lectern"
+                        },
+                        {
+                            "item": "conduit"
+                        },
+                        {
+                            "item": "ladder"
+                        },
+                        {
+                            "item": "armor_stand"
+                        },
+                        {
+                            "item": "enchanting_table"
+                        },
+                        {
+                            "item": "grindstone"
+                        },
+                        {
+                            "item": "soul_campfire"
+                        },
+                        {
+                            "item": "campfire"
+                        },
+                        {
+                            "item": "beacon"
+                        },
+                        {
+                            "item": "anvil"
+                        },
+                        {
+                            "item": "chipped_anvil"
+                        },
+                        {
+                            "item": "damaged_anvil"
+                        },
+                        {
+                            "item": "end_crystal"
+                        },
+                        {
+                            "item": "smithing_table"
+                        },
+                        {
+                            "item": "lodestone"
+                        },
+                        {
+                            "item": "bookshelf"
+                        },
+                        {
+                            "item": "chiseled_bookshelf"
+                        },
+                        {
+                            "item": "cartography_table"
+                        },
+                        {
+                            "item": "respawn_anchor"
+                        },
+                        {
+                            "item": "fletching_table"
+                        },
+                        {
+                            "item": "spawner"
+                        }
+                    ],
+                    "icon": "brewing_stand",
+                    "checked": false
+                },
+                {
+                    "label": "Storage chest",
+                    "items": [
+                        {
+                            "item": "barrel"
+                        },
+                        {
+                            "item": "chest"
+                        },
+                        {
+                            "item": "ender_chest"
+                        },
+                        {
+                            "item": "yellow_shulker_box"
+                        },
+                        {
+                            "item": "white_shulker_box"
+                        },
+                        {
+                            "item": "shulker_shell"
+                        },
+                        {
+                            "item": "red_shulker_box"
+                        },
+                        {
+                            "item": "shulker_box"
+                        },
+                        {
+                            "item": "pink_shulker_box"
+                        },
+                        {
+                            "item": "purple_shulker_box"
+                        },
+                        {
+                            "item": "orange_shulker_box"
+                        },
+                        {
+                            "item": "magenta_shulker_box"
+                        },
+                        {
+                            "item": "lime_shulker_box"
+                        },
+                        {
+                            "item": "light_gray_shulker_box"
+                        },
+                        {
+                            "item": "light_blue_shulker_box"
+                        },
+                        {
+                            "item": "green_shulker_box"
+                        },
+                        {
+                            "item": "gray_shulker_box"
+                        },
+                        {
+                            "item": "cyan_shulker_box"
+                        },
+                        {
+                            "item": "brown_shulker_box"
+                        },
+                        {
+                            "item": "blue_shulker_box"
+                        },
+                        {
+                            "item": "black_shulker_box"
+                        },
+                        {
+                            "item": "trapped_chest"
+                        }
+                    ],
+                    "icon": "barrel",
+                    "checked": false
+                },
+                {
+                    "label": "Redstone item kiste",
+                    "items": [
+                        {
+                            "item": "comparator"
+                        },
+                        {
+                            "item": "repeater"
+                        },
+                        {
+                            "item": "target"
+                        },
+                        {
+                            "item": "redstone_torch"
+                        },
+                        {
+                            "item": "redstone_lamp"
+                        },
+                        {
+                            "item": "lever"
+                        },
+                        {
+                            "item": "sculk_sensor"
+                        },
+                        {
+                            "item": "calibrated_sculk_sensor"
+                        },
+                        {
+                            "item": "sculk_shrieker"
+                        },
+                        {
+                            "item": "tripwire_hook"
+                        },
+                        {
+                            "item": "daylight_detector"
+                        },
+                        {
+                            "item": "lightning_rod"
+                        },
+                        {
+                            "item": "piston"
+                        },
+                        {
+                            "item": "sticky_piston"
+                        },
+                        {
+                            "item": "dispenser"
+                        },
+                        {
+                            "item": "dropper"
+                        },
+                        {
+                            "item": "hopper"
+                        },
+                        {
+                            "item": "hopper_minecart"
+                        },
+                        {
+                            "item": "jukebox"
+                        },
+                        {
+                            "item": "note_block"
+                        },
+                        {
+                            "item": "observer"
+                        },
+                        {
+                            "item": "activator_rail"
+                        },
+                        {
+                            "item": "detector_rail"
+                        },
+                        {
+                            "item": "powered_rail"
+                        },
+                        {
+                            "item": "rail"
+                        },
+                        {
+                            "item": "chest_minecart"
+                        },
+                        {
+                            "item": "furnace_minecart"
+                        },
+                        {
+                            "item": "minecart"
+                        },
+                        {
+                            "item": "tnt_minecart"
+                        },
+                        {
+                            "item": "crafter"
+                        },
+                        {
+                            "item": "tnt"
+                        }
+                    ],
+                    "icon": "comparator",
+                    "checked": false
+                },
+                {
+                    "label": "Light chest",
+                    "items": [
+                        {
+                            "item": "soul_torch"
+                        },
+                        {
+                            "item": "torch"
+                        },
+                        {
+                            "item": "lantern"
+                        },
+                        {
+                            "item": "soul_lantern"
+                        },
+                        {
+                            "item": "sea_lantern"
+                        },
+                        {
+                            "item": "jack_o_lantern"
+                        },
+                        {
+                            "item": "glowstone"
+                        },
+                        {
+                            "item": "glowstone_dust"
+                        },
+                        {
+                            "item": "shroomlight"
+                        },
+                        {
+                            "item": "ochre_froglight"
+                        },
+                        {
+                            "item": "pearlescent_froglight"
+                        },
+                        {
+                            "item": "verdant_froglight"
+                        },
+                        {
+                            "item": "end_rod"
+                        },
+                        {
+                            "item": "copper_bulb"
+                        }
+                    ],
+                    "icon": "soul_torch",
+                    "checked": false
+                },
+                {
+                    "label": "Smithing templates",
+                    "items": [
+                        {
+                            "item": "bolt_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "wild_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "wayfinder_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "spire_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "silence_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "vex_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "ward_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "tide_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "snout_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "shaper_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "sentry_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "rib_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "raiser_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "host_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "flow_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "eye_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "dune_armor_trim_smithing_template"
+                        },
+                        {
+                            "item": "coast_armor_trim_smithing_template"
+                        }
+                    ],
+                    "icon": "bolt_armor_trim_smithing_template",
+                    "checked": false
+                },
+                {
+                    "label": "Crafted mad",
+                    "items": [
+                        {
+                            "item": "golden_apple"
+                        },
+                        {
+                            "item": "enchanted_golden_apple"
+                        },
+                        {
+                            "item": "apple"
+                        },
+                        {
+                            "item": "bread"
+                        },
+                        {
+                            "item": "pumpkin_pie"
+                        },
+                        {
+                            "item": "baked_potato"
+                        },
+                        {
+                            "item": "cooked_beef"
+                        },
+                        {
+                            "item": "cooked_chicken"
+                        },
+                        {
+                            "item": "cooked_cod"
+                        },
+                        {
+                            "item": "cooked_mutton"
+                        },
+                        {
+                            "item": "cooked_porkchop"
+                        },
+                        {
+                            "item": "cooked_rabbit"
+                        },
+                        {
+                            "item": "cooked_salmon"
+                        },
+                        {
+                            "item": "cake"
+                        },
+                        {
+                            "item": "cookie"
+                        },
+                        {
+                            "item": "golden_carrot"
+                        },
+                        {
+                            "item": "rabbit_stew"
+                        },
+                        {
+                            "item": "glistering_melon_slice"
+                        },
+                        {
+                            "item": "beetroot_soup"
+                        },
+                        {
+                            "item": "bowl"
+                        },
+                        {
+                            "item": "suspicious_stew"
+                        },
+                        {
+                            "item": "stick"
+                        }
+                    ],
+                    "icon": "golden_apple",
+                    "checked": false
+                },
+                {
+                    "label": "Pottery sherds",
+                    "icon": "angler_pottery_sherd",
+                    "items": [
+                        {
+                            "item": "angler_pottery_sherd"
+                        },
+                        {
+                            "item": "archer_pottery_sherd"
+                        },
+                        {
+                            "item": "arms_up_pottery_sherd"
+                        },
+                        {
+                            "item": "blade_pottery_sherd"
+                        },
+                        {
+                            "item": "brewer_pottery_sherd"
+                        },
+                        {
+                            "item": "burn_pottery_sherd"
+                        },
+                        {
+                            "item": "danger_pottery_sherd"
+                        },
+                        {
+                            "item": "explorer_pottery_sherd"
+                        },
+                        {
+                            "item": "friend_pottery_sherd"
+                        },
+                        {
+                            "item": "heart_pottery_sherd"
+                        },
+                        {
+                            "item": "heartbreak_pottery_sherd"
+                        },
+                        {
+                            "item": "howl_pottery_sherd"
+                        },
+                        {
+                            "item": "miner_pottery_sherd"
+                        },
+                        {
+                            "item": "mourner_pottery_sherd"
+                        },
+                        {
+                            "item": "plenty_pottery_sherd"
+                        },
+                        {
+                            "item": "prize_pottery_sherd"
+                        },
+                        {
+                            "item": "sheaf_pottery_sherd"
+                        },
+                        {
+                            "item": "shelter_pottery_sherd"
+                        },
+                        {
+                            "item": "skull_pottery_sherd"
+                        },
+                        {
+                            "item": "snort_pottery_sherd"
+                        },
+                        {
+                            "item": "flow_pottery_sherd"
+                        },
+                        {
+                            "item": "guster_pottery_sherd"
+                        },
+                        {
+                            "item": "scrape_pottery_sherd"
+                        },
+                        {
+                            "item": "flower_pot"
+                        },
+                        {
+                            "item": "decorated_pot"
+                        }
+                    ],
+                    "checked": false
+                },
+                {
+                    "label": "Banner patterns",
+                    "icon": "bordure_indented_banner_pattern",
+                    "items": [
+                        {
+                            "item": "bordure_indented_banner_pattern"
+                        },
+                        {
+                            "item": "field_masoned_banner_pattern"
+                        },
+                        {
+                            "item": "guster_banner_pattern"
+                        },
+                        {
+                            "item": "globe_banner_pattern"
+                        },
+                        {
+                            "item": "flower_banner_pattern"
+                        },
+                        {
+                            "item": "flow_banner_pattern"
+                        },
+                        {
+                            "item": "mojang_banner_pattern"
+                        },
+                        {
+                            "item": "piglin_banner_pattern"
+                        },
+                        {
+                            "item": "skull_banner_pattern"
+                        },
+                        {
+                            "item": "creeper_banner_pattern"
+                        }
+                    ],
+                    "checked": false
+                },
+                {
+                    "label": "boats",
+                    "items": [
+                        {
+                            "item": "dark_oak_chest_boat"
+                        },
+                        {
+                            "item": "dark_oak_boat"
+                        },
+                        {
+                            "item": "cherry_chest_boat"
+                        },
+                        {
+                            "item": "mangrove_chest_boat"
+                        },
+                        {
+                            "item": "mangrove_boat"
+                        },
+                        {
+                            "item": "oak_chest_boat"
+                        },
+                        {
+                            "item": "oak_boat"
+                        },
+                        {
+                            "item": "spruce_chest_boat"
+                        },
+                        {
+                            "item": "spruce_boat"
+                        },
+                        {
+                            "item": "jungle_chest_boat"
+                        },
+                        {
+                            "item": "jungle_boat"
+                        },
+                        {
+                            "item": "cherry_boat"
+                        },
+                        {
+                            "item": "birch_boat"
+                        },
+                        {
+                            "item": "bamboo_raft"
+                        },
+                        {
+                            "item": "bamboo_chest_raft"
+                        },
+                        {
+                            "item": "acacia_chest_boat"
+                        },
+                        {
+                            "item": "acacia_boat"
+                        },
+                        {
+                            "item": "Pale_oak_chest_boat"
+                        },
+                        {
+                            "item": "pale_oak_boat"
+                        },
+                        {
+                            "item": "birch_chest_boat"
+                        }
+                    ],
+                    "icon": "dark_oak_chest_boat",
+                    "checked": false
+                },
+                {
+                    "label": "Bundles",
+                    "icon": "bundle",
+                    "items": [
+                        {
+                            "item": "bundle"
+                        },
+                        {
+                            "item": "white_bundle"
+                        },
+                        {
+                            "item": "light_gray_bundle"
+                        },
+                        {
+                            "item": "gray_bundle"
+                        },
+                        {
+                            "item": "black_bundle"
+                        },
+                        {
+                            "item": "brown_bundle"
+                        },
+                        {
+                            "item": "red_bundle"
+                        },
+                        {
+                            "item": "orange_bundle"
+                        },
+                        {
+                            "item": "yellow_bundle"
+                        },
+                        {
+                            "item": "lime_bundle"
+                        },
+                        {
+                            "item": "green_bundle"
+                        },
+                        {
+                            "item": "cyan_bundle"
+                        },
+                        {
+                            "item": "light_blue_bundle"
+                        },
+                        {
+                            "item": "blue_bundle"
+                        },
+                        {
+                            "item": "purple_bundle"
+                        },
+                        {
+                            "item": "magenta_bundle"
+                        },
+                        {
+                            "item": "pink_bundle"
+                        }
+                    ],
+                    "checked": false
+                },
+                {
+                    "label": "Harnesses",
+                    "icon": "white_harness",
+                    "items": [
+                        {
+                            "item": "white_harness"
+                        },
+                        {
+                            "item": "light_gray_harness"
+                        },
+                        {
+                            "item": "gray_harness"
+                        },
+                        {
+                            "item": "black_harness"
+                        },
+                        {
+                            "item": "brown_harness"
+                        },
+                        {
+                            "item": "red_harness"
+                        },
+                        {
+                            "item": "orange_harness"
+                        },
+                        {
+                            "item": "yellow_harness"
+                        },
+                        {
+                            "item": "lime_harness"
+                        },
+                        {
+                            "item": "green_harness"
+                        },
+                        {
+                            "item": "cyan_harness"
+                        },
+                        {
+                            "item": "light_blue_harness"
+                        },
+                        {
+                            "item": "blue_harness"
+                        },
+                        {
+                            "item": "purple_harness"
+                        },
+                        {
+                            "item": "magenta_harness"
+                        },
+                        {
+                            "item": "pink_harness"
+                        }
+                    ],
+                    "checked": false
+                },
+                {
+                    "label": "Music discs",
+                    "items": [
+                        {
+                            "item": "music_disc_ward"
+                        },
+                        {
+                            "item": "music_disc_wait"
+                        },
+                        {
+                            "item": "music_disc_strad"
+                        },
+                        {
+                            "item": "music_disc_stal"
+                        },
+                        {
+                            "item": "music_disc_relic"
+                        },
+                        {
+                            "item": "music_disc_precipice"
+                        },
+                        {
+                            "item": "music_disc_pigstep"
+                        },
+                        {
+                            "item": "music_disc_otherside"
+                        },
+                        {
+                            "item": "music_disc_mellohi"
+                        },
+                        {
+                            "item": "music_disc_mall"
+                        },
+                        {
+                            "item": "music_disc_far"
+                        },
+                        {
+                            "item": "disc_fragment_5"
+                        },
+                        {
+                            "item": "music_disc_11"
+                        },
+                        {
+                            "item": "music_disc_13"
+                        },
+                        {
+                            "item": "music_disc_5"
+                        },
+                        {
+                            "item": "music_disc_blocks"
+                        },
+                        {
+                            "item": "music_disc_cat"
+                        },
+                        {
+                            "item": "music_disc_chirp"
+                        },
+                        {
+                            "item": "music_disc_creator"
+                        },
+                        {
+                            "item": "music_disc_creator_music_box"
+                        },
+                        {
+                            "item": "music_disc_tears"
+                        },
+                        {
+                            "item": "music_disc_lava_chicken"
+                        }
+                    ],
+                    "icon": "music_disc_ward",
+                    "checked": false
+                },
+                {
+                    "label": "Random",
+                    "items": [
+                        {
+                            "item": "sniffer_egg"
+                        },
+                        {
+                            "item": "heart_of_the_sea"
+                        },
+                        {
+                            "item": "armadillo_scute"
+                        }
+                    ],
+                    "icon": "sniffer_egg",
+                    "checked": false
+                }
+            ],
+            "name": "Items & Tools"
+        }
+    ],
+    "name": "Ivers Kisterum"
+}
