@@ -32,7 +32,7 @@ Pipe Variabler hjælper dig med at planlægge dit Minecraft storage room ved at 
 - **Import/Export** - Gem profiler som JSON filer
 - **URL Deling** - Del profiler via link (Base64 + gzip kompression)
 - **Kopier Kode** - Del profiler som komprimeret kode-streng
-- **Templates** - Brug færdige templates (fx "Ivers Kisterum" med 142 kister)
+- **Templates** - Brug færdige templates (fx "Iver og super 26.2" med 151 kister)
 - **Undo/Redo** - Fortryd handlinger med Ctrl+Z / Ctrl+Y
 
 ### Chest Features
