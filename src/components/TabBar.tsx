@@ -27,6 +27,7 @@ const TabBar: React.FC = () => {
                             spellCheck="false"
                             value={profileName}
                             onChange={(e) => setProfileName(e.target.value)}
+                            onKeyDown={(e) => e.stopPropagation()}
                             placeholder="Profilnavn"
                             className="bg-neutral-800 border border-neutral-700 rounded-lg px-3 py-1.5 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
                         />
@@ -85,7 +86,7 @@ const TabBar: React.FC = () => {
                                                     value={tab.name}
                                                     onChange={(e) => updateTabName(tab.id, e.target.value)}
                                                     onBlur={() => setIsEditingTabName(null)}
-                                                    onKeyDown={(e) => { if (e.key === 'Enter') setIsEditingTabName(null); }}
+                                                    onKeyDown={(e) => { e.stopPropagation(); if (e.key === 'Enter') setIsEditingTabName(null); }}
                                                     className="px-3 py-1 text-sm rounded bg-neutral-800 text-white focus:outline-none ring-2 ring-inset ring-blue-500 min-w-[100px]"
                                                     autoFocus
                                                 />

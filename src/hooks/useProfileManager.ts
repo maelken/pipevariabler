@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import { Tab, Profile, Chest } from '../types';
 import { processItems } from '../itemUtils';
+import { repairProfileEncoding } from '../encodingUtils';
 
 interface UseProfileManagerProps {
     tabs: Tab[];
@@ -45,7 +46,7 @@ export const useProfileManager = ({
         const fileReader = new FileReader();
         fileReader.onload = () => {
             try {
-                const profile = JSON.parse(fileReader.result as string);
+                const profile = repairProfileEncoding(JSON.parse(fileReader.result as string));
                 setPendingProfile(profile);
                 setImportProfileModalVisible(true);
             } catch (e) {
@@ -54,13 +55,13 @@ export const useProfileManager = ({
             }
         };
         if (event.target.files && event.target.files.length > 0) {
-            fileReader.readAsText(event.target.files[0]);
+            fileReader.readAsText(event.target.files[0], 'UTF-8');
         }
     }, []);
 
     const handleExportProfile = useCallback(() => {
         const profile: Profile = { name: profileName, tabs };
-        const blob = new Blob([JSON.stringify(profile, null, 2)], { type: 'application/json' });
+        const blob = new Blob([JSON.stringify(profile, null, 2)], { type: 'application/json;charset=utf-8' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;

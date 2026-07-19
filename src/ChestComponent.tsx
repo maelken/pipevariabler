@@ -85,6 +85,9 @@ const ChestComponent: React.FC<ChestComponentProps> = memo(({
 }) => {
   const { over, active } = useDndContext();
 
+  const [isEditing, setIsEditing] = useState(false);
+  const [chestLabel, setChestLabel] = useState(chest.label || 'Barrel');
+
   const {
     attributes,
     listeners,
@@ -92,7 +95,7 @@ const ChestComponent: React.FC<ChestComponentProps> = memo(({
     transform,
     transition,
     isDragging,
-  } = useSortable({ id: chest.id });
+  } = useSortable({ id: chest.id, disabled: isEditing });
 
   const style = {
     transform: CSS.Transform.toString(transform),
@@ -124,8 +127,6 @@ const ChestComponent: React.FC<ChestComponentProps> = memo(({
 
 
   const [isChecked, setIsChecked] = useState<boolean>(chest.checked);
-  const [isEditing, setIsEditing] = useState(false);
-  const [chestLabel, setChestLabel] = useState(chest.label || 'Barrel');
 
   // Ref for scrolling to new items
   const itemsContainerRef = useRef<HTMLDivElement>(null);
@@ -194,7 +195,7 @@ const ChestComponent: React.FC<ChestComponentProps> = memo(({
       <div
         className="flex items-center gap-3 cursor-grab active:cursor-grabbing border-b border-neutral-800/50"
         {...attributes}
-        {...listeners}
+        {...(isEditing ? {} : listeners)}
       >
         {/* Icon button */}
 
@@ -214,7 +215,7 @@ const ChestComponent: React.FC<ChestComponentProps> = memo(({
                 onClick={(e) => e.stopPropagation()}
                 onPointerDown={e => e.stopPropagation()}
                 onChange={(e) => setChestLabel(e.target.value)}
-                onKeyDown={(e) => { if (e.key === 'Enter') handleSave(); if (e.key === 'Escape') setIsEditing(false); }}
+                onKeyDown={(e) => { e.stopPropagation(); if (e.key === 'Enter') handleSave(); if (e.key === 'Escape') setIsEditing(false); }}
                 autoFocus
               />
               <button className="text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium" onClick={(e) => { e.stopPropagation(); handleSave(); }} onPointerDown={e => e.stopPropagation()} aria-label="Gem navn">

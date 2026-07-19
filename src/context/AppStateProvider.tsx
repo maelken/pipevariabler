@@ -12,6 +12,7 @@ import { SIDEBAR_HEIGHT_OFFSET } from '../constants';
 
 import { Item, Chest, Tab, Profile } from '../types';
 import ConfirmationModal from '../ConfirmationModal';
+import { uint8ToBase64, base64ToUint8, repairProfileEncoding } from '../encodingUtils';
 
 interface AppStateProviderProps {
     children: React.ReactNode;
@@ -144,17 +145,13 @@ export const AppStateProvider: React.FC<AppStateProviderProps> = ({ children }) 
                 let jsonStr: string;
                 if (hash.startsWith('#p=')) {
                     const base64 = hash.substring('#p='.length);
-                    const binaryStr = atob(base64);
-                    const bytes = new Uint8Array(binaryStr.length);
-                    for (let i = 0; i < binaryStr.length; i++) {
-                        bytes[i] = binaryStr.charCodeAt(i);
-                    }
+                    const bytes = base64ToUint8(base64);
                     jsonStr = pako.inflate(bytes, { to: 'string' });
                 } else {
                     const base64 = hash.substring('#profile='.length);
                     jsonStr = decodeURIComponent(escape(atob(base64)));
                 }
-                const sharedProfile = JSON.parse(jsonStr);
+                const sharedProfile = repairProfileEncoding(JSON.parse(jsonStr));
                 loadProfile(sharedProfile);
                 window.history.replaceState(null, '', window.location.pathname);
                 return;
@@ -165,7 +162,7 @@ export const AppStateProvider: React.FC<AppStateProviderProps> = ({ children }) 
 
         const savedProfile = localStorage.getItem('profile');
         if (savedProfile) {
-            const profile = JSON.parse(savedProfile);
+            const profile = repairProfileEncoding(JSON.parse(savedProfile));
             loadProfile(profile);
         } else {
             setProfileName('Ny Profil');
@@ -320,8 +317,8 @@ export const AppStateProvider: React.FC<AppStateProviderProps> = ({ children }) 
 
         try {
             const jsonStr = JSON.stringify(minimalProfile);
-            const compressed = pako.deflate(jsonStr);
-            const base64 = btoa(String.fromCharCode.apply(null, Array.from(compressed)));
+            const compressed = pako.deflate(new TextEncoder().encode(jsonStr));
+            const base64 = uint8ToBase64(compressed);
             const shareUrl = `${window.location.origin}${window.location.pathname}#p=${base64}`;
 
             if (shareUrl.length > 2000) {
@@ -359,9 +356,9 @@ export const AppStateProvider: React.FC<AppStateProviderProps> = ({ children }) 
 
         try {
             const jsonStr = JSON.stringify(minimalProfile);
-            const compressed = pako.deflate(jsonStr);
+            const compressed = pako.deflate(new TextEncoder().encode(jsonStr));
             console.log("compressed", compressed);
-            const base64 = btoa(String.fromCharCode.apply(null, Array.from(compressed)));
+            const base64 = uint8ToBase64(compressed);
 
             navigator.clipboard.writeText(base64).then(() => {
                 alert(`Kode kopieret! (${base64.length.toLocaleString()} tegn)\n\nDel denne kode med andre - de kan importere den via "Importer Kode".`);
@@ -387,13 +384,9 @@ export const AppStateProvider: React.FC<AppStateProviderProps> = ({ children }) 
         }
 
         try {
-            const binaryStr = atob(code);
-            const bytes = new Uint8Array(binaryStr.length);
-            for (let i = 0; i < binaryStr.length; i++) {
-                bytes[i] = binaryStr.charCodeAt(i);
-            }
+            const bytes = base64ToUint8(code);
             const jsonStr = pako.inflate(bytes, { to: 'string' });
-            const profile = JSON.parse(jsonStr);
+            const profile = repairProfileEncoding(JSON.parse(jsonStr));
 
             setUndoStack(prev => [...prev, tabs]);
             setRedoStack([]);
@@ -495,6 +488,10 @@ export const AppStateProvider: React.FC<AppStateProviderProps> = ({ children }) 
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
+            const target = event.target as HTMLElement | null;
+            if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable)) {
+                return;
+            }
             if ((event.ctrlKey || event.metaKey) && event.key === 'z') {
                 event.preventDefault();
                 handleUndo();
