@@ -154,8 +154,8 @@ const SettingsDropdown: React.FC<SettingsDropdownProps> = ({
                             }}
                         >
                             <FaBook className="text-cyan-400" />
-                            <span>Ivers Kisterum</span>
-                            <span className="ml-auto text-xs text-neutral-500">142 kister</span>
+                            <span>Iver og super 26.2</span>
+                            <span className="ml-auto text-xs text-neutral-500">151 kister</span>
                         </button>
                     </div>
 
