@@ -2,7 +2,7 @@
 
 En Minecraft storage planlægnings-app til at organisere kister og generere `/signedit` kommandoer.
 
-**Lavet af WhoToldYou** • [Live Demo](https://rasmuskd.github.io/pipevariabler)
+**Lavet af WhoToldYou** • [Live Demo](https://pipes.maelk.net)
 
 ## Om appen
 
