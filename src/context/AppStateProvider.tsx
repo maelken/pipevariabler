@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import pako from 'pako';
-import { processItems, getAllItems } from '../itemUtils';
+import { processItems, getAllItems, applyVariablerEntries, refreshItemVariables } from '../itemUtils';
+import { fetchVariablerEntries } from '../variablerApi';
 import {
     AppContextType,
     AppProvider
@@ -177,8 +178,27 @@ export const AppStateProvider: React.FC<AppStateProviderProps> = ({ children }) 
     }, []);
 
     useEffect(() => {
-        const sortedItems = getAllItems().sort((a, b) => a.item.localeCompare(b.item));
-        setItems(sortedItems);
+        const loadItems = async () => {
+            try {
+                const remoteEntries = await fetchVariablerEntries();
+                applyVariablerEntries(remoteEntries);
+
+                setTabs((prevTabs) => prevTabs.map((tab) => ({
+                    ...tab,
+                    chests: tab.chests.map((chest) => ({
+                        ...chest,
+                        items: refreshItemVariables(chest.items),
+                    })),
+                })));
+            } catch (error) {
+                console.warn('Bruger lokale variabler – kunne ikke hente fra variabler.maelk.net:', error);
+            }
+
+            const sortedItems = getAllItems().sort((a, b) => a.item.localeCompare(b.item));
+            setItems(sortedItems);
+        };
+
+        void loadItems();
     }, []);
 
     useEffect(() => {

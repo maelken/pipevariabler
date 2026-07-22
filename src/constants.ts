@@ -22,3 +22,8 @@ export const AUTO_SCROLL_THRESHOLD = 0.1;
 
 // Layout
 export const SIDEBAR_HEIGHT_OFFSET = 250; // pixels subtracted from window height
+
+// CraftBook variabler fra maelk.net Google Sheet
+export const VARIABLER_BASE_URL = 'https://variabler.maelk.net';
+export const VARIABLER_DATA_JSON_URL = `${VARIABLER_BASE_URL}/data.json`;
+export const VARIABLER_CSV_URL = `${VARIABLER_BASE_URL}/export?format=csv`;
