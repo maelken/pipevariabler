@@ -1,14 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+/* @refresh reload */
+import { render } from 'solid-js/web';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-reportWebVitals();
+const root = document.getElementById('root');
+
+if (!root) {
+    throw new Error('Root element not found');
+}
+
+render(() => <App />, root);
