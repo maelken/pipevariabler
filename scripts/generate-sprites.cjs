@@ -65,7 +65,7 @@ Spritesmith.run({ src: iconPaths }, (err, result) => {
     spriteMap._meta = {
         width: result.properties.width,
         height: result.properties.height,
-        image: '/pipevariabler/assets/images/spritesheet.png',
+        image: '/assets/images/spritesheet.png',
     };
 
     fs.writeFileSync(OUTPUT_MAP, JSON.stringify(spriteMap, null, 2));
