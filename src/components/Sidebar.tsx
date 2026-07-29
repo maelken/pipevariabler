@@ -41,6 +41,7 @@ const SidebarItem: Component<{
             when={props.view === 'grid'}
             fallback={
                 <li
+                    data-selectable
                     ref={draggable.ref}
                     onPointerDown={handlers.onPointerDown}
                     onClick={handlers.onClick}
@@ -75,6 +76,7 @@ const SidebarItem: Component<{
             }
         >
             <div
+                data-selectable
                 ref={draggable.ref}
                 onPointerDown={handlers.onPointerDown}
                 onClick={handlers.onClick}

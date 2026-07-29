@@ -64,3 +64,8 @@ export function useDrag(): DragStore {
     if (!context) throw new Error('useDrag must be used within DragProvider');
     return context;
 }
+
+// HMR of a store module recreates the context object and orphans every
+// mounted consumer ("useApp must be used within AppProvider") - force a full
+// page reload instead when this file changes in dev
+if (import.meta.hot) import.meta.hot.accept(() => import.meta.hot?.invalidate());

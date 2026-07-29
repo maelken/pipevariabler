@@ -9,7 +9,7 @@ import { isChestDragId } from '../dnd/ids';
 import { pointerPosition } from '../dnd/pointer';
 import { useApp } from '../stores/app-store';
 import { useDrag } from '../stores/drag-store';
-import Chest from './Chest';
+import { ChestCardView, ChestItemView } from './ChestView';
 import SpriteIcon from './SpriteIcon';
 
 /** Track the cursor while `isActive` holds; snaps to the cursor when it turns on */
@@ -59,7 +59,13 @@ const ItemDragOverlay: Component = () => {
     );
 };
 
-/** Dragged chest: full chest preview offset to where it was grabbed */
+/**
+ * Dragged chest: renders the PURE view layer (ChestCardView/ChestItemView),
+ * offset to where the chest was grabbed. The view layer never touches
+ * solid-dnd, so this live preview cannot collide with the real chest's
+ * draggable/droppable ids - and it stays reactive (the #n badge updates
+ * when the chest moves between tabs mid-drag).
+ */
 const ChestDragOverlay: Component = () => {
     const app = useApp();
     const dndContext = useDragDropContext();
@@ -108,7 +114,14 @@ const ChestDragOverlay: Component = () => {
                         opacity: 0.95,
                     }}
                 >
-                    <Chest chest={active().chest} index={active().index} gridView={app.state.chestGridView} preview />
+                    <ChestCardView
+                        chest={active().chest}
+                        index={active().index}
+                        gridView={app.state.chestGridView}
+                        renderItem={(item, index, view) => (
+                            <ChestItemView item={item} index={index} view={view} />
+                        )}
+                    />
                 </div>
             )}
         </Show>

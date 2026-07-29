@@ -624,3 +624,8 @@ export function useApp(): AppStore {
     if (!context) throw new Error('useApp must be used within AppProvider');
     return context;
 }
+
+// HMR of a store module recreates the context object and orphans every
+// mounted consumer ("useApp must be used within AppProvider") - force a full
+// page reload instead when this file changes in dev
+if (import.meta.hot) import.meta.hot.accept(() => import.meta.hot?.invalidate());

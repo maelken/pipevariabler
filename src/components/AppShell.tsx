@@ -59,6 +59,20 @@ const AppShell: Component = () => {
         onCleanup(() => window.removeEventListener('keydown', handleKeyDown));
     });
 
+    // Klik udenfor et item rydder markeringen. Kører i window-bubble-fasen,
+    // dvs. EFTER items' egne click-handlers; items er markeret med
+    // data-selectable, og deres fjern-knapper stopper selv propagation.
+    onMount(() => {
+        const handleGlobalClick = (e: MouseEvent) => {
+            if (app.state.selectedItems.size === 0) return;
+            const target = e.target instanceof Element ? e.target : null;
+            if (target?.closest('[data-selectable]')) return;
+            app.clearSelection();
+        };
+        window.addEventListener('click', handleGlobalClick);
+        onCleanup(() => window.removeEventListener('click', handleGlobalClick));
+    });
+
     // Sidebar badge click: jump to the chest (switching tab if needed) and flash it
     const handleChestClick = (chestId: number) => {
         const tab = app.state.tabs.find((t) => t.chests.some((c) => c.id === chestId));
