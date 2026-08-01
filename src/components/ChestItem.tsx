@@ -4,6 +4,7 @@
 import { createDraggable, createDroppable, useDragDropContext } from '@thisbeyond/solid-dnd';
 import { type Component } from 'solid-js';
 import { createSelectAndDragHandlers, type SelectHandler } from '../dnd/activators';
+import { markDroppable } from '../dnd/collision';
 import { isChestDragId } from '../dnd/ids';
 import { useDrag } from '../stores/drag-store';
 import type { Item } from '../types';
@@ -32,6 +33,7 @@ const ChestItem: Component<ChestItemProps> = (props) => {
     // Only register the droppable outside chest drags, so a dragged chest's
     // sortable can be detected through the items
     const setRef = (el: HTMLElement) => {
+        markDroppable(el, props.item.uid);
         draggable.ref(el);
         if (!isChestDragId(dndContext?.[0]?.active.draggableId)) droppable.ref(el);
     };

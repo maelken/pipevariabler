@@ -1,12 +1,11 @@
 // ChestGrid - all tabs' chest grids. Inactive tabs stay mounted (hidden with
 // CSS) so draggables never unmount mid-drag when the tab auto-switches.
-import {
-    createDroppable, createSortable, SortableProvider, useDragDropContext,
-} from '@thisbeyond/solid-dnd';
+import { createDraggable, createDroppable, useDragDropContext } from '@thisbeyond/solid-dnd';
 import { FaSolidPlus } from 'solid-icons/fa';
 import { createEffect, createMemo, createSignal, For, Show, type Component } from 'solid-js';
 
 import { CHEST_ROW_HEIGHT } from '../constants';
+import { markDroppable } from '../dnd/collision';
 import { ADD_CHEST_ZONE_ID, isChestDragId } from '../dnd/ids';
 import { useApp } from '../stores/app-store';
 import { useDrag } from '../stores/drag-store';
@@ -28,7 +27,10 @@ const AddChestDropZone: Component<{ onAddChest: () => void }> = (props) => {
     return (
         <div style={{ margin: CHEST_MARGIN }}>
             <div
-                ref={droppable.ref}
+                ref={(el) => {
+                    markDroppable(el, ADD_CHEST_ZONE_ID);
+                    droppable.ref(el);
+                }}
                 onClick={props.onAddChest}
                 class={`h-full flex items-center justify-center border-2 border-dashed rounded-2xl p-4 transition-colors cursor-pointer ${showHighlight()
                     ? 'border-blue-500 bg-blue-500/10'
@@ -45,21 +47,32 @@ const AddChestDropZone: Component<{ onAddChest: () => void }> = (props) => {
     );
 };
 
-const SortableChest: Component<{ chest: ChestData; index: number; gridView: boolean; liteItems?: boolean }> = (props) => {
-    const sortable = createSortable(props.chest.id);
+// Draggable + droppable chest wrapper. Deliberately NOT createSortable:
+// solid-dnd's sort-preview transforms are built for 1-D lists and shift both
+// visuals AND collision layouts nonsensically in a multi-row grid ("hit areas
+// land in the margins"). Chests reorder LIVE on dragOver instead (same proven
+// pattern as the tab bar), so no transforms are needed at all.
+const DraggableChest: Component<{ chest: ChestData; index: number; gridView: boolean; liteItems?: boolean }> = (props) => {
+    const draggable = createDraggable(props.chest.id);
+    const droppable = createDroppable(props.chest.id);
     const dndContext = useDragDropContext();
 
     const isChestDragActive = () => isChestDragId(dndContext?.[0]?.active.draggableId);
 
+    const setRef = (el: HTMLElement) => {
+        markDroppable(el, props.chest.id);
+        draggable.ref(el);
+        droppable.ref(el);
+    };
+
     return (
         <div
-            ref={sortable.ref}
+            ref={setRef}
             data-chest-id={props.chest.id}
             style={{
-                transform: `translate3d(${sortable.transform.x}px, ${sortable.transform.y}px, 0)`,
                 // Hidden while dragging - ChestDragOverlay carries the visual
-                opacity: sortable.isActiveDraggable ? 0 : 1,
-                cursor: sortable.isActiveDraggable ? 'grabbing' : undefined,
+                opacity: draggable.isActiveDraggable ? 0 : 1,
+                cursor: draggable.isActiveDraggable ? 'grabbing' : undefined,
                 margin: CHEST_MARGIN,
             }}
         >
@@ -67,7 +80,7 @@ const SortableChest: Component<{ chest: ChestData; index: number; gridView: bool
                 chest={props.chest}
                 index={props.index}
                 gridView={props.gridView}
-                dragHandle={sortable.dragActivators}
+                dragHandle={draggable.dragActivators}
                 isChestDragActive={isChestDragActive()}
                 liteItems={props.liteItems}
             />
@@ -129,7 +142,6 @@ const ChestGrid: Component = () => {
         <For each={app.state.tabs}>
             {(tab) => {
                 const isActive = () => app.state.activeTabId === tab.id;
-                const chestIds = createMemo(() => tab.chests.map((chest) => chest.id));
                 // MEMOIZED so renderItem only re-runs on a real true/false flip:
                 // isLiteTab reads isAnyDrag(), and an unmemoized read here would
                 // remount every item at drag start/end - each remount re-registers
@@ -143,6 +155,7 @@ const ChestGrid: Component = () => {
                     // them and must not unmount before it ends)
                     <Show when={isActive() || (isAnyDrag() && dragVisitedTabIds().has(tab.id))}>
                         <div
+                        data-active-grid={isActive() ? '' : undefined}
                         class="grid-cols-auto-fit dark-theme overflow-x-hidden min-h-full"
                         style={{
                             gap: 0, // chests carry their own margin
@@ -156,18 +169,16 @@ const ChestGrid: Component = () => {
                             ...(isAnyDrag() && !isActive() ? { left: '-9999px', top: 0 } : {}),
                         }}
                     >
-                        <SortableProvider ids={chestIds()}>
-                            <For each={tab.chests}>
+                        <For each={tab.chests}>
                                 {(chest, index) => (
-                                    <SortableChest
+                                <DraggableChest
                                         chest={chest}
                                         index={index()}
                                         gridView={app.state.chestGridView}
                                         liteItems={liteItems()}
                                     />
-                                )}
-                            </For>
-                        </SortableProvider>
+                            )}
+                        </For>
 
                         <Show when={isActive()}>
                             <AddChestDropZone onAddChest={handleAddChest} />

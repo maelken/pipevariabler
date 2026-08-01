@@ -331,10 +331,27 @@ export function createAppStore() {
             existingVariables.add(item.variable);
             return true;
         });
-        if (accepted.length === 0) return;
+
+        // Afviste dubletter der bor i en kiste er stadig et FLYT: de forlader
+        // kilden, og målkisten beholder sit eksemplar (konsolidering). Afviste
+        // sidebar-kloner bor ingen steder og er reelle no-ops.
+        const acceptedUids = new Set(accepted.map((i) => i.uid));
+        const chestResidentUids = new Set<string>();
+        for (const tab of state.tabs) {
+            for (const chest of tab.chests) {
+                for (const item of chest.items) {
+                    if (draggedUids.has(item.uid)) chestResidentUids.add(item.uid);
+                }
+            }
+        }
+        const rejectedMoveUids = items
+            .filter((i) => !acceptedUids.has(i.uid) && chestResidentUids.has(i.uid))
+            .map((i) => i.uid);
+        if (accepted.length === 0 && rejectedMoveUids.length === 0) return;
 
         pushUndo();
-        removeUidsFromAllChests(new Set(accepted.map((i) => i.uid)));
+        removeUidsFromAllChests(new Set([...acceptedUids, ...rejectedMoveUids]));
+        if (accepted.length === 0) return;
 
         setState('tabs', targetPath.tabIndex, 'chests', targetPath.chestIndex, 'items', (current) => {
             const result = [...current];

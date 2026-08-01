@@ -17,10 +17,11 @@ import TabDropOverlay from './TabDropOverlay';
 const AppShell: Component = () => {
     const app = useApp();
     const drag = useDrag();
-    const [, { onDragStart, onDragEnd }] = useDragDropContext()!;
+    const [, { onDragStart, onDragMove, onDragEnd, detectCollisions }] = useDragDropContext()!;
 
-    const handlers = createDragHandlers(app, drag);
+    const handlers = createDragHandlers(app, drag, { detectCollisions });
     onDragStart(handlers.onDragStart);
+    onDragMove(handlers.onDragMove);
     onDragEnd(handlers.onDragEnd);
 
     // Keyboard shortcuts: undo/redo, Ctrl+F -> søgefeltet, Delete -> fjern markerede
@@ -99,7 +100,8 @@ const AppShell: Component = () => {
 
                 <main class="flex-1 p-4 pl-2 flex flex-col gap-2 min-h-0 overflow-hidden">
                     <TabBar />
-                    <div class="flex-1 min-h-0 overflow-auto">
+                    {/* data-drag-scroll: edge-autoscroll target under drags */}
+                    <div class="flex-1 min-h-0 overflow-auto" data-drag-scroll>
                         <ChestGrid />
                     </div>
                 </main>

@@ -38,4 +38,4 @@ export const CHEST_ROW_HEIGHT: Record<ChestHeight, string> = {
     unlimited: 'auto',
 };
 
-export const APP_VERSION = '3.2.2';
+export const APP_VERSION = '3.4.1';
