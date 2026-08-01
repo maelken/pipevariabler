@@ -3,6 +3,7 @@
 // All markup lives in ChestView.tsx (which the drag overlay also renders).
 import { createDroppable, useDragDropContext } from '@thisbeyond/solid-dnd';
 import { createEffect, createMemo, type Component, type JSX } from 'solid-js';
+import { markDroppable } from '../dnd/collision';
 import { chestZoneId } from '../dnd/ids';
 import { useApp } from '../stores/app-store';
 import { useDrag } from '../stores/drag-store';
@@ -32,36 +33,52 @@ const Chest: Component<ChestProps> = (props) => {
     const [dndState] = useDragDropContext()!;
     const droppable = createDroppable(chestZoneId(props.chest.id));
 
+    // Would the drop INSERT something here? Reorders within the chest and
+    // dragged items whose variable isn't here yet insert; pure duplicates don't
+    const wouldInsert = () => {
+        if (drag.sourceChestId() === props.chest.id) return true;
+        const existingVariables = new Set(props.chest.items.map((item) => item.variable));
+        return drag.draggedItems().some((item) => !existingVariables.has(item.variable));
+    };
+
+    // Dragged items living in ANOTHER chest leave it on drop (consolidation),
+    // so the drop still changes something even if every item is a duplicate
+    // here. Memoized: scans all chests, but only when the dragged set changes.
+    const hasItemsFromOtherChests = createMemo(() => {
+        const uids = new Set(drag.draggedItems().map((item) => item.uid));
+        if (uids.size === 0) return false;
+        return app.state.tabs.some((tab) => tab.chests.some(
+            (chest) => chest.id !== props.chest.id && chest.items.some((item) => uids.has(item.uid)),
+        ));
+    });
+
+    const wouldAcceptDrop = () => wouldInsert() || hasItemsFromOtherChests();
+
     // ----- Insertion placeholder tracking -----
     createEffect(() => {
         const { droppableId, draggableId } = dndState.active;
         if (typeof draggableId !== 'string' || !draggableId) return; // only item drags
 
-        // Hovering the chest itself (zone or sortable): insert at the end
-        if (droppableId === chestZoneId(props.chest.id) || droppableId === props.chest.id) {
-            drag.updatePlaceholder(props.chest.id, props.chest.items.length);
-            return;
-        }
-        // Hovering an item in THIS chest: insert at its position
-        if (typeof droppableId === 'string') {
-            const hoveredIndex = props.chest.items.findIndex((item) => item.uid === droppableId);
-            if (hoveredIndex !== -1) {
-                drag.updatePlaceholder(props.chest.id, hoveredIndex);
+        // Ghost slot only when the drop actually inserts something here -
+        // duplicate-only drops (consolidation) keep the chest's own copy
+        if (wouldInsert()) {
+            // Hovering the chest itself (zone or sortable): insert at the end
+            if (droppableId === chestZoneId(props.chest.id) || droppableId === props.chest.id) {
+                drag.updatePlaceholder(props.chest.id, props.chest.items.length);
                 return;
+            }
+            // Hovering an item in THIS chest: insert at its position
+            if (typeof droppableId === 'string') {
+                const hoveredIndex = props.chest.items.findIndex((item) => item.uid === droppableId);
+                if (hoveredIndex !== -1) {
+                    drag.updatePlaceholder(props.chest.id, hoveredIndex);
+                    return;
+                }
             }
         }
         // Left this chest: clear our placeholder
         if (drag.hoverChestId() === props.chest.id) drag.updatePlaceholder(null, -1);
     });
-
-    // A drop only does something if it's a reorder within this chest, or at
-    // least one dragged item isn't already here (duplicates are skipped on
-    // drop) - hide the insertion preview and highlight otherwise
-    const wouldAcceptDrop = () => {
-        if (drag.sourceChestId() === props.chest.id) return true;
-        const existingVariables = new Set(props.chest.items.map((item) => item.variable));
-        return drag.draggedItems().some((item) => !existingVariables.has(item.variable));
-    };
 
     // Highlight while an item drag hovers anything belonging to this chest -
     // but only when the drop would actually change something
@@ -94,7 +111,10 @@ const Chest: Component<ChestProps> = (props) => {
             gridView={props.gridView}
             dragHandle={props.dragHandle}
             ring={ring()}
-            dropZoneRef={droppable.ref}
+            dropZoneRef={(el) => {
+                markDroppable(el, chestZoneId(props.chest.id));
+                droppable.ref(el);
+            }}
             renderItem={(item, index, view) => props.liteItems ? (
                 <ChestItemView
                     item={item}

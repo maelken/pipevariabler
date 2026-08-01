@@ -168,6 +168,24 @@ export const ChestCardView: Component<ChestCardViewProps> = (props) => {
         drag.isDragging() && drag.hoverChestId() === props.chest.id &&
         drag.insertionIndex() >= props.chest.items.length;
 
+    // The items a drop would ACTUALLY insert here, in dragged order: duplicates
+    // of what the chest already holds are skipped (same rules as the store's
+    // moveItemsToChest), so the ghost slots never promise a dublet that won't
+    // land - even when the GRABBED item is the duplicate and the rest aren't
+    const previewItems = createMemo(() => {
+        const dragged = drag.draggedItems();
+        if (dragged.length === 0) return [];
+        const draggedUids = new Set(dragged.map((i) => i.uid));
+        const existing = new Set(
+            props.chest.items.filter((i) => !draggedUids.has(i.uid)).map((i) => i.variable),
+        );
+        return dragged.filter((item) => {
+            if (existing.has(item.variable)) return false;
+            existing.add(item.variable);
+            return true;
+        });
+    });
+
     // ----- Command length budget -----
     const command = createMemo(() => buildCommand(props.chest.items));
     const cmdLength = () => command().length;
@@ -195,21 +213,24 @@ export const ChestCardView: Component<ChestCardViewProps> = (props) => {
         setTimeout(() => setCopied(false), COPY_FEEDBACK_MS);
     };
 
+    // Every to-be-inserted item gets its own ghost slot at the insertion point
+    const placeholderRow = (itemView: ItemViewMode) => (
+        <For each={previewItems()}>
+            {(item) => <ChestItemPlaceholder view={itemView} item={item} />}
+        </For>
+    );
+
     const itemsWithPlaceholders = (itemView: ItemViewMode) => (
         <>
             <For each={props.chest.items}>
                 {(item, index) => (
                     <>
-                        <Show when={isInsertionPointAt(index())}>
-                            <ChestItemPlaceholder view={itemView} item={drag.activeItem()} />
-                        </Show>
+                        <Show when={isInsertionPointAt(index())}>{placeholderRow(itemView)}</Show>
                         {props.renderItem(item, index(), itemView)}
                     </>
                 )}
             </For>
-            <Show when={isInsertionPointAtEnd()}>
-                <ChestItemPlaceholder view={itemView} item={drag.activeItem()} />
-            </Show>
+            <Show when={isInsertionPointAtEnd()}>{placeholderRow(itemView)}</Show>
         </>
     );
 

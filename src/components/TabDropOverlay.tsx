@@ -8,6 +8,7 @@ import {
     createEffect, createSignal, For, onCleanup, onMount, type Component,
 } from 'solid-js';
 import { TAB_SWITCH_DELAY_MS } from '../constants';
+import { markDroppable } from '../dnd/collision';
 import { isChestDragId, tabButtonId, tabZoneId } from '../dnd/ids';
 import { useApp } from '../stores/app-store';
 import { useDrag } from '../stores/drag-store';
@@ -54,7 +55,10 @@ const TabDropZone: Component<{ tabId: number; rect: DOMRect }> = (props) => {
 
     return (
         <div
-            ref={droppable.ref}
+            ref={(el) => {
+                markDroppable(el, tabZoneId(props.tabId));
+                droppable.ref(el);
+            }}
             class={`fixed z-50 ${showHighlight() ? 'ring-2 ring-blue-500 bg-blue-500/30 rounded' : ''}`}
             style={{
                 left: `${props.rect.left}px`,
@@ -80,13 +84,20 @@ const TabDropOverlay: Component = () => {
         }));
     };
 
+    // Kiste-containerens scroll flytter ikke tab-baren - spring den over, saa
+    // (auto)scroll under drags ikke re-maaler og re-renderer alle zoner pr. ryk
+    const handleScroll = (e: Event) => {
+        if (e.target instanceof Element && e.target.hasAttribute('data-drag-scroll')) return;
+        measureTabRects();
+    };
+
     onMount(() => {
         measureTabRects();
         window.addEventListener('resize', measureTabRects);
-        window.addEventListener('scroll', measureTabRects, true);
+        window.addEventListener('scroll', handleScroll, true);
         onCleanup(() => {
             window.removeEventListener('resize', measureTabRects);
-            window.removeEventListener('scroll', measureTabRects, true);
+            window.removeEventListener('scroll', handleScroll, true);
         });
     });
 

@@ -45,6 +45,14 @@ button {
   display: inline-block;
 }
 
+/* During a drag the overlay follows the cursor but doesn't intercept
+   pointer-events, so elements underneath would flash their own hover
+   cursors (pointer on buttons). Force grabbing everywhere instead. */
+body.is-dragging,
+body.is-dragging * {
+  cursor: grabbing !important;
+}
+
 /* Global dark scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
