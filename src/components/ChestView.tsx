@@ -10,6 +10,7 @@ import {
 } from 'solid-icons/fa';
 import { createMemo, createSignal, For, Show, type Component, type JSX } from 'solid-js';
 import { CMD_LIMIT, COPY_FEEDBACK_MS } from '../constants';
+import { chestZoneId } from '../dnd/ids'; // kun id-format, ingen solid-dnd
 import { buildCommand, displayName } from '../lib/items';
 import { useApp } from '../stores/app-store';
 import { useDrag } from '../stores/drag-store';
@@ -79,6 +80,11 @@ export const ChestItemView: Component<ChestItemViewProps> = (props) => {
                 ref={(el) => props.elementRef?.(el)}
                 onPointerDown={props.onPointerDown}
                 onClick={props.onClick}
+                // p-1 i stedet for gap paa grid'et (samme trick som kisternes
+                // margin): hit-arealet daekker ogsaa "mellemrummet", saa
+                // drag-hover altid rammer et item og aldrig falder igennem
+                // til zonen (som ville betyde "indsaet sidst")
+                class="p-1"
                 style={interactionStyle()}
             >
                 <div
@@ -107,12 +113,26 @@ export const ChestItemView: Component<ChestItemViewProps> = (props) => {
     );
 };
 
-/** Ghost slot shown at the insertion point while dragging over a chest */
-export const ChestItemPlaceholder: Component<{ view: ItemViewMode; item: Item | null }> = (props) => (
+/**
+ * Ghost slot shown at the insertion point while dragging over a chest.
+ * `anchorId` er den droppable ghosten staar i stedet for (itemet den skubber,
+ * eller kiste-zonen for enden): hit-test-collision skal resolve til SAMME
+ * droppable naar cursoren ender over ghosten - ellers flicker previewet
+ * (ghost skubber itemet vaek -> hit rammer zonen -> ghost hopper til enden
+ * -> itemet er tilbage under cursoren -> forfra).
+ */
+export const ChestItemPlaceholder: Component<{
+    view: ItemViewMode;
+    item: Item | null;
+    anchorId?: string;
+}> = (props) => (
     <Show
         when={props.view === 'grid'}
         fallback={
-            <li class="relative w-full p-2 flex items-center gap-4 border-neutral-700 border-b opacity-50 ring-2 ring-inset ring-blue-500">
+            <li
+                data-droppable-id={props.anchorId}
+                class="relative w-full p-2 flex items-center gap-4 border-neutral-700 border-b opacity-50 ring-2 ring-inset ring-blue-500"
+            >
                 <div class="item-icons flex items-center justify-center">
                     <SpriteIcon icon={props.item?.image ?? ''} size={32} />
                 </div>
@@ -120,9 +140,11 @@ export const ChestItemPlaceholder: Component<{ view: ItemViewMode; item: Item | 
             </li>
         }
     >
-        <div class="group relative p-1 rounded border bg-neutral-800 border-neutral-700 opacity-50 ring-2 ring-inset ring-blue-500">
-            <div class="w-8 h-8 mx-auto flex items-center justify-center">
-                <SpriteIcon icon={props.item?.image ?? ''} size={32} />
+        <div data-droppable-id={props.anchorId} class="p-1">
+            <div class="group relative p-1 rounded border bg-neutral-800 border-neutral-700 opacity-50 ring-2 ring-inset ring-blue-500">
+                <div class="w-8 h-8 mx-auto flex items-center justify-center">
+                    <SpriteIcon icon={props.item?.image ?? ''} size={32} />
+                </div>
             </div>
         </div>
     </Show>
@@ -213,10 +235,12 @@ export const ChestCardView: Component<ChestCardViewProps> = (props) => {
         setTimeout(() => setCopied(false), COPY_FEEDBACK_MS);
     };
 
-    // Every to-be-inserted item gets its own ghost slot at the insertion point
-    const placeholderRow = (itemView: ItemViewMode) => (
+    // Every to-be-inserted item gets its own ghost slot at the insertion
+    // point, anchored to the droppable the ghosts displace (see
+    // ChestItemPlaceholder) so the hit-test stays stable over them
+    const placeholderRow = (itemView: ItemViewMode, anchorId: string) => (
         <For each={previewItems()}>
-            {(item) => <ChestItemPlaceholder view={itemView} item={item} />}
+            {(item) => <ChestItemPlaceholder view={itemView} item={item} anchorId={anchorId} />}
         </For>
     );
 
@@ -225,12 +249,16 @@ export const ChestCardView: Component<ChestCardViewProps> = (props) => {
             <For each={props.chest.items}>
                 {(item, index) => (
                     <>
-                        <Show when={isInsertionPointAt(index())}>{placeholderRow(itemView)}</Show>
+                        <Show when={isInsertionPointAt(index())}>
+                            {placeholderRow(itemView, item.uid)}
+                        </Show>
                         {props.renderItem(item, index(), itemView)}
                     </>
                 )}
             </For>
-            <Show when={isInsertionPointAtEnd()}>{placeholderRow(itemView)}</Show>
+            <Show when={isInsertionPointAtEnd()}>
+                {placeholderRow(itemView, chestZoneId(props.chest.id))}
+            </Show>
         </>
     );
 
@@ -368,7 +396,8 @@ export const ChestCardView: Component<ChestCardViewProps> = (props) => {
                         when={view() === 'grid'}
                         fallback={<ul class="chest-items dark-theme">{itemsWithPlaceholders('list')}</ul>}
                     >
-                        <div class="grid grid-cols-6 gap-2">{itemsWithPlaceholders('grid')}</div>
+                        {/* Intet gap - cellerne baerer p-1 selv (droppable hit-areal) */}
+                        <div class="grid grid-cols-6">{itemsWithPlaceholders('grid')}</div>
                     </Show>
                 </Show>
             </div>
