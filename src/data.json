@@ -2756,6 +2756,11 @@
       "image": "dandelion.png"
     },
     {
+      "item": "golden_dandelion",
+      "variable": "%v2105%",
+      "image": "golden_dandelion.png"
+    },
+    {
       "item": "poppy",
       "variable": "%v38%",
       "image": "poppy.png"
