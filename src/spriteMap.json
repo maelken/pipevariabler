@@ -3305,5061 +3305,5067 @@
     "width": 64,
     "height": 64
   },
-  "poppy.png": {
+  "golden_dandelion.png": {
     "x": 1472,
     "y": 1408,
     "width": 64,
     "height": 64
   },
-  "blue_orchid.png": {
+  "poppy.png": {
     "x": 0,
+    "y": 1472,
+    "width": 64,
+    "height": 64
+  },
+  "blue_orchid.png": {
+    "x": 64,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "allium.png": {
-    "x": 64,
+    "x": 128,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "azure_bluet.png": {
-    "x": 128,
+    "x": 192,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "red_tulip.png": {
-    "x": 192,
+    "x": 256,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "orange_tulip.png": {
-    "x": 256,
+    "x": 320,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "white_tulip.png": {
-    "x": 320,
+    "x": 384,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "pink_tulip.png": {
-    "x": 384,
+    "x": 448,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "oxeye_daisy.png": {
-    "x": 448,
+    "x": 512,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "cornflower.png": {
-    "x": 512,
+    "x": 576,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "lily_of_the_valley.png": {
-    "x": 576,
+    "x": 640,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "wither_rose.png": {
-    "x": 640,
+    "x": 704,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "torchflower.png": {
-    "x": 704,
+    "x": 768,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "torchflower_seeds.png": {
-    "x": 768,
+    "x": 832,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "closed_eyeblossom.png": {
-    "x": 832,
+    "x": 896,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "open_eyeblossom.png": {
-    "x": 896,
+    "x": 960,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "cactus_flower.png": {
-    "x": 960,
+    "x": 1024,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "sunflower.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "lilac.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "rose_bush.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "peony.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "pitcher_plant.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "pitcher_pod.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "brown_mushroom.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1472,
     "width": 64,
     "height": 64
   },
   "red_mushroom.png": {
-    "x": 1472,
-    "y": 1472,
+    "x": 1536,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "crimson_fungus.png": {
     "x": 1536,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "warped_fungus.png": {
     "x": 1536,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "sugar_cane.png": {
     "x": 1536,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "bamboo.png": {
     "x": 1536,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "cactus.png": {
     "x": 1536,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "vine.png": {
     "x": 1536,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "lily_pad.png": {
     "x": 1536,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "seagrass.png": {
     "x": 1536,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "sea_pickle.png": {
     "x": 1536,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "kelp.png": {
     "x": 1536,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "glow_lichen.png": {
     "x": 1536,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "hanging_roots.png": {
     "x": 1536,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "mangrove_roots.png": {
     "x": 1536,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "muddy_mangrove_roots.png": {
     "x": 1536,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "spore_blossom.png": {
     "x": 1536,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "big_dripleaf.png": {
     "x": 1536,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "small_dripleaf.png": {
     "x": 1536,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "azalea.png": {
     "x": 1536,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "flowering_azalea.png": {
     "x": 1536,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "azalea_leaves.png": {
     "x": 1536,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "flowering_azalea_leaves.png": {
     "x": 1536,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "moss_block.png": {
     "x": 1536,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "moss_carpet.png": {
     "x": 1536,
-    "y": 1408,
-    "width": 64,
-    "height": 64
-  },
-  "pale_moss_block.png": {
-    "x": 1536,
     "y": 1472,
     "width": 64,
     "height": 64
   },
-  "pale_moss_carpet.png": {
+  "pale_moss_block.png": {
     "x": 0,
+    "y": 1536,
+    "width": 64,
+    "height": 64
+  },
+  "pale_moss_carpet.png": {
+    "x": 64,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "pale_hanging_moss.png": {
-    "x": 64,
+    "x": 128,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "crimson_roots.png": {
-    "x": 128,
+    "x": 192,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "warped_roots.png": {
-    "x": 192,
+    "x": 256,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "nether_sprouts.png": {
-    "x": 256,
+    "x": 320,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "weeping_vines.png": {
-    "x": 320,
+    "x": 384,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "twisting_vines.png": {
-    "x": 384,
+    "x": 448,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "chorus_flower.png": {
-    "x": 448,
+    "x": 512,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "bone_meal.png": {
-    "x": 512,
+    "x": 576,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "cocoa_beans.png": {
-    "x": 576,
+    "x": 640,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "white_dye.png": {
-    "x": 640,
+    "x": 704,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "orange_dye.png": {
-    "x": 704,
+    "x": 768,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "magenta_dye.png": {
-    "x": 768,
+    "x": 832,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "light_blue_dye.png": {
-    "x": 832,
+    "x": 896,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "yellow_dye.png": {
-    "x": 896,
+    "x": 960,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "lime_dye.png": {
-    "x": 960,
+    "x": 1024,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "pink_dye.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "gray_dye.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "light_gray_dye.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "cyan_dye.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "purple_dye.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "blue_dye.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "brown_dye.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "green_dye.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 1536,
     "width": 64,
     "height": 64
   },
   "red_dye.png": {
-    "x": 1536,
-    "y": 1536,
+    "x": 1600,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "black_dye.png": {
     "x": 1600,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "white_wool.png": {
     "x": 1600,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "orange_wool.png": {
     "x": 1600,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "magenta_wool.png": {
     "x": 1600,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "light_blue_wool.png": {
     "x": 1600,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "yellow_wool.png": {
     "x": 1600,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "lime_wool.png": {
     "x": 1600,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "pink_wool.png": {
     "x": 1600,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "gray_wool.png": {
     "x": 1600,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "light_gray_wool.png": {
     "x": 1600,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "cyan_wool.png": {
     "x": 1600,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "purple_wool.png": {
     "x": 1600,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "blue_wool.png": {
     "x": 1600,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "brown_wool.png": {
     "x": 1600,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "green_wool.png": {
     "x": 1600,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "red_wool.png": {
     "x": 1600,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "black_wool.png": {
     "x": 1600,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "white_carpet.png": {
     "x": 1600,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "orange_carpet.png": {
     "x": 1600,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "magenta_carpet.png": {
     "x": 1600,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "light_blue_carpet.png": {
     "x": 1600,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "yellow_carpet.png": {
     "x": 1600,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "lime_carpet.png": {
     "x": 1600,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "pink_carpet.png": {
     "x": 1600,
-    "y": 1472,
-    "width": 64,
-    "height": 64
-  },
-  "gray_carpet.png": {
-    "x": 1600,
     "y": 1536,
     "width": 64,
     "height": 64
   },
-  "light_gray_carpet.png": {
+  "gray_carpet.png": {
     "x": 0,
+    "y": 1600,
+    "width": 64,
+    "height": 64
+  },
+  "light_gray_carpet.png": {
+    "x": 64,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "cyan_carpet.png": {
-    "x": 64,
+    "x": 128,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "purple_carpet.png": {
-    "x": 128,
+    "x": 192,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "blue_carpet.png": {
-    "x": 192,
+    "x": 256,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "brown_carpet.png": {
-    "x": 256,
+    "x": 320,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "green_carpet.png": {
-    "x": 320,
+    "x": 384,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "red_carpet.png": {
-    "x": 384,
+    "x": 448,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "black_carpet.png": {
-    "x": 448,
+    "x": 512,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "white_bed.png": {
-    "x": 512,
+    "x": 576,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "orange_bed.png": {
-    "x": 576,
+    "x": 640,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "magenta_bed.png": {
-    "x": 640,
+    "x": 704,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "light_blue_bed.png": {
-    "x": 704,
+    "x": 768,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "yellow_bed.png": {
-    "x": 768,
+    "x": 832,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "lime_bed.png": {
-    "x": 832,
+    "x": 896,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "pink_bed.png": {
-    "x": 896,
+    "x": 960,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "gray_bed.png": {
-    "x": 960,
+    "x": 1024,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "light_gray_bed.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "cyan_bed.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "purple_bed.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "blue_bed.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "brown_bed.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "green_bed.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "red_bed.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "black_bed.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "terracotta.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 1600,
     "width": 64,
     "height": 64
   },
   "white_terracotta.png": {
-    "x": 1600,
-    "y": 1600,
+    "x": 1664,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "orange_terracotta.png": {
     "x": 1664,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "magenta_terracotta.png": {
     "x": 1664,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "light_blue_terracotta.png": {
     "x": 1664,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "yellow_terracotta.png": {
     "x": 1664,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "lime_terracotta.png": {
     "x": 1664,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "pink_terracotta.png": {
     "x": 1664,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "gray_terracotta.png": {
     "x": 1664,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "light_gray_terracotta.png": {
     "x": 1664,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "cyan_terracotta.png": {
     "x": 1664,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "purple_terracotta.png": {
     "x": 1664,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "blue_terracotta.png": {
     "x": 1664,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "brown_terracotta.png": {
     "x": 1664,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "green_terracotta.png": {
     "x": 1664,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "red_terracotta.png": {
     "x": 1664,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "black_terracotta.png": {
     "x": 1664,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "white_glazed_terracotta.png": {
     "x": 1664,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "orange_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "magenta_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "light_blue_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "yellow_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "lime_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "pink_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "gray_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "light_gray_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "cyan_glazed_terracotta.png": {
     "x": 1664,
-    "y": 1536,
-    "width": 64,
-    "height": 64
-  },
-  "purple_glazed_terracotta.png": {
-    "x": 1664,
     "y": 1600,
     "width": 64,
     "height": 64
   },
-  "blue_glazed_terracotta.png": {
+  "purple_glazed_terracotta.png": {
     "x": 0,
+    "y": 1664,
+    "width": 64,
+    "height": 64
+  },
+  "blue_glazed_terracotta.png": {
+    "x": 64,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "brown_glazed_terracotta.png": {
-    "x": 64,
+    "x": 128,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "green_glazed_terracotta.png": {
-    "x": 128,
+    "x": 192,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "red_glazed_terracotta.png": {
-    "x": 192,
+    "x": 256,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "black_glazed_terracotta.png": {
-    "x": 256,
+    "x": 320,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "white_concrete.png": {
-    "x": 320,
+    "x": 384,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "orange_concrete.png": {
-    "x": 384,
+    "x": 448,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "magenta_concrete.png": {
-    "x": 448,
+    "x": 512,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "light_blue_concrete.png": {
-    "x": 512,
+    "x": 576,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "yellow_concrete.png": {
-    "x": 576,
+    "x": 640,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "lime_concrete.png": {
-    "x": 640,
+    "x": 704,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "pink_concrete.png": {
-    "x": 704,
+    "x": 768,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "gray_concrete.png": {
-    "x": 768,
+    "x": 832,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "light_gray_concrete.png": {
-    "x": 832,
+    "x": 896,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "cyan_concrete.png": {
-    "x": 896,
+    "x": 960,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "purple_concrete.png": {
-    "x": 960,
+    "x": 1024,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "blue_concrete.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "brown_concrete.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "green_concrete.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "red_concrete.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "black_concrete.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "white_concrete_powder.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "orange_concrete_powder.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "magenta_concrete_powder.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "light_blue_concrete_powder.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "yellow_concrete_powder.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 1664,
     "width": 64,
     "height": 64
   },
   "lime_concrete_powder.png": {
-    "x": 1664,
-    "y": 1664,
+    "x": 1728,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "pink_concrete_powder.png": {
     "x": 1728,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "gray_concrete_powder.png": {
     "x": 1728,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "light_gray_concrete_powder.png": {
     "x": 1728,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "cyan_concrete_powder.png": {
     "x": 1728,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "purple_concrete_powder.png": {
     "x": 1728,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "blue_concrete_powder.png": {
     "x": 1728,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "brown_concrete_powder.png": {
     "x": 1728,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "green_concrete_powder.png": {
     "x": 1728,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "red_concrete_powder.png": {
     "x": 1728,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "black_concrete_powder.png": {
     "x": 1728,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "shulker_box.png": {
     "x": 1728,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "white_shulker_box.png": {
     "x": 1728,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "orange_shulker_box.png": {
     "x": 1728,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "magenta_shulker_box.png": {
     "x": 1728,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "light_blue_shulker_box.png": {
     "x": 1728,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "yellow_shulker_box.png": {
     "x": 1728,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "lime_shulker_box.png": {
     "x": 1728,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "pink_shulker_box.png": {
     "x": 1728,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "gray_shulker_box.png": {
     "x": 1728,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "light_gray_shulker_box.png": {
     "x": 1728,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "cyan_shulker_box.png": {
     "x": 1728,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "purple_shulker_box.png": {
     "x": 1728,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "blue_shulker_box.png": {
     "x": 1728,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "brown_shulker_box.png": {
     "x": 1728,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "green_shulker_box.png": {
     "x": 1728,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "red_shulker_box.png": {
     "x": 1728,
-    "y": 1600,
-    "width": 64,
-    "height": 64
-  },
-  "black_shulker_box.png": {
-    "x": 1728,
     "y": 1664,
     "width": 64,
     "height": 64
   },
-  "candle.png": {
+  "black_shulker_box.png": {
     "x": 0,
+    "y": 1728,
+    "width": 64,
+    "height": 64
+  },
+  "candle.png": {
+    "x": 64,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "white_candle.png": {
-    "x": 64,
+    "x": 128,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "orange_candle.png": {
-    "x": 128,
+    "x": 192,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "magenta_candle.png": {
-    "x": 192,
+    "x": 256,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "light_blue_candle.png": {
-    "x": 256,
+    "x": 320,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "yellow_candle.png": {
-    "x": 320,
+    "x": 384,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "lime_candle.png": {
-    "x": 384,
+    "x": 448,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "pink_candle.png": {
-    "x": 448,
+    "x": 512,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "gray_candle.png": {
-    "x": 512,
+    "x": 576,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "light_gray_candle.png": {
-    "x": 576,
+    "x": 640,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "cyan_candle.png": {
-    "x": 640,
+    "x": 704,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "purple_candle.png": {
-    "x": 704,
+    "x": 768,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "blue_candle.png": {
-    "x": 768,
+    "x": 832,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "brown_candle.png": {
-    "x": 832,
+    "x": 896,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "green_candle.png": {
-    "x": 896,
+    "x": 960,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "red_candle.png": {
-    "x": 960,
+    "x": 1024,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "black_candle.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "white_banner.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "orange_banner.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "magenta_banner.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "light_blue_banner.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "yellow_banner.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "lime_banner.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "pink_banner.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "gray_banner.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "light_gray_banner.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "cyan_banner.png": {
-    "x": 1664,
+    "x": 1728,
     "y": 1728,
     "width": 64,
     "height": 64
   },
   "purple_banner.png": {
-    "x": 1728,
-    "y": 1728,
+    "x": 1792,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "blue_banner.png": {
     "x": 1792,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "brown_banner.png": {
     "x": 1792,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "green_banner.png": {
     "x": 1792,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "red_banner.png": {
     "x": 1792,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "black_banner.png": {
     "x": 1792,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "bundle.png": {
     "x": 1792,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "white_bundle.png": {
     "x": 1792,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "orange_bundle.png": {
     "x": 1792,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "magenta_bundle.png": {
     "x": 1792,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "light_blue_bundle.png": {
     "x": 1792,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "yellow_bundle.png": {
     "x": 1792,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "lime_bundle.png": {
     "x": 1792,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "pink_bundle.png": {
     "x": 1792,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "gray_bundle.png": {
     "x": 1792,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "light_gray_bundle.png": {
     "x": 1792,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "cyan_bundle.png": {
     "x": 1792,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "purple_bundle.png": {
     "x": 1792,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "blue_bundle.png": {
     "x": 1792,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "brown_bundle.png": {
     "x": 1792,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "green_bundle.png": {
     "x": 1792,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "red_bundle.png": {
     "x": 1792,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "black_bundle.png": {
     "x": 1792,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "white_harness.png": {
     "x": 1792,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "orange_harness.png": {
     "x": 1792,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "magenta_harness.png": {
     "x": 1792,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "light_blue_harness.png": {
     "x": 1792,
-    "y": 1600,
+    "y": 1664,
     "width": 64,
     "height": 64
   },
   "yellow_harness.png": {
     "x": 1792,
-    "y": 1664,
-    "width": 64,
-    "height": 64
-  },
-  "lime_harness.png": {
-    "x": 1792,
     "y": 1728,
     "width": 64,
     "height": 64
   },
-  "pink_harness.png": {
+  "lime_harness.png": {
     "x": 0,
+    "y": 1792,
+    "width": 64,
+    "height": 64
+  },
+  "pink_harness.png": {
+    "x": 64,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "gray_harness.png": {
-    "x": 64,
+    "x": 128,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "light_gray_harness.png": {
-    "x": 128,
+    "x": 192,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "cyan_harness.png": {
-    "x": 192,
+    "x": 256,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "purple_harness.png": {
-    "x": 256,
+    "x": 320,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "blue_harness.png": {
-    "x": 320,
+    "x": 384,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "brown_harness.png": {
-    "x": 384,
+    "x": 448,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "green_harness.png": {
-    "x": 448,
+    "x": 512,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "red_harness.png": {
-    "x": 512,
+    "x": 576,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "black_harness.png": {
-    "x": 576,
+    "x": 640,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "bookshelf.png": {
-    "x": 640,
+    "x": 704,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "chiseled_bookshelf.png": {
-    "x": 704,
+    "x": 768,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "obsidian.png": {
-    "x": 768,
+    "x": 832,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "crying_obsidian.png": {
-    "x": 832,
+    "x": 896,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "respawn_anchor.png": {
-    "x": 896,
+    "x": 960,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "spawner.png": {
-    "x": 960,
+    "x": 1024,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "chest.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "barrel.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "ender_chest.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "crafting_table.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "stonecutter.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "cartography_table.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "fletching_table.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "smithing_table.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "grindstone.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "loom.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "furnace.png": {
-    "x": 1664,
+    "x": 1728,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "smoker.png": {
-    "x": 1728,
+    "x": 1792,
     "y": 1792,
     "width": 64,
     "height": 64
   },
   "blast_furnace.png": {
-    "x": 1792,
-    "y": 1792,
+    "x": 1856,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "campfire.png": {
     "x": 1856,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "soul_campfire.png": {
     "x": 1856,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "anvil.png": {
     "x": 1856,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "chipped_anvil.png": {
     "x": 1856,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "damaged_anvil.png": {
     "x": 1856,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "enchanting_table.png": {
     "x": 1856,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "brewing_stand.png": {
     "x": 1856,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "cauldron.png": {
     "x": 1856,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "composter.png": {
     "x": 1856,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "lectern.png": {
     "x": 1856,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "bell.png": {
     "x": 1856,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "ladder.png": {
     "x": 1856,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "scaffolding.png": {
     "x": 1856,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "snow.png": {
     "x": 1856,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "snow_block.png": {
     "x": 1856,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "snowball.png": {
     "x": 1856,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "ice.png": {
     "x": 1856,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "packed_ice.png": {
     "x": 1856,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "blue_ice.png": {
     "x": 1856,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "clay.png": {
     "x": 1856,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "clay_ball.png": {
     "x": 1856,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "pumpkin.png": {
     "x": 1856,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "carved_pumpkin.png": {
     "x": 1856,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "jack_o_lantern.png": {
     "x": 1856,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "melon.png": {
     "x": 1856,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "netherrack.png": {
     "x": 1856,
-    "y": 1600,
+    "y": 1664,
     "width": 64,
     "height": 64
   },
   "crimson_nylium.png": {
     "x": 1856,
-    "y": 1664,
+    "y": 1728,
     "width": 64,
     "height": 64
   },
   "warped_nylium.png": {
     "x": 1856,
-    "y": 1728,
-    "width": 64,
-    "height": 64
-  },
-  "soul_sand.png": {
-    "x": 1856,
     "y": 1792,
     "width": 64,
     "height": 64
   },
-  "soul_soil.png": {
+  "soul_sand.png": {
     "x": 0,
+    "y": 1856,
+    "width": 64,
+    "height": 64
+  },
+  "soul_soil.png": {
+    "x": 64,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "torch.png": {
-    "x": 64,
+    "x": 128,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "soul_torch.png": {
-    "x": 128,
+    "x": 192,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "copper_torch.png": {
-    "x": 192,
+    "x": 256,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "lantern.png": {
-    "x": 256,
+    "x": 320,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "soul_lantern.png": {
-    "x": 320,
+    "x": 384,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "end_rod.png": {
-    "x": 384,
+    "x": 448,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "glowstone.png": {
-    "x": 448,
+    "x": 512,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "glowstone_dust.png": {
-    "x": 512,
+    "x": 576,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "shroomlight.png": {
-    "x": 576,
+    "x": 640,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "sea_lantern.png": {
-    "x": 640,
+    "x": 704,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "ochre_froglight.png": {
-    "x": 704,
+    "x": 768,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "verdant_froglight.png": {
-    "x": 768,
+    "x": 832,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "pearlescent_froglight.png": {
-    "x": 832,
+    "x": 896,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "brown_mushroom_block.png": {
-    "x": 896,
+    "x": 960,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "red_mushroom_block.png": {
-    "x": 960,
+    "x": 1024,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "mushroom_stem.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "iron_bars.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "iron_chain.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "beacon.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "magma_block.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "nether_wart_block.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "warped_wart_block.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "bone_block.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "dead_tube_coral_block.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "dead_brain_coral_block.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "dead_bubble_coral_block.png": {
-    "x": 1664,
+    "x": 1728,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "dead_fire_coral_block.png": {
-    "x": 1728,
+    "x": 1792,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "dead_horn_coral_block.png": {
-    "x": 1792,
+    "x": 1856,
     "y": 1856,
     "width": 64,
     "height": 64
   },
   "tube_coral_block.png": {
-    "x": 1856,
-    "y": 1856,
+    "x": 1920,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "brain_coral_block.png": {
     "x": 1920,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "bubble_coral_block.png": {
     "x": 1920,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "fire_coral_block.png": {
     "x": 1920,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "horn_coral_block.png": {
     "x": 1920,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "tube_coral.png": {
     "x": 1920,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "brain_coral.png": {
     "x": 1920,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "bubble_coral.png": {
     "x": 1920,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "fire_coral.png": {
     "x": 1920,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "horn_coral.png": {
     "x": 1920,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "dead_brain_coral.png": {
     "x": 1920,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "dead_bubble_coral.png": {
     "x": 1920,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "dead_fire_coral.png": {
     "x": 1920,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "dead_horn_coral.png": {
     "x": 1920,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "dead_tube_coral.png": {
     "x": 1920,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "tube_coral_fan.png": {
     "x": 1920,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "brain_coral_fan.png": {
     "x": 1920,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "bubble_coral_fan.png": {
     "x": 1920,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "fire_coral_fan.png": {
     "x": 1920,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "horn_coral_fan.png": {
     "x": 1920,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "dead_tube_coral_fan.png": {
     "x": 1920,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "dead_brain_coral_fan.png": {
     "x": 1920,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "dead_bubble_coral_fan.png": {
     "x": 1920,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "dead_fire_coral_fan.png": {
     "x": 1920,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "dead_horn_coral_fan.png": {
     "x": 1920,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "conduit.png": {
     "x": 1920,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "wooden_sword.png": {
     "x": 1920,
-    "y": 1600,
+    "y": 1664,
+    "width": 64,
+    "height": 64
+  },
+  "wooden_spear.png": {
+    "x": 1920,
+    "y": 1728,
     "width": 64,
     "height": 64
   },
   "wooden_shovel.png": {
     "x": 1920,
-    "y": 1664,
+    "y": 1792,
     "width": 64,
     "height": 64
   },
   "wooden_pickaxe.png": {
     "x": 1920,
-    "y": 1728,
-    "width": 64,
-    "height": 64
-  },
-  "wooden_axe.png": {
-    "x": 1920,
-    "y": 1792,
-    "width": 64,
-    "height": 64
-  },
-  "wooden_hoe.png": {
-    "x": 1920,
     "y": 1856,
     "width": 64,
     "height": 64
   },
-  "wooden_spear.png": {
+  "wooden_axe.png": {
     "x": 0,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "wooden_hoe.png": {
+    "x": 64,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "stone_sword.png": {
-    "x": 64,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "stone_shovel.png": {
     "x": 128,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "stone_pickaxe.png": {
-    "x": 192,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "stone_axe.png": {
-    "x": 256,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "stone_hoe.png": {
-    "x": 320,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "stone_spear.png": {
+    "x": 192,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "stone_shovel.png": {
+    "x": 256,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "stone_pickaxe.png": {
+    "x": 320,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "stone_axe.png": {
     "x": 384,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "stone_hoe.png": {
+    "x": 448,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "leather_helmet.png": {
-    "x": 448,
+    "x": 512,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "leather_chestplate.png": {
-    "x": 512,
+    "x": 576,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "leather_leggings.png": {
-    "x": 576,
+    "x": 640,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "leather_boots.png": {
-    "x": 640,
+    "x": 704,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "chainmail_helmet.png": {
-    "x": 704,
+    "x": 768,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "chainmail_chestplate.png": {
-    "x": 768,
+    "x": 832,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "chainmail_leggings.png": {
-    "x": 832,
+    "x": 896,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "chainmail_boots.png": {
-    "x": 896,
+    "x": 960,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "iron_sword.png": {
-    "x": 960,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "iron_shovel.png": {
     "x": 1024,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "iron_pickaxe.png": {
-    "x": 1088,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "iron_axe.png": {
-    "x": 1152,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "iron_hoe.png": {
-    "x": 1216,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "iron_spear.png": {
+    "x": 1088,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "iron_shovel.png": {
+    "x": 1152,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "iron_pickaxe.png": {
+    "x": 1216,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "iron_axe.png": {
     "x": 1280,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "iron_hoe.png": {
+    "x": 1344,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "iron_helmet.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "iron_chestplate.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "iron_leggings.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "iron_boots.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "golden_sword.png": {
-    "x": 1600,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "golden_shovel.png": {
     "x": 1664,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "golden_pickaxe.png": {
-    "x": 1728,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "golden_axe.png": {
-    "x": 1792,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "golden_hoe.png": {
-    "x": 1856,
     "y": 1920,
     "width": 64,
     "height": 64
   },
   "golden_spear.png": {
+    "x": 1728,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "golden_shovel.png": {
+    "x": 1792,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "golden_pickaxe.png": {
+    "x": 1856,
+    "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "golden_axe.png": {
     "x": 1920,
     "y": 1920,
+    "width": 64,
+    "height": 64
+  },
+  "golden_hoe.png": {
+    "x": 1984,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "golden_helmet.png": {
     "x": 1984,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "golden_chestplate.png": {
     "x": 1984,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "golden_leggings.png": {
     "x": 1984,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "golden_boots.png": {
     "x": 1984,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "diamond_sword.png": {
     "x": 1984,
-    "y": 256,
-    "width": 64,
-    "height": 64
-  },
-  "diamond_shovel.png": {
-    "x": 1984,
     "y": 320,
-    "width": 64,
-    "height": 64
-  },
-  "diamond_pickaxe.png": {
-    "x": 1984,
-    "y": 384,
-    "width": 64,
-    "height": 64
-  },
-  "diamond_axe.png": {
-    "x": 1984,
-    "y": 448,
-    "width": 64,
-    "height": 64
-  },
-  "diamond_hoe.png": {
-    "x": 1984,
-    "y": 512,
     "width": 64,
     "height": 64
   },
   "diamond_spear.png": {
     "x": 1984,
+    "y": 384,
+    "width": 64,
+    "height": 64
+  },
+  "diamond_shovel.png": {
+    "x": 1984,
+    "y": 448,
+    "width": 64,
+    "height": 64
+  },
+  "diamond_pickaxe.png": {
+    "x": 1984,
+    "y": 512,
+    "width": 64,
+    "height": 64
+  },
+  "diamond_axe.png": {
+    "x": 1984,
     "y": 576,
+    "width": 64,
+    "height": 64
+  },
+  "diamond_hoe.png": {
+    "x": 1984,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "diamond_helmet.png": {
     "x": 1984,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "diamond_chestplate.png": {
     "x": 1984,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "diamond_leggings.png": {
     "x": 1984,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "diamond_boots.png": {
     "x": 1984,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "netherite_sword.png": {
     "x": 1984,
-    "y": 896,
-    "width": 64,
-    "height": 64
-  },
-  "netherite_shovel.png": {
-    "x": 1984,
     "y": 960,
-    "width": 64,
-    "height": 64
-  },
-  "netherite_pickaxe.png": {
-    "x": 1984,
-    "y": 1024,
-    "width": 64,
-    "height": 64
-  },
-  "netherite_axe.png": {
-    "x": 1984,
-    "y": 1088,
-    "width": 64,
-    "height": 64
-  },
-  "netherite_hoe.png": {
-    "x": 1984,
-    "y": 1152,
     "width": 64,
     "height": 64
   },
   "netherite_spear.png": {
     "x": 1984,
+    "y": 1024,
+    "width": 64,
+    "height": 64
+  },
+  "netherite_shovel.png": {
+    "x": 1984,
+    "y": 1088,
+    "width": 64,
+    "height": 64
+  },
+  "netherite_pickaxe.png": {
+    "x": 1984,
+    "y": 1152,
+    "width": 64,
+    "height": 64
+  },
+  "netherite_axe.png": {
+    "x": 1984,
     "y": 1216,
+    "width": 64,
+    "height": 64
+  },
+  "netherite_hoe.png": {
+    "x": 1984,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "netherite_helmet.png": {
     "x": 1984,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "netherite_chestplate.png": {
     "x": 1984,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "netherite_leggings.png": {
     "x": 1984,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "netherite_boots.png": {
     "x": 1984,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "copper_sword.png": {
     "x": 1984,
-    "y": 1536,
-    "width": 64,
-    "height": 64
-  },
-  "copper_shovel.png": {
-    "x": 1984,
     "y": 1600,
-    "width": 64,
-    "height": 64
-  },
-  "copper_pickaxe.png": {
-    "x": 1984,
-    "y": 1664,
-    "width": 64,
-    "height": 64
-  },
-  "copper_axe.png": {
-    "x": 1984,
-    "y": 1728,
-    "width": 64,
-    "height": 64
-  },
-  "copper_hoe.png": {
-    "x": 1984,
-    "y": 1792,
     "width": 64,
     "height": 64
   },
   "copper_spear.png": {
     "x": 1984,
+    "y": 1664,
+    "width": 64,
+    "height": 64
+  },
+  "copper_shovel.png": {
+    "x": 1984,
+    "y": 1728,
+    "width": 64,
+    "height": 64
+  },
+  "copper_pickaxe.png": {
+    "x": 1984,
+    "y": 1792,
+    "width": 64,
+    "height": 64
+  },
+  "copper_axe.png": {
+    "x": 1984,
     "y": 1856,
     "width": 64,
     "height": 64
   },
-  "copper_helmet.png": {
+  "copper_hoe.png": {
     "x": 1984,
     "y": 1920,
     "width": 64,
     "height": 64
   },
-  "copper_chestplate.png": {
+  "copper_helmet.png": {
     "x": 0,
+    "y": 1984,
+    "width": 64,
+    "height": 64
+  },
+  "copper_chestplate.png": {
+    "x": 64,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "copper_leggings.png": {
-    "x": 64,
+    "x": 128,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "copper_boots.png": {
-    "x": 128,
+    "x": 192,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "turtle_helmet.png": {
-    "x": 192,
+    "x": 256,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "bow.png": {
-    "x": 256,
+    "x": 320,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "crossbow.png": {
-    "x": 320,
+    "x": 384,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "arrow.png": {
-    "x": 384,
+    "x": 448,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "spectral_arrow.png": {
-    "x": 448,
+    "x": 512,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "tipped_arrow.png": {
-    "x": 512,
+    "x": 576,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "shield.png": {
-    "x": 576,
+    "x": 640,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "trident.png": {
-    "x": 640,
+    "x": 704,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "heavy_core.png": {
-    "x": 704,
+    "x": 768,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "mace.png": {
-    "x": 768,
+    "x": 832,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "wind_charge.png": {
-    "x": 832,
+    "x": 896,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "flint.png": {
-    "x": 896,
+    "x": 960,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "flint_and_steel.png": {
-    "x": 960,
+    "x": 1024,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "shears.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "brush.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "fishing_rod.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "carrot_on_a_stick.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "warped_fungus_on_a_stick.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "wheat_seeds.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "pumpkin_seeds.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "melon_seeds.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "beetroot_seeds.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "wheat.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "hay_block.png": {
-    "x": 1664,
+    "x": 1728,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "bread.png": {
-    "x": 1728,
+    "x": 1792,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "cookie.png": {
-    "x": 1792,
+    "x": 1856,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "cake.png": {
-    "x": 1856,
+    "x": 1920,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "pumpkin_pie.png": {
-    "x": 1920,
+    "x": 1984,
     "y": 1984,
     "width": 64,
     "height": 64
   },
   "sugar.png": {
-    "x": 1984,
-    "y": 1984,
+    "x": 2048,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "honey_bottle.png": {
     "x": 2048,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "apple.png": {
     "x": 2048,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "golden_apple.png": {
     "x": 2048,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "enchanted_golden_apple.png": {
     "x": 2048,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "melon_slice.png": {
     "x": 2048,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "glistering_melon_slice.png": {
     "x": 2048,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "sweet_berries.png": {
     "x": 2048,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "glow_berries.png": {
     "x": 2048,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "chorus_fruit.png": {
     "x": 2048,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "carrot.png": {
     "x": 2048,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "golden_carrot.png": {
     "x": 2048,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "potato.png": {
     "x": 2048,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "baked_potato.png": {
     "x": 2048,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "poisonous_potato.png": {
     "x": 2048,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "beetroot.png": {
     "x": 2048,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "beetroot_soup.png": {
     "x": 2048,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "dried_kelp.png": {
     "x": 2048,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "dried_kelp_block.png": {
     "x": 2048,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "porkchop.png": {
     "x": 2048,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "cooked_porkchop.png": {
     "x": 2048,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "beef.png": {
     "x": 2048,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "cooked_beef.png": {
     "x": 2048,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "chicken.png": {
     "x": 2048,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "cooked_chicken.png": {
     "x": 2048,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "mutton.png": {
     "x": 2048,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "cooked_mutton.png": {
     "x": 2048,
-    "y": 1600,
+    "y": 1664,
     "width": 64,
     "height": 64
   },
   "rabbit.png": {
     "x": 2048,
-    "y": 1664,
+    "y": 1728,
     "width": 64,
     "height": 64
   },
   "cooked_rabbit.png": {
     "x": 2048,
-    "y": 1728,
+    "y": 1792,
     "width": 64,
     "height": 64
   },
   "rabbit_stew.png": {
     "x": 2048,
-    "y": 1792,
+    "y": 1856,
     "width": 64,
     "height": 64
   },
   "mushroom_stew.png": {
     "x": 2048,
-    "y": 1856,
+    "y": 1920,
     "width": 64,
     "height": 64
   },
   "suspicious_stew.png": {
     "x": 2048,
-    "y": 1920,
-    "width": 64,
-    "height": 64
-  },
-  "cod.png": {
-    "x": 2048,
     "y": 1984,
     "width": 64,
     "height": 64
   },
-  "cooked_cod.png": {
+  "cod.png": {
     "x": 0,
+    "y": 2048,
+    "width": 64,
+    "height": 64
+  },
+  "cooked_cod.png": {
+    "x": 64,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "salmon.png": {
-    "x": 64,
+    "x": 128,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "cooked_salmon.png": {
-    "x": 128,
+    "x": 192,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "tropical_fish.png": {
-    "x": 192,
+    "x": 256,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "pufferfish.png": {
-    "x": 256,
+    "x": 320,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "string.png": {
-    "x": 320,
+    "x": 384,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "feather.png": {
-    "x": 384,
+    "x": 448,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "leather.png": {
-    "x": 448,
+    "x": 512,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "rabbit_hide.png": {
-    "x": 512,
+    "x": 576,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "rabbit_foot.png": {
-    "x": 576,
+    "x": 640,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "bone.png": {
-    "x": 640,
+    "x": 704,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "ink_sac.png": {
-    "x": 704,
+    "x": 768,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "glow_ink_sac.png": {
-    "x": 768,
+    "x": 832,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "slime_ball.png": {
-    "x": 832,
+    "x": 896,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "gunpowder.png": {
-    "x": 896,
+    "x": 960,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "rotten_flesh.png": {
-    "x": 960,
+    "x": 1024,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "spider_eye.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "ender_pearl.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "ender_eye.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "blaze_rod.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "ghast_tear.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "magma_cream.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "phantom_membrane.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "shulker_shell.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "prismarine_shard.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "prismarine_crystals.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "nautilus_shell.png": {
-    "x": 1664,
+    "x": 1728,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "turtle_scute.png": {
-    "x": 1728,
+    "x": 1792,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "armadillo_scute.png": {
-    "x": 1792,
+    "x": 1856,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "goat_horn.png": {
-    "x": 1856,
+    "x": 1920,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "breeze_rod.png": {
-    "x": 1920,
+    "x": 1984,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "nether_star.png": {
-    "x": 1984,
+    "x": 2048,
     "y": 2048,
     "width": 64,
     "height": 64
   },
   "totem_of_undying.png": {
-    "x": 2048,
-    "y": 2048,
+    "x": 2112,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "bucket.png": {
     "x": 2112,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "water_bucket.png": {
     "x": 2112,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "lava_bucket.png": {
     "x": 2112,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "milk_bucket.png": {
     "x": 2112,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "powder_snow_bucket.png": {
     "x": 2112,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "axolotl_bucket.png": {
     "x": 2112,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "cod_bucket.png": {
     "x": 2112,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "salmon_bucket.png": {
     "x": 2112,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "tropical_fish_bucket.png": {
     "x": 2112,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "pufferfish_bucket.png": {
     "x": 2112,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "tadpole_bucket.png": {
     "x": 2112,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "sulfur_cube_bucket.png": {
     "x": 2112,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "stick.png": {
     "x": 2112,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "bowl.png": {
     "x": 2112,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "paper.png": {
     "x": 2112,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "book.png": {
     "x": 2112,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "writable_book.png": {
     "x": 2112,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "written_book.png": {
     "x": 2112,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "enchanted_book.png": {
     "x": 2112,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "egg.png": {
     "x": 2112,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "brown_egg.png": {
     "x": 2112,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "blue_egg.png": {
     "x": 2112,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "turtle_egg.png": {
     "x": 2112,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "sniffer_egg.png": {
     "x": 2112,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "dragon_egg.png": {
     "x": 2112,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "compass.png": {
     "x": 2112,
-    "y": 1600,
+    "y": 1664,
     "width": 64,
     "height": 64
   },
   "recovery_compass.png": {
     "x": 2112,
-    "y": 1664,
+    "y": 1728,
     "width": 64,
     "height": 64
   },
   "lodestone.png": {
     "x": 2112,
-    "y": 1728,
+    "y": 1792,
     "width": 64,
     "height": 64
   },
   "clock.png": {
     "x": 2112,
-    "y": 1792,
+    "y": 1856,
     "width": 64,
     "height": 64
   },
   "spyglass.png": {
     "x": 2112,
-    "y": 1856,
+    "y": 1920,
     "width": 64,
     "height": 64
   },
   "map.png": {
     "x": 2112,
-    "y": 1920,
+    "y": 1984,
     "width": 64,
     "height": 64
   },
   "filled_map.png": {
     "x": 2112,
-    "y": 1984,
-    "width": 64,
-    "height": 64
-  },
-  "nether_wart.png": {
-    "x": 2112,
     "y": 2048,
     "width": 64,
     "height": 64
   },
-  "glass_bottle.png": {
+  "nether_wart.png": {
     "x": 0,
+    "y": 2112,
+    "width": 64,
+    "height": 64
+  },
+  "glass_bottle.png": {
+    "x": 64,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "potion.png": {
-    "x": 64,
+    "x": 128,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "splash_potion.png": {
-    "x": 128,
+    "x": 192,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "lingering_potion.png": {
-    "x": 192,
+    "x": 256,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "ominous_bottle.png": {
-    "x": 256,
+    "x": 320,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "experience_bottle.png": {
-    "x": 320,
+    "x": 384,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "dragon_breath.png": {
-    "x": 384,
+    "x": 448,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "fermented_spider_eye.png": {
-    "x": 448,
+    "x": 512,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "blaze_powder.png": {
-    "x": 512,
+    "x": 576,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "fire_charge.png": {
-    "x": 576,
+    "x": 640,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "painting.png": {
-    "x": 640,
+    "x": 704,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "item_frame.png": {
-    "x": 704,
+    "x": 768,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "glow_item_frame.png": {
-    "x": 768,
+    "x": 832,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "flower_pot.png": {
-    "x": 832,
+    "x": 896,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "skeleton_skull.png": {
-    "x": 896,
+    "x": 960,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "wither_skeleton_skull.png": {
-    "x": 960,
+    "x": 1024,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "player_head.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "zombie_head.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "creeper_head.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "dragon_head.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "piglin_head.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "firework_rocket.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "firework_star.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "armor_stand.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "saddle.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "leather_horse_armor.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "iron_horse_armor.png": {
-    "x": 1664,
+    "x": 1728,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "golden_horse_armor.png": {
-    "x": 1728,
+    "x": 1792,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "diamond_horse_armor.png": {
-    "x": 1792,
+    "x": 1856,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "netherite_horse_armor.png": {
-    "x": 1856,
+    "x": 1920,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "copper_horse_armor.png": {
-    "x": 1920,
+    "x": 1984,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "iron_nautilus_armor.png": {
-    "x": 1984,
+    "x": 2048,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "golden_nautilus_armor.png": {
-    "x": 2048,
+    "x": 2112,
     "y": 2112,
     "width": 64,
     "height": 64
   },
   "diamond_nautilus_armor.png": {
-    "x": 2112,
-    "y": 2112,
+    "x": 2176,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "netherite_nautilus_armor.png": {
     "x": 2176,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "copper_nautilus_armor.png": {
     "x": 2176,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "wolf_armor.png": {
     "x": 2176,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "lead.png": {
     "x": 2176,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "name_tag.png": {
     "x": 2176,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "bee_nest.png": {
     "x": 2176,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "beehive.png": {
     "x": 2176,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "honeycomb.png": {
     "x": 2176,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "honeycomb_block.png": {
     "x": 2176,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "end_crystal.png": {
     "x": 2176,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "popped_chorus_fruit.png": {
     "x": 2176,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "elytra.png": {
     "x": 2176,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "heart_of_the_sea.png": {
     "x": 2176,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "amethyst_shard.png": {
     "x": 2176,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "amethyst_block.png": {
     "x": 2176,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "amethyst_cluster.png": {
     "x": 2176,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "large_amethyst_bud.png": {
     "x": 2176,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "medium_amethyst_bud.png": {
     "x": 2176,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "small_amethyst_bud.png": {
     "x": 2176,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "calcite.png": {
     "x": 2176,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "copper_block.png": {
     "x": 2176,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "exposed_copper.png": {
     "x": 2176,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "weathered_copper.png": {
     "x": 2176,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "oxidized_copper.png": {
     "x": 2176,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "waxed_copper_block.png": {
     "x": 2176,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_copper.png": {
     "x": 2176,
-    "y": 1600,
+    "y": 1664,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_copper.png": {
     "x": 2176,
-    "y": 1664,
+    "y": 1728,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_copper.png": {
     "x": 2176,
-    "y": 1728,
+    "y": 1792,
     "width": 64,
     "height": 64
   },
   "chiseled_copper.png": {
     "x": 2176,
-    "y": 1792,
+    "y": 1856,
     "width": 64,
     "height": 64
   },
   "exposed_chiseled_copper.png": {
     "x": 2176,
-    "y": 1856,
+    "y": 1920,
     "width": 64,
     "height": 64
   },
   "weathered_chiseled_copper.png": {
     "x": 2176,
-    "y": 1920,
+    "y": 1984,
     "width": 64,
     "height": 64
   },
   "oxidized_chiseled_copper.png": {
     "x": 2176,
-    "y": 1984,
+    "y": 2048,
     "width": 64,
     "height": 64
   },
   "cut_copper.png": {
     "x": 2176,
-    "y": 2048,
-    "width": 64,
-    "height": 64
-  },
-  "exposed_cut_copper.png": {
-    "x": 2176,
     "y": 2112,
     "width": 64,
     "height": 64
   },
-  "weathered_cut_copper.png": {
+  "exposed_cut_copper.png": {
     "x": 0,
+    "y": 2176,
+    "width": 64,
+    "height": 64
+  },
+  "weathered_cut_copper.png": {
+    "x": 64,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "oxidized_cut_copper.png": {
-    "x": 64,
+    "x": 128,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_cut_copper.png": {
-    "x": 128,
+    "x": 192,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_cut_copper.png": {
-    "x": 192,
+    "x": 256,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_cut_copper.png": {
-    "x": 256,
+    "x": 320,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_cut_copper.png": {
-    "x": 320,
+    "x": 384,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "cut_copper_slab.png": {
-    "x": 384,
+    "x": 448,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "exposed_cut_copper_slab.png": {
-    "x": 448,
+    "x": 512,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "weathered_cut_copper_slab.png": {
-    "x": 512,
+    "x": 576,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "oxidized_cut_copper_slab.png": {
-    "x": 576,
+    "x": 640,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_cut_copper_slab.png": {
-    "x": 640,
+    "x": 704,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_cut_copper_slab.png": {
-    "x": 704,
+    "x": 768,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_cut_copper_slab.png": {
-    "x": 768,
+    "x": 832,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_cut_copper_slab.png": {
-    "x": 832,
+    "x": 896,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "cut_copper_stairs.png": {
-    "x": 896,
+    "x": 960,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "exposed_cut_copper_stairs.png": {
-    "x": 960,
+    "x": 1024,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "weathered_cut_copper_stairs.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "oxidized_cut_copper_stairs.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_cut_copper_stairs.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_cut_copper_stairs.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_cut_copper_stairs.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_cut_copper_stairs.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "copper_grate.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "exposed_copper_grate.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "weathered_copper_grate.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_grate.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "copper_bulb.png": {
-    "x": 1664,
+    "x": 1728,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "exposed_copper_bulb.png": {
-    "x": 1728,
+    "x": 1792,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "weathered_copper_bulb.png": {
-    "x": 1792,
+    "x": 1856,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_bulb.png": {
-    "x": 1856,
+    "x": 1920,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "copper_door.png": {
-    "x": 1920,
+    "x": 1984,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "exposed_copper_door.png": {
-    "x": 1984,
+    "x": 2048,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "weathered_copper_door.png": {
-    "x": 2048,
+    "x": 2112,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_door.png": {
-    "x": 2112,
+    "x": 2176,
     "y": 2176,
     "width": 64,
     "height": 64
   },
   "copper_trapdoor.png": {
-    "x": 2176,
-    "y": 2176,
+    "x": 2240,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "exposed_copper_trapdoor.png": {
     "x": 2240,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "weathered_copper_trapdoor.png": {
     "x": 2240,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_trapdoor.png": {
     "x": 2240,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "copper_bars.png": {
     "x": 2240,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "exposed_copper_bars.png": {
     "x": 2240,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "weathered_copper_bars.png": {
     "x": 2240,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_bars.png": {
     "x": 2240,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "waxed_copper_bars.png": {
     "x": 2240,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_copper_bars.png": {
     "x": 2240,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_copper_bars.png": {
     "x": 2240,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_copper_bars.png": {
     "x": 2240,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "copper_chain.png": {
     "x": 2240,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "exposed_copper_chain.png": {
     "x": 2240,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "weathered_copper_chain.png": {
     "x": 2240,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_chain.png": {
     "x": 2240,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "waxed_copper_chain.png": {
     "x": 2240,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_copper_chain.png": {
     "x": 2240,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_copper_chain.png": {
     "x": 2240,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_copper_chain.png": {
     "x": 2240,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "copper_chest.png": {
     "x": 2240,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "exposed_copper_chest.png": {
     "x": 2240,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "weathered_copper_chest.png": {
     "x": 2240,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_chest.png": {
     "x": 2240,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "waxed_copper_chest.png": {
     "x": 2240,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_copper_chest.png": {
     "x": 2240,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_copper_chest.png": {
     "x": 2240,
-    "y": 1600,
+    "y": 1664,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_copper_chest.png": {
     "x": 2240,
-    "y": 1664,
+    "y": 1728,
     "width": 64,
     "height": 64
   },
   "copper_lantern.png": {
     "x": 2240,
-    "y": 1728,
+    "y": 1792,
     "width": 64,
     "height": 64
   },
   "exposed_copper_lantern.png": {
     "x": 2240,
-    "y": 1792,
+    "y": 1856,
     "width": 64,
     "height": 64
   },
   "weathered_copper_lantern.png": {
     "x": 2240,
-    "y": 1856,
+    "y": 1920,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_lantern.png": {
     "x": 2240,
-    "y": 1920,
+    "y": 1984,
     "width": 64,
     "height": 64
   },
   "waxed_copper_lantern.png": {
     "x": 2240,
-    "y": 1984,
+    "y": 2048,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_copper_lantern.png": {
     "x": 2240,
-    "y": 2048,
+    "y": 2112,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_copper_lantern.png": {
     "x": 2240,
-    "y": 2112,
-    "width": 64,
-    "height": 64
-  },
-  "waxed_oxidized_copper_lantern.png": {
-    "x": 2240,
     "y": 2176,
     "width": 64,
     "height": 64
   },
-  "copper_golem_statue.png": {
+  "waxed_oxidized_copper_lantern.png": {
     "x": 0,
+    "y": 2240,
+    "width": 64,
+    "height": 64
+  },
+  "copper_golem_statue.png": {
+    "x": 64,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "exposed_copper_golem_statue.png": {
-    "x": 64,
+    "x": 128,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "weathered_copper_golem_statue.png": {
-    "x": 128,
+    "x": 192,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "oxidized_copper_golem_statue.png": {
-    "x": 192,
+    "x": 256,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "waxed_copper_golem_statue.png": {
-    "x": 256,
+    "x": 320,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_copper_golem_statue.png": {
-    "x": 320,
+    "x": 384,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_copper_golem_statue.png": {
-    "x": 384,
+    "x": 448,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_copper_golem_statue.png": {
-    "x": 448,
+    "x": 512,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "lightning_rod.png": {
-    "x": 512,
+    "x": 576,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "exposed_lightning_rod.png": {
-    "x": 576,
+    "x": 640,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "weathered_lightning_rod.png": {
-    "x": 640,
+    "x": 704,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "oxidized_lightning_rod.png": {
-    "x": 704,
+    "x": 768,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "waxed_lightning_rod.png": {
-    "x": 768,
+    "x": 832,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "waxed_exposed_lightning_rod.png": {
-    "x": 832,
+    "x": 896,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "waxed_weathered_lightning_rod.png": {
-    "x": 896,
+    "x": 960,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "waxed_oxidized_lightning_rod.png": {
-    "x": 960,
+    "x": 1024,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "dripstone_block.png": {
-    "x": 1024,
+    "x": 1088,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "pointed_dripstone.png": {
-    "x": 1088,
+    "x": 1152,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "cinnabar.png": {
-    "x": 1152,
+    "x": 1216,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "cinnabar_slab.png": {
-    "x": 1216,
+    "x": 1280,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "cinnabar_stairs.png": {
-    "x": 1280,
+    "x": 1344,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "cinnabar_wall.png": {
-    "x": 1344,
+    "x": 1408,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "chiseled_cinnabar.png": {
-    "x": 1408,
+    "x": 1472,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "polished_cinnabar.png": {
-    "x": 1472,
+    "x": 1536,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "polished_cinnabar_slab.png": {
-    "x": 1536,
+    "x": 1600,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "polished_cinnabar_stairs.png": {
-    "x": 1600,
+    "x": 1664,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "polished_cinnabar_wall.png": {
-    "x": 1664,
+    "x": 1728,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "cinnabar_bricks.png": {
-    "x": 1728,
+    "x": 1792,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "cinnabar_brick_slab.png": {
-    "x": 1792,
+    "x": 1856,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "cinnabar_brick_stairs.png": {
-    "x": 1856,
+    "x": 1920,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "cinnabar_brick_wall.png": {
-    "x": 1920,
+    "x": 1984,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "sulfur.png": {
-    "x": 1984,
+    "x": 2048,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "sulfur_slab.png": {
-    "x": 2048,
+    "x": 2112,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "sulfur_stairs.png": {
-    "x": 2112,
+    "x": 2176,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "sulfur_wall.png": {
-    "x": 2176,
+    "x": 2240,
     "y": 2240,
     "width": 64,
     "height": 64
   },
   "chiseled_sulfur.png": {
-    "x": 2240,
-    "y": 2240,
+    "x": 2304,
+    "y": 0,
     "width": 64,
     "height": 64
   },
   "polished_sulfur.png": {
     "x": 2304,
-    "y": 0,
+    "y": 64,
     "width": 64,
     "height": 64
   },
   "polished_sulfur_slab.png": {
     "x": 2304,
-    "y": 64,
+    "y": 128,
     "width": 64,
     "height": 64
   },
   "polished_sulfur_stairs.png": {
     "x": 2304,
-    "y": 128,
+    "y": 192,
     "width": 64,
     "height": 64
   },
   "polished_sulfur_wall.png": {
     "x": 2304,
-    "y": 192,
+    "y": 256,
     "width": 64,
     "height": 64
   },
   "sulfur_bricks.png": {
     "x": 2304,
-    "y": 256,
+    "y": 320,
     "width": 64,
     "height": 64
   },
   "sulfur_brick_slab.png": {
     "x": 2304,
-    "y": 320,
+    "y": 384,
     "width": 64,
     "height": 64
   },
   "sulfur_brick_stairs.png": {
     "x": 2304,
-    "y": 384,
+    "y": 448,
     "width": 64,
     "height": 64
   },
   "sulfur_brick_wall.png": {
     "x": 2304,
-    "y": 448,
+    "y": 512,
     "width": 64,
     "height": 64
   },
   "sulfur_spike.png": {
     "x": 2304,
-    "y": 512,
+    "y": 576,
     "width": 64,
     "height": 64
   },
   "potent_sulfur.png": {
     "x": 2304,
-    "y": 576,
+    "y": 640,
     "width": 64,
     "height": 64
   },
   "note_block.png": {
     "x": 2304,
-    "y": 640,
+    "y": 704,
     "width": 64,
     "height": 64
   },
   "jukebox.png": {
     "x": 2304,
-    "y": 704,
+    "y": 768,
     "width": 64,
     "height": 64
   },
   "music_disc_13.png": {
     "x": 2304,
-    "y": 768,
+    "y": 832,
     "width": 64,
     "height": 64
   },
   "music_disc_cat.png": {
     "x": 2304,
-    "y": 832,
+    "y": 896,
     "width": 64,
     "height": 64
   },
   "music_disc_blocks.png": {
     "x": 2304,
-    "y": 896,
+    "y": 960,
     "width": 64,
     "height": 64
   },
   "music_disc_chirp.png": {
     "x": 2304,
-    "y": 960,
+    "y": 1024,
     "width": 64,
     "height": 64
   },
   "music_disc_far.png": {
     "x": 2304,
-    "y": 1024,
+    "y": 1088,
     "width": 64,
     "height": 64
   },
   "music_disc_mall.png": {
     "x": 2304,
-    "y": 1088,
+    "y": 1152,
     "width": 64,
     "height": 64
   },
   "music_disc_mellohi.png": {
     "x": 2304,
-    "y": 1152,
+    "y": 1216,
     "width": 64,
     "height": 64
   },
   "music_disc_stal.png": {
     "x": 2304,
-    "y": 1216,
+    "y": 1280,
     "width": 64,
     "height": 64
   },
   "music_disc_strad.png": {
     "x": 2304,
-    "y": 1280,
+    "y": 1344,
     "width": 64,
     "height": 64
   },
   "music_disc_ward.png": {
     "x": 2304,
-    "y": 1344,
+    "y": 1408,
     "width": 64,
     "height": 64
   },
   "music_disc_11.png": {
     "x": 2304,
-    "y": 1408,
+    "y": 1472,
     "width": 64,
     "height": 64
   },
   "music_disc_wait.png": {
     "x": 2304,
-    "y": 1472,
+    "y": 1536,
     "width": 64,
     "height": 64
   },
   "music_disc_5.png": {
     "x": 2304,
-    "y": 1536,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
   "disc_fragment_5.png": {
     "x": 2304,
-    "y": 1600,
+    "y": 1664,
     "width": 64,
     "height": 64
   },
   "music_disc_pigstep.png": {
     "x": 2304,
-    "y": 1664,
+    "y": 1728,
     "width": 64,
     "height": 64
   },
   "music_disc_otherside.png": {
     "x": 2304,
-    "y": 1728,
+    "y": 1792,
     "width": 64,
     "height": 64
   },
   "music_disc_relic.png": {
     "x": 2304,
-    "y": 1792,
+    "y": 1856,
     "width": 64,
     "height": 64
   },
   "music_disc_precipice.png": {
     "x": 2304,
-    "y": 1856,
+    "y": 1920,
     "width": 64,
     "height": 64
   },
   "music_disc_creator.png": {
     "x": 2304,
-    "y": 1920,
+    "y": 1984,
     "width": 64,
     "height": 64
   },
   "music_disc_creator_music_box.png": {
     "x": 2304,
-    "y": 1984,
+    "y": 2048,
     "width": 64,
     "height": 64
   },
   "music_disc_tears.png": {
     "x": 2304,
-    "y": 2048,
+    "y": 2112,
     "width": 64,
     "height": 64
   },
   "music_disc_lava_chicken.png": {
     "x": 2304,
-    "y": 2112,
+    "y": 2176,
     "width": 64,
     "height": 64
   },
   "music_disc_bounce.png": {
     "x": 2304,
-    "y": 2176,
-    "width": 64,
-    "height": 64
-  },
-  "sculk.png": {
-    "x": 2304,
     "y": 2240,
     "width": 64,
     "height": 64
   },
-  "sculk_vein.png": {
+  "sculk.png": {
     "x": 0,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "sculk_catalyst.png": {
+  "sculk_vein.png": {
     "x": 64,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "sculk_shrieker.png": {
+  "sculk_catalyst.png": {
     "x": 128,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "sculk_sensor.png": {
+  "sculk_shrieker.png": {
     "x": 192,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "calibrated_sculk_sensor.png": {
+  "sculk_sensor.png": {
     "x": 256,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "echo_shard.png": {
+  "calibrated_sculk_sensor.png": {
     "x": 320,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "decorated_pot.png": {
+  "echo_shard.png": {
     "x": 384,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "angler_pottery_sherd.png": {
+  "decorated_pot.png": {
     "x": 448,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "archer_pottery_sherd.png": {
+  "angler_pottery_sherd.png": {
     "x": 512,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "arms_up_pottery_sherd.png": {
+  "archer_pottery_sherd.png": {
     "x": 576,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "blade_pottery_sherd.png": {
+  "arms_up_pottery_sherd.png": {
     "x": 640,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "brewer_pottery_sherd.png": {
+  "blade_pottery_sherd.png": {
     "x": 704,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "burn_pottery_sherd.png": {
+  "brewer_pottery_sherd.png": {
     "x": 768,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "danger_pottery_sherd.png": {
+  "burn_pottery_sherd.png": {
     "x": 832,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "explorer_pottery_sherd.png": {
+  "danger_pottery_sherd.png": {
     "x": 896,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "friend_pottery_sherd.png": {
+  "explorer_pottery_sherd.png": {
     "x": 960,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "heart_pottery_sherd.png": {
+  "friend_pottery_sherd.png": {
     "x": 1024,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "heartbreak_pottery_sherd.png": {
+  "heart_pottery_sherd.png": {
     "x": 1088,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "howl_pottery_sherd.png": {
+  "heartbreak_pottery_sherd.png": {
     "x": 1152,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "miner_pottery_sherd.png": {
+  "howl_pottery_sherd.png": {
     "x": 1216,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "mourner_pottery_sherd.png": {
+  "miner_pottery_sherd.png": {
     "x": 1280,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "plenty_pottery_sherd.png": {
+  "mourner_pottery_sherd.png": {
     "x": 1344,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "prize_pottery_sherd.png": {
+  "plenty_pottery_sherd.png": {
     "x": 1408,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "sheaf_pottery_sherd.png": {
+  "prize_pottery_sherd.png": {
     "x": 1472,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "shelter_pottery_sherd.png": {
+  "sheaf_pottery_sherd.png": {
     "x": 1536,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "skull_pottery_sherd.png": {
+  "shelter_pottery_sherd.png": {
     "x": 1600,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "snort_pottery_sherd.png": {
+  "skull_pottery_sherd.png": {
     "x": 1664,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "flow_pottery_sherd.png": {
+  "snort_pottery_sherd.png": {
     "x": 1728,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "guster_pottery_sherd.png": {
+  "flow_pottery_sherd.png": {
     "x": 1792,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "scrape_pottery_sherd.png": {
+  "guster_pottery_sherd.png": {
     "x": 1856,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "netherite_upgrade_smithing_template.png": {
+  "scrape_pottery_sherd.png": {
     "x": 1920,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "coast_armor_trim_smithing_template.png": {
+  "netherite_upgrade_smithing_template.png": {
     "x": 1984,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "dune_armor_trim_smithing_template.png": {
+  "coast_armor_trim_smithing_template.png": {
     "x": 2048,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "eye_armor_trim_smithing_template.png": {
+  "dune_armor_trim_smithing_template.png": {
     "x": 2112,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "host_armor_trim_smithing_template.png": {
+  "eye_armor_trim_smithing_template.png": {
     "x": 2176,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "raiser_armor_trim_smithing_template.png": {
+  "host_armor_trim_smithing_template.png": {
     "x": 2240,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "rib_armor_trim_smithing_template.png": {
+  "raiser_armor_trim_smithing_template.png": {
     "x": 2304,
     "y": 2304,
     "width": 64,
     "height": 64
   },
-  "sentry_armor_trim_smithing_template.png": {
+  "rib_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 0,
     "width": 64,
     "height": 64
   },
-  "shaper_armor_trim_smithing_template.png": {
+  "sentry_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 64,
     "width": 64,
     "height": 64
   },
-  "silence_armor_trim_smithing_template.png": {
+  "shaper_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 128,
     "width": 64,
     "height": 64
   },
-  "snout_armor_trim_smithing_template.png": {
+  "silence_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 192,
     "width": 64,
     "height": 64
   },
-  "spire_armor_trim_smithing_template.png": {
+  "snout_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 256,
     "width": 64,
     "height": 64
   },
-  "tide_armor_trim_smithing_template.png": {
+  "spire_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 320,
     "width": 64,
     "height": 64
   },
-  "vex_armor_trim_smithing_template.png": {
+  "tide_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 384,
     "width": 64,
     "height": 64
   },
-  "ward_armor_trim_smithing_template.png": {
+  "vex_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 448,
     "width": 64,
     "height": 64
   },
-  "wayfinder_armor_trim_smithing_template.png": {
+  "ward_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 512,
     "width": 64,
     "height": 64
   },
-  "wild_armor_trim_smithing_template.png": {
+  "wayfinder_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 576,
     "width": 64,
     "height": 64
   },
-  "flow_armor_trim_smithing_template.png": {
+  "wild_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 640,
     "width": 64,
     "height": 64
   },
-  "bolt_armor_trim_smithing_template.png": {
+  "flow_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 704,
     "width": 64,
     "height": 64
   },
-  "flower_banner_pattern.png": {
+  "bolt_armor_trim_smithing_template.png": {
     "x": 2368,
     "y": 768,
     "width": 64,
     "height": 64
   },
-  "creeper_banner_pattern.png": {
+  "flower_banner_pattern.png": {
     "x": 2368,
     "y": 832,
     "width": 64,
     "height": 64
   },
-  "skull_banner_pattern.png": {
+  "creeper_banner_pattern.png": {
     "x": 2368,
     "y": 896,
     "width": 64,
     "height": 64
   },
-  "mojang_banner_pattern.png": {
+  "skull_banner_pattern.png": {
     "x": 2368,
     "y": 960,
     "width": 64,
     "height": 64
   },
-  "globe_banner_pattern.png": {
+  "mojang_banner_pattern.png": {
     "x": 2368,
     "y": 1024,
     "width": 64,
     "height": 64
   },
-  "piglin_banner_pattern.png": {
+  "globe_banner_pattern.png": {
     "x": 2368,
     "y": 1088,
     "width": 64,
     "height": 64
   },
-  "flow_banner_pattern.png": {
+  "piglin_banner_pattern.png": {
     "x": 2368,
     "y": 1152,
     "width": 64,
     "height": 64
   },
-  "guster_banner_pattern.png": {
+  "flow_banner_pattern.png": {
     "x": 2368,
     "y": 1216,
     "width": 64,
     "height": 64
   },
-  "bordure_indented_banner_pattern.png": {
+  "guster_banner_pattern.png": {
     "x": 2368,
     "y": 1280,
     "width": 64,
     "height": 64
   },
-  "field_masoned_banner_pattern.png": {
+  "bordure_indented_banner_pattern.png": {
     "x": 2368,
     "y": 1344,
     "width": 64,
     "height": 64
   },
-  "trial_key.png": {
+  "field_masoned_banner_pattern.png": {
     "x": 2368,
     "y": 1408,
     "width": 64,
     "height": 64
   },
-  "ominous_trial_key.png": {
+  "trial_key.png": {
     "x": 2368,
     "y": 1472,
     "width": 64,
     "height": 64
   },
-  "dried_ghast.png": {
+  "ominous_trial_key.png": {
     "x": 2368,
     "y": 1536,
+    "width": 64,
+    "height": 64
+  },
+  "dried_ghast.png": {
+    "x": 2368,
+    "y": 1600,
     "width": 64,
     "height": 64
   },
